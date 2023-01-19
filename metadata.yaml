@@ -1,0 +1,20 @@
+composer:
+  last: Haydn
+  first: Johann Michael
+title: Missa Sanctissimæ Trinitatis
+id: MH 1
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (D), timp (D–A), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.15589
+    date: 1754
+    rism: 600100205
+    url: https://data.onb.ac.at/rec/AC13910110
+    license: public domain
+    principal: true
+imslp:
+parts:
+  ottoni: Clarino I, II in D\\Timpani in D–A
