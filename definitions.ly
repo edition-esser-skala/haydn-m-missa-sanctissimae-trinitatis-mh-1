@@ -6,8 +6,15 @@
 \include "ees_articulate.ly"
 
 
+markKyrieDaCapo = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Kyrie Allegro da capo"
+}
+
+
 tempoKyrie = \tempoMarkup "[Adagio]"
   tempoKyrieB = \tempoMarkup "Allegro"
+tempoChriste = \tempoMarkup "Andante"
 
 
 \include "notes/clno1.ly"
@@ -20,4 +27,5 @@ tempoKyrie = \tempoMarkup "[Adagio]"
 \include "notes/A.ly"
 \include "notes/T.ly"
 \include "notes/B.ly"
+\include "notes/chords.ly"
 \include "notes/org.ly"

@@ -109,3 +109,135 @@ KyrieAltoLyrics = \lyricmode {
   son, e -- lei -- son,
   e -- lei -- son. %54 finis
 }
+
+ChristeAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \autoBeamOff \tempoChriste
+      \set Score.currentBarNumber = #55
+    R2.*42 %96
+    r4 \mvTr d\pE^\soloE fis
+    e a cis
+    d( d,) h'
+    a \appoggiatura a8 g2\trill %100
+    fis8 a([ g\trill fis e\trill d])
+    h'2.~
+    h8[ a] g4 fis
+    fis\trill e e
+    fis2.~ %105
+    fis8[ h a\trill g fis\trill e]
+    fis2.~
+    fis8[ g fis\trill e d\trill cis]
+    d2.~
+    d4 g fis %110
+    h16([ a g8)] fis4( e)\trill
+    d2 r4
+    R2.*11 %123
+    r4 d fis
+    e a cis %125
+    d( d,) h'
+    a \appoggiatura fis8 g2\trill
+    fis8 a([ g\trill fis e\trill d)]
+    h'([ a)] g4 r
+    R2.*4 %133
+    r8 g([ f\trill e d c)]
+    c'4. h8 c[ h16 a] %135
+    h4. a8 h[ a16 g]
+    a4. g8 a[ g16 fis!]
+    g8[\trill fis16 g] a4 g
+    g fis fis
+    g2.~ %140
+    g8[ c h\trill a g\trill fis]
+    g2.~
+    g8[ e d\trill c h\trill a]
+    h4 c d
+    e g2 %145
+    fis4 a g
+    c16([ h a8)] g4( fis)\trill
+    g d2
+    e2.
+    fis %150
+    g
+    a4. g8 fis4
+    g8[ a16 h] a4. g8
+    \appoggiatura g fis2 r4
+    g8([ e)] a4 g %155
+    fis8[ d] g4 fis
+    e8[ c] fis4 e
+    d8[ h] e4 d
+    c8[ a] d2
+    d4 r r %160
+    r8 g([ a g a h)]
+    c4. h8[ a g]
+    fis2 g4~
+    g8 a g4( fis)
+    g4.( a8) a([ h)] %165
+    h4. g16[ a] h[ a g8]
+    c16[ h a8] g4 fis\trill
+    g r r
+    R2.*37 %205
+    R2.\fermata \markKyrieDaCapo \bar "||" %206 finis
+  }
+}
+
+ChristeAltoLyrics = \lyricmode {
+  Chri -- ste, %97
+  Chri -- ste e --
+  lei -- son,
+  e -- lei -- %100
+  son, e --
+  lei --
+  _ _
+  _ son, e --
+  lei -- %105
+
+  _
+
+  _
+  _ son, %110
+  e -- lei --
+  son.
+
+  Chri -- ste, %124
+  Chri -- ste e -- %125
+  lei -- son,
+  e -- lei --
+  son, e --
+  lei -- son,
+
+  e -- %134
+  lei -- _ _ %135
+  _ _ _
+  _ _ _
+  _ \xE son, e --
+  lei -- \x son, e --
+  lei -- %140
+
+  _
+
+  _ _ _
+  _ _ %145
+  _ _ son,
+  e -- lei --
+  son, e --
+  lei --
+  _ %150
+  _
+  _ _ _
+  _ _ _
+  son,
+  Chri -- ste e -- %155
+  lei -- _ _
+  _ _ _
+  _ _ _
+  _ _
+  son, %160
+  e --
+  lei -- _
+  _ son, __
+  e -- lei --
+  son, __ e -- %165
+  lei -- _ _
+  _ _ _
+  son. %168 finis
+}
