@@ -21,19 +21,34 @@
   %     \midi { \tempo 4 = 100 }
   %   }
   % }
+  % \bookpart {
+  %   \subsection "Christe"
+  %   \score {
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff { \ChristeChords }
+  %         \new Staff { \ChristeOrgano }
+  %       >>
+  %       \new FiguredBass { \ChristeBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 110 }
+  %   }
+  % }
   \bookpart {
-    \subsection "Christe"
+    \section "2" "Gloria"
     \score {
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff { \ChristeChords }
-          \new Staff { \ChristeOrgano }
+          \new Staff { \GloriaChords }
+          \new Staff { \GloriaOrgano }
         >>
-        \new FiguredBass { \ChristeBassFigures }
+        \new FiguredBass { \GloriaBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 110 }
+      \midi { \tempo 4 = 90 }
     }
   }
 }

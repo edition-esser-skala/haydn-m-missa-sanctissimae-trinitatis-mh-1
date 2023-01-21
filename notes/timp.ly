@@ -42,3 +42,34 @@ KyrieTimpani = {
     r8 c g4 c r\fermata \bar "||" %54 finis
   }
 }
+
+GloriaTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoGloria
+    c4\fE c8 c16 c c4 r
+    R1
+    r2 c4\fE g8 g16 g
+    g4 r r2
+    R1*3 %7
+    r2 g4\fE r
+    g r r2
+    R1*10 %19
+    g4\fE c r g %20
+    c r c r
+    g r8 g c c g4
+    c8 c g4 c r
+    \tempoLaudamus R1*75 %98
+    r2 g4\fE r
+    c g r2 %100
+    g4 c8 c g4 r
+    R1*3
+    c4 g c r %105
+    R1
+    r2 g4 r
+    c r g r
+    c r g r
+    c8 c g4 c8 c16 c c8 c %110
+    c c g4 c r\fermata \bar "||" %111 finis
+  }
+}

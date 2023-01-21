@@ -6,6 +6,8 @@
 \include "ees_articulate.ly"
 
 
+STuttiForte = \markup \remark \concat { "S " \tuttiE " " \bold \italic \fontsize #2 "f" }
+ATuttiForte = \markup \remark \concat { "A " \tuttiE " " \bold \italic \fontsize #2 "f" }
 markKyrieDaCapo = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark \markup \remark "Kyrie Allegro da capo"
@@ -15,6 +17,8 @@ markKyrieDaCapo = {
 tempoKyrie = \tempoMarkup "[Adagio]"
   tempoKyrieB = \tempoMarkup "Allegro"
 tempoChriste = \tempoMarkup "Andante"
+tempoGloria = \tempoMarkup "[Allegro]"
+  tempoLaudamus = \tempoMarkup "Tempo di giusto"
 
 
 \include "notes/clno1.ly"

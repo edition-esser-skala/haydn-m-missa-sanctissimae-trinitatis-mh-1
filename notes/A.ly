@@ -241,3 +241,116 @@ ChristeAltoLyrics = \lyricmode {
   _ _ _
   son. %168 finis
 }
+
+GloriaAlto = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoGloria
+    << {
+      \autoBeamOff
+        \once \override TextScript.X-offset = #-9
+        fis'8.^\STuttiForte fis16 fis4 r2
+      R1
+      r2 fis8. fis16 e4
+      R1*4 %7
+      r2 cis8. cis16 h4
+    } \\ \context Voice = "Alto" {
+      \voiceTwo
+        \once \override TextScript.X-offset = #-9
+        a8._\ATuttiForte a16 a4 r2
+      R1
+      r2 a8. a16 a4
+      R1*4
+      r2 e8. e16 e4 \oneVoice
+    } >>
+    e8^\markup \remark "A Tutti" e16 e e8 e e e r4
+    r2 fis8 fis16 fis fis8 fis %10
+    fis a! h4 ais r
+    cis,4.\p cis8 fis4 fis
+    fis8 r fis r fis4 r
+    h,4. h8 e4 e
+    e8 r e r e4 r %15
+    d a'8 a a8. a16 a4
+    r2 g8\f g g g
+    cis4 cis fis,8 fis fis fis
+    h4 h e,8 e e e
+    a a a d, h'4( a) %20
+    a r g r8 e
+    e a16 a a8 a a( h4) a8
+    a( \once \stemUp h4 a16[ g)] fis4 r
+    \tempoLaudamus R1*32 %55
+    \mvTr a4.\pE^\solo g16 fis \appoggiatura fis8 e8. e16 d4
+    h'8 a16 h \appoggiatura a8 g4 fis r
+    r2 a8 a a16([ g)] fis([ e)]
+    fis4 d'16[ a g fis] e4 cis'16[ e, fis e]
+    d4 h'16[ d, e d] cis8 a'4 h16 a %60
+    gis([ fis)] e8 r4 r2
+    e8 h'16([ a)] gis([ fis)] e([ d)] cis[ e fis gis] a[ h a gis]
+    fis[ gis fis e] d[ fis h a] gis[ a gis fis] e[ gis cis h]
+    a[ h a gis] fis[ a d cis] h[ cis h a] gis[ fis e d]
+    cis8[ d'] cis h a4( h)\trill %65
+    a r r2
+    R1*32 %98
+    r2 \mvTr a4.\fE^\tutti a16 a
+    a8. a16 a4 a8 a16 a fis8([ e)] %100
+    e4 a8 a a a r4
+    r2 cis4 h8 h
+    h4 a a d,8 fis
+    h([ a] \once \stemUp h4) e, a~
+    a8 h16 h h8([ a)] a4 a~ %105
+    a8 g h4 h8([ a)] cis4
+    cis8 h h4 d8([ cis)] a4
+    a8([ h)] h h a4 a
+    a8([ h)] h h a2~
+    a4 h8[ a] a4 r %110
+    R1\fermata \bar "||" %111 finis
+  }
+}
+
+GloriaAltoLyrics = \lyricmode {
+  Glo -- ri -- a,
+
+  glo -- ri -- a,
+
+  glo -- ri -- a, %8
+  glo -- ri -- a in ex -- cel -- sis,
+  glo -- ri -- a in ex -- %10
+  cel -- sis De -- o.
+  Et in ter -- ra
+  pax, pax, pax,
+  et in ter -- ra
+  pax, pax, pax, %15
+  pax, pax ho -- mi -- ni -- bus
+  bo -- nae vo -- lun --
+  ta -- tis, bo -- nae vo -- lun --
+  ta -- tis, bo -- nae vo -- lun --
+  ta -- tis, vo -- lun -- ta -- %20
+  tis, pax ho --
+  mi -- ni -- bus bo -- nae vo -- lun --
+  ta -- tis.
+
+  Gra -- ti -- as a -- gi -- mus, %56
+  a -- gi -- mus ti -- bi
+  pro -- pter ma -- gnam
+  glo -- _ _ _
+  _ _ _ _ ri -- am %60
+  tu -- am,
+  pro -- pter ma -- gnam glo -- _
+  _ _ _ _
+  _ _ _ _
+  _ ri -- am tu -- %65
+  am.
+
+  Do -- mi -- ne, %99
+  Do -- mi -- ne, Do -- mi -- ne De -- %100
+  us, A -- gnus De -- i,
+  Fi -- li -- us
+  Pa -- tris, Fi -- li -- us
+  Pa -- tris, Fi --
+  li -- us Pa -- tris, Fi -- %105
+  li -- us Pa -- tris,
+  Fi -- li -- us Pa -- tris,
+  Fi -- li -- us Pa -- tris,
+  Fi -- li -- us Pa --
+  _ tris. %110 finis
+}

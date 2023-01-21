@@ -109,3 +109,106 @@ KyrieBassoLyrics = \lyricmode {
   son, e -- lei -- son,
   e -- lei -- son. %54 finis
 }
+
+GloriaBasso = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \autoBeamOff \tempoGloria
+    \mvTr d8.\fE^\tuttiE d16 d4 r2
+    R1
+    r2 d8. d16 a4
+    R1*4 %7
+    r2 a8. a16 e'4
+    a8 a,16 a cis8 e a e r4
+    r2 h'8 h,16 h d8 fis %10
+    h a! g4 fis r
+    fis4.\p fis8 fis4 e
+    d8 r ais r h4 r
+    e4. e8 e4 d
+    cis8 r gis r a! r r4 %15
+    fis' e8 d a'8. a,16 a4
+    r2 g'8\f g g g
+    e4 e fis8 fis fis fis
+    d4 d e8 e e e
+    cis a d fis g([ gis a a,)] %20
+    d4 r g r8 gis
+    a4 a,8 cis d([ fis)] g([ a)]
+    fis h g([ a)] d,4 r
+    \tempoLaudamus R1*61 %84
+    r2 \mvTr h'4\pE^\solo a16([ gis)] fis([ e)] %85
+    fis8([ e16 dis)] e4 cis8 h e4~
+    e8 h' \appoggiatura h a8.\trill gis16 gis4 r
+    r2 fis4. h16 a
+    gis8 fis16([ e)] fis8 gis a gis16([ fis)] e8 d!\trill
+    cis4 e16([ cis)] h([ a)] fis'4~ fis16[\trill e fis d] %90
+    \once \tieDashed gis4~ gis16[\trill fis gis e] \once \tieDashed a4~ a16[\trill gis a fis]
+    h8.[ a16] gis[ fis e d] cis8 d e4
+    fis8([ gis)] a4 gis8[ a] h[ a16 gis]
+    a4. h16[ cis] d[ cis h a] gis[ fis e d]
+    cis8[ a' fis] d e2 %95
+    a,4 r r2
+    R1*2
+    r2 \mvTr a'4.\fE^\tutti a,16 a
+    d8. d16 a'4 d,8 a'16 a a8([ gis)] %100
+    a4 fis8 d a' a, r4
+    R1
+    e'4 cis8 a d4 fis8 d
+    g([ fis g e)] a4 a8([ g]
+    fis) h16 h g8([ a)] d,4 r %105
+    g~ g16[ fis] g e a4. ais8
+    h4~ h16[ a] h g cis4 a
+    d, e8 g a([ g)] fis([ e)]
+    d4 e8 g a4 cis,8[ a]
+    d[ fis g a] d,4 r %110
+    R1\fermata \bar "||" %111 finis
+  }
+}
+
+GloriaBassoLyrics = \lyricmode {
+  Glo -- ri -- a,
+
+  glo -- ri -- a,
+
+  glo -- ri -- a, %8
+  glo -- ri -- a in ex -- cel -- sis,
+  glo -- ri -- a in ex -- %10
+  cel -- sis De -- o.
+  Et in ter -- ra
+  pax, pax, pax,
+  et in ter -- ra
+  pax, pax, pax, %15
+  pax, pax ho -- mi -- ni -- bus
+  bo -- nae vo -- lun --
+  ta -- tis, bo -- nae vo -- lun --
+  ta -- tis, bo -- nae vo -- lun --
+  ta -- tis, vo -- lun -- ta -- %20
+  tis, pax ho --
+  mi -- ni -- bus bo -- nae
+  vo -- lun -- ta -- tis.
+
+  Do -- mi -- ne %85
+  Fi -- li, Fi -- li u --
+  ni -- ge -- ni -- te,
+  Do -- mi -- ne
+  Fi -- li, Fi -- li u -- ni -- ge -- ni --
+  te, u -- ni -- ge -- %90
+  _ _
+  _ _ _ ni -- te,
+  Je -- su, Je -- _
+  _ _ _ _
+  _ su Chri -- %95
+  ste.
+
+  Do -- mi -- ne, %99
+  Do -- mi -- ne, Do -- mi -- ne De -- %100
+  us, A -- gnus De -- i,
+
+  Fi -- li -- us, Fi -- li -- us
+  Pa -- tris, Fi --
+  li -- us Pa -- tris, %105
+  Fi -- li -- us Pa -- tris,
+  Fi -- li -- us Pa -- tris,
+  Fi -- li -- us Pa -- tris,
+  Fi -- li -- us Pa -- _
+  _ tris. %110 finis
+}
