@@ -315,3 +315,93 @@ GloriaViolinoI = {
     d, d' g, d' fis, d' e, cis' d,4 r\fermata \bar "||" %111 finis
   }
 }
+
+QuiTollisViolinoI = {
+  \relative c' {
+    \clef treble
+    \key fis \minor \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #112
+    r8 fis'16(-.\pocoP fis-.) fis( cis) a( fis) gis8-! d'16(-. d-.) d( cis) fis,( eis)
+    fis8-! cis'16(-. cis-.) cis( his) fis'(-. fis-.) fis( eis) \once \slurDashed cis'(-.\pp cis-.) cis( d,) \once \slurDashed h'(-. h-.)
+    h( cis,) \once \slurDashed a'(-. a-.) a( h,) \once \slurDashed gis'(-. gis-.) gis( a,) \slurDashed fis'(-. fis-.) fis( gis,) eis'(-. eis-.) \slurSolid
+    fis\cresc a, a a a\f a a a gis\ff gis gis gis gis gis gis gis %115
+    fis8 fis'16(-. fis-.) fis( cis) a( fis) r8 fis'16(-. fis-.) fis16( d) h( fis)
+    r8 fis'16 fis fis cis a fis r8 fis'16 fis a fis his, his
+    r8 fis'16 fis gis eis cis gis a8\p cis16 cis cis his fis' fis
+    eis8 gis16\f gis gis eis cis gis r8 fis'16 fis fis cis ais fis
+    r8 fis'16 fis fis d! h fis r8 e'16 e e h gis e %120
+    r8 a'16 a a e cis a r8 a'16 a a fis d h
+    r8 d16 d cis fis^\critnote gis a h,8 h h h
+    a \once \override DynamicText.X-offset = #1 a'16(-.\pocoP a-.) a( e) cis( a) h8-! fis'16(-. fis-.) fis16( e) a,( gis)
+    \appoggiatura gis a8 e'16(-. e-.) e( dis) a'(-. a-.) a( gis) e'(-.\pp e-.) e( fis,) d'(-. d-.)
+    d( e,) cis'(-. cis-.) cis( d,) h'(-. h-.) h( cis,) a'(-. a-.) a( h,) gis'(-. gis-.) %125
+    a\cresc cis, cis cis cis\f cis cis cis h\ff h h h h h h h
+    a8 a'16 a a e cis a r8 a'16 a a fis d a
+    r8 a'16 a a e cis a r8 h'16 h h gis e h
+    r8 a'16 a a e cis a r8 a'16 a a e cis a
+    r8 a'16 a a e c a r8 a'16 a a f c a %130
+    r8 a'16 a a fis c a r8 a'16 a h gis e h
+    gis!8 \once \slurDashed h'16(-.\pocoP h-.) h( gis) e( h) c8 \slurDashed e16(-. e-.) e( dis) dis( a') \slurSolid \noBreak
+    a(\cresc gis) gis( e) e( h) h( gis) gis\f \parOn e-\parenthesize-! e-! \parOff e-\parenthesize-! e4\fermata \bar "||"
+    \key a \minor \time 3/4 \tempoSuscipe \newSpacingSection
+      R2. \noBreak
+    r8 h''(\p gis e h d) %135
+    c4 r r
+    r8 a'( f d a c)
+    h4 r r
+    r8 g'( e c g c)
+    a4 r r %140
+    R2.*2
+    r8 g'(\f e c g b)
+    a a' f d a c
+    h! d h g d f %145
+    e c' a f d h'
+    c4 c, r
+    r8 d''\p h g d g
+    g,4 r r
+    r8 g' e c g c %150
+    a4 r r
+    r8 a' e cis a cis
+    d4 r r
+    f r r
+    f r r %155
+    e r r
+    R2.
+    r8 e, e e e e
+    e4 r r
+    e8 e e e e e %160
+    e4 r r
+    e8 e e e e e
+    e4 r r
+    h'' r r
+    r r8 c,-! c( a') %165
+    a4 r8 c,-\parenthesize-! \once \slurDashed c( a')
+    a4 r8 c,-\parenthesize-! \once \slurDashed c( a')
+    a4 r r
+    R2.*2 %170
+    r8 e\f c a e g!
+    f f' d c b a
+    gis h'! gis e h d
+    c a' f d h gis' \noBreak
+    r a, f d h gis' \bar "||" %175
+    \key a \major \time 4/4 \tempoQuiSedes \newSpacingSection
+      a16 a \tuplet 3/2 8 { cis h a } e' e fis gis a a \tuplet 3/2 8 { cis h a } h h \tuplet 3/2 8 { d cis h } \noBreak
+    cis a, \tuplet 3/2 8 { cis h a } e' e fis gis a a \tuplet 3/2 8 { cis h a } h h \tuplet 3/2 8 { d cis h } \noBreak
+    cis e, e e a a \tuplet 3/2 8 { cis h a } h e, e e gis gis \tuplet 3/2 8 { h16 a gis }
+    a a, a a fis' fis \tuplet 3/2 8 { a gis fis } gis e, fis gis a h cis dis
+    e e \tuplet 3/2 8 { gis fis e } fis fis \tuplet 3/2 8 { a gis fis } gis h, h h fis' fis \tuplet 3/2 8 { a gis fis } %180
+    gis h, h h gis' cis, cis cis a' cis, cis cis gis' gis \tuplet 3/2 8 { h a gis }
+    a cis, cis cis gis' gis \tuplet 3/2 8 { h a gis } a cis, gis' cis, fis fis \tuplet 3/2 8 { a gis fis } \noBreak
+    eis eis cis' cis gis gis eis eis cis8 cis,16 cis cis4\fermata \bar "||"
+    \tempoMiserere r8 gis''16(-. gis-.) gis( eis) cis( gis) r8 gis'16(-. gis-.) gis( eis) cis( gis) \noBreak
+    r8 fis'16 fis fis cis ais fis r8 fis'16 fis fis cis ais fis %185
+    r8 h'16 h h fis dis h r8 h'16 h h fis dis h
+    r8 e!16 e e h gis e r8 e'16 e e h gis e
+    r8 e'16 e e cis a e r8 gis'16 gis gis eis cis h
+    r8 fis'16 fis a fis d! his cis8 cis'16(-. cis-.) cis( d,) h'(-. h-.)
+    h cis, a' a a h, gis' gis gis a, fis' fis fis gis, eis' eis %190
+    fis a, a a a a a a gis gis gis gis gis gis gis gis
+    fis cis'-!\pp cis( dis) dis( eis) eis( fis) fis a, a a gis gis gis gis
+    a'\ff a,-! a-! a-! gis-! gis-! gis-! gis-! fis4 r\fermata \bar "||" %193 finis
+  }
+}

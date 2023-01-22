@@ -354,3 +354,154 @@ GloriaAltoLyrics = \lyricmode {
   Fi -- li -- us Pa --
   _ tris. %110 finis
 }
+
+QuiTollisAlto = {
+  \relative c' {
+    \clef treble
+    \key fis \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #112
+    R1*4 %115
+    \mvTr fis2\fE^\markup \remark "A Tutti" fis
+    fis4. fis8 fis4 fis
+    fis eis r2
+    r fis8 a cis e,
+    fis4 h h h %120
+    a a a h
+    h a a( gis)
+    a r r2
+    R1*3 %126
+    a2 a
+    a4 a fis( e)
+    e e e2
+    e4. e8 f4. f8 %130
+    f4( fis) e2
+    R1 \noBreak
+    R\fermata \bar "||"
+    \key a \minor \time 3/4 \tempoSuscipe \newSpacingSection
+      R2. \noBreak
+    \mvTr h'2.~\pE^\markup \remark "S 2 Solo" %135
+    h8. a16 a2
+    a4. a8 a a
+    h2 d4
+    g,4. g8 g c
+    c2. %140
+    h4 c8[ d] e4~
+    e8 d c4( h)\trill
+    c r r
+    R2.*4 %147
+    d2.~
+    d8. c16 c2
+    c4. c8 c c %150
+    cis2 cis4
+    cis4. cis8 cis a
+    a2.
+    d~
+    d4 c! h %155
+    a2.~
+    a4 gis2
+    h4. a8 gis4
+    a4. a8 a4
+    c4. c8 h ais %160
+    h2 h4
+    d4. d8 c h
+    c2 h8([ ais)]
+    d2 a8([ gis)]
+    a2. %165
+    a
+    a2 a4
+    a2.
+    gis4 a8[ h] c4~
+    c8 h a4( gis) %170
+    a r r
+    R2.*4 \bar "||" %175
+    \key a \major \time 4/4 \tempoQuiSedes \newSpacingSection
+      r4 \mvTr gis\fE^\markup \remark "A Tutti" a gis8 gis \noBreak
+    a8. a16 h8 gis a4 gis8 gis
+    a4 a8 a h4 h8 h
+    a8 a16 a a4 gis fis
+    e8([ gis)] fis fis gis8. gis16 a8 fis %180
+    gis4 gis8 gis a4 gis8 gis
+    a4 h8 h a gis16 gis fis8([ h)] \noBreak
+    gis4 r r2\fermata \bar "||"
+    \tempoMiserere R1 \noBreak
+    fis4 fis ais8 ais gis fis %185
+    h4 fis h h
+    h h gis gis
+    a!2 h
+    a4.( fis8) gis h4 h8~
+    h a4 gis fis eis8 %190
+    d!( fis4) fis8 fis4( eis)
+    fis r r2
+    R1\fermata \bar "||" %193 finis
+  }
+}
+
+QuiTollisAltoLyrics = \lyricmode {
+  Qui tol -- %116
+  lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se -- re -- re
+  no -- bis, mi -- se -- %120
+  re -- re, mi -- se --
+  re -- re no --
+  bis.
+
+  Qui tol -- %127
+  lis, qui tol --
+  lis pec -- ca --
+  ta, pec -- ca -- ta %130
+  mun -- di:
+
+  Su -- %135
+  sci -- pe
+  de -- pre -- ca -- ti --
+  o -- nem,
+  de -- pre -- ca -- ti --
+  o -- %140
+  _ _ _
+  nem no --
+  stram.
+
+  Su -- %148
+  sci -- pe
+  de -- pre -- ca -- ti -- %150
+  o -- nem,
+  de -- pre -- ca -- ti --
+  o --
+  _
+  _ nem %155
+  no --
+  stram,
+  su -- sci -- pe,
+  su -- sci -- pe
+  de -- pre -- ca -- ti -- %160
+  o -- nem,
+  de -- pre -- ca -- ti --
+  o -- nem
+  no -- stram,
+  de -- %165
+  pre --
+  ca -- ti --
+  o --
+  _ _ _
+  nem no -- %170
+  stram.
+
+  Qui se -- des ad %176
+  dex -- te -- ram, ad dex -- te -- ram
+  Pa -- tris, qui se -- des ad
+  dex -- te -- ram Pa -- tris, qui
+  se -- des ad dex -- te -- ram, ad %180
+  dex -- te -- ram Pa -- tris, qui
+  se -- des ad dex -- te -- ram Pa --
+  tris:
+
+  Mi -- se -- re -- re, mi -- se -- %185
+  re -- re, mi -- se --
+  re -- re, mi -- se --
+  re -- re
+  no -- bis, mi -- se --
+  re -- re, mi -- se -- %190
+  re -- re no --
+  bis. %192 finis
+}

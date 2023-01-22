@@ -212,3 +212,153 @@ GloriaBassoLyrics = \lyricmode {
   Fi -- li -- us Pa -- _
   _ tris. %110 finis
 }
+
+QuiTollisBasso = {
+  \relative c {
+    \clef bass
+    \key fis \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #112
+    R1*4 %115
+    \mvTr fis2\fE^\tutti fis
+    fis4. fis8 d4 d
+    cis cis r2
+    R1
+    r2 e!8 gis h d, %120
+    cis4 cis d d
+    e fis8([ dis)] e2
+    a,4 r r2
+    R1*3 %126
+    a2 a
+    a4 a' a( gis)
+    a a a2
+    a4. a8 f4. f8 %130
+    f4( dis) e2
+    R1 \noBreak
+    R\fermata \bar "||"
+    \key a \minor \time 3/4 \tempoSuscipe \newSpacingSection
+      \mvTr a2.~\pE^\solo \noBreak
+    a8. gis16 gis2 %135
+    a4. a8 a a
+    d,2 d4
+    g4. d8 h g
+    c2 c4
+    f4. f8 fis fis %140
+    g4.( f8 e4)
+    f g( g,)
+    c r r
+    R2.*3 %146
+    c'2.~
+    c8. h16 h2
+    c4. g8 e c
+    b'2 b4 %150
+    a4. e8 cis a
+    a'2 g4
+    f4. e8 d c!
+    h d4 c8[ h a]
+    gis2 gis4 %155
+    a a' dis,
+    e e2
+    e4. e8 e4
+    e4. e8 e4
+    e4. e8 e e %160
+    e2 e4
+    R2.
+    e4. e8 e e
+    e2 e4
+    a,2. %165
+    f'
+    dis2 f!8([ e)]
+    dis2.
+    e4. d8 c4
+    d e2 %170
+    a,4 r r
+    R2.*4 \bar "||" %175
+    \key a \major \time 4/4 \tempoQuiSedes \newSpacingSection
+      r4 \mvTr e'\fE^\tutti a e8 e \noBreak
+    a8. a16 gis([ fis)] e([ d)] cis8([ a)] e' e
+    a4 a8 a gis4 gis8 gis
+    fis fis16 fis fis4 e h
+    e h8 h e8. e16 h8 h %180
+    e4 eis8 cis fis4 cis8 cis
+    fis([ a)] eis cis fis cis16 cis d!4 \noBreak
+    cis r r2\fermata \bar "||"
+    \tempoMiserere R1*3 %186
+    e4 e gis8 gis fis e
+    a2 gis
+    fis4( d) cis cis
+    cis cis cis cis8 cis %190
+    d([ cis)] h([ a)] h([ his] cis4)
+    fis, r r2
+    R1\fermata \bar "||" %193 finis
+  }
+}
+
+QuiTollisBassoLyrics = \lyricmode {
+  Qui tol -- %116
+  lis pec -- ca -- ta
+  mun -- di:
+
+  Mi -- se -- re -- re
+  no -- bis, mi -- se --
+  re -- re __ no --
+  bis.
+
+  Qui tol -- %127
+  lis, qui tol --
+  lis pec -- ca --
+  ta, pec -- ca -- ta %130
+  mun -- di:
+
+  Su -- %134
+  sci -- pe %135
+  de -- pre -- ca -- ti --
+  o -- nem,
+  de -- pre -- ca -- ti --
+  o -- nem,
+  de -- pre -- ca -- ti -- %140
+  o --
+  nem no --
+  stram.
+
+  Su -- %147
+  sci -- pe
+  de -- pre -- ca -- ti --
+  o -- nem, %150
+  de -- pre -- ca -- ti --
+  o -- nem,
+  de -- pre -- ca -- ti --
+  o -- _ _
+  _ nem %155
+  no -- _ _
+  _ stram,
+  su -- sci -- pe,
+  su -- sci -- pe
+  de -- pre -- ca -- ti -- %160
+  o -- nem,
+
+  de -- pre -- ca -- ti --
+  o -- nem,
+  de -- %165
+  pre --
+  ca -- ti --
+  o --
+  _ _ _
+  nem no -- %170
+  stram.
+
+  Qui se -- des ad %176
+  dex -- te -- ram, ad dex -- te -- ram
+  Pa -- tris, qui se -- des ad
+  dex -- te -- ram Pa -- tris, qui
+  se -- des ad dex -- te -- ram, ad %180
+  dex -- te -- ram Pa -- tris, qui
+  se -- des ad dex -- te -- ram Pa --
+  tris:
+
+  Mi -- se -- re -- re, mi -- se -- %187
+  re -- re
+  no -- bis, mi --
+  se -- re -- re, mi -- se -- %190
+  re -- re __ no --
+  bis. %192 finis
+}

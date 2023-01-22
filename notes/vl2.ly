@@ -330,3 +330,93 @@ GloriaViolinoII = {
     d, d' g, d' fis, d' e, cis' d,4 r\fermata \bar "||" %111 finis
   }
 }
+
+QuiTollisViolinoII = {
+  \relative c' {
+    \clef treble
+    \key fis \minor \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #112
+    a'8\pocoP r fis r fis r eis fis16 eis
+    fis8 r fis his cis eis\pp fis gis
+    eis16 gis fis8 dis16 fis eis8 cis16 cis d8 h16 d cis h
+    a\cresc fis fis fis fis\f fis fis fis fis\ff fis fis fis fis fis eis eis %115
+    fis4 r8 fis'16(-. fis-.) fis( d) h( fis) r8 fis'16(-. fis-.)
+    fis( cis) a( fis) r8 fis'16 fis a fis his, his r8 his16 his
+    cis a-\critnote fis cis r8 gis' gis\p fis fis his
+    cis4 r8 cis16\f cis fis cis a fis r8 fis'16 fis
+    fis d! h fis r8 fis'16 fis e! h gis e r8 e'16 e %120
+    e cis a e r8 e'16 e fis d a fis r8 fis'16 fis
+    e h gis e r8 a a a gis gis
+    a r a\pocoP r a r gis a16 gis
+    \appoggiatura gis a8-\critnote r a dis e gis\pp a h
+    gis16 h a8 fis16 a gis8 e16 gis fis8 d16 fis e d %125
+    cis\cresc a a a a\f a a a a\ff a a a gis gis gis gis
+    a4 r8 a'16 a a fis d a r8 a'16 a
+    a e cis a r8 a'16 a h fis^\critnote d h r8 h'16 h
+    a e cis a r8 a'16 a a e cis a r8 a'16 a
+    a e c a r8 a'16 a a f c a r8 a'16 a %130
+    a f c a r8 a'16 a a e c a e' e h gis!
+    e8 r h'\pocoP r e, r a r \noBreak
+    h\cresc e16( h) h( gis) gis( e) e\f h-! h-! h-! h4\fermata \bar "||"
+    \key a \minor \time 3/4 \tempoSuscipe \newSpacingSection
+      R2. \noBreak
+    r8 h''(\p gis e h d) %135
+    c4 r r
+    r8 a'( f d a c)
+    h4 r r
+    r8 g'( e c g c)
+    a4 r r %140
+    R2.*2
+    r8 g'(\f e c g b)
+    a a' f d a c
+    h! d h g d f %145
+    e c' a f d h'
+    c4 c, r
+    r8 d''\p h g d g
+    g,4 r r
+    r8 g' e c g c %150
+    a4 r r
+    r8 a' e cis a cis
+    d4 r r
+    d r r
+    d r r %155
+    c! r r
+    R2.
+    r8 e, e e e e
+    e4 r r
+    e8 e e e e e %160
+    e4 r r
+    e8 e e e e e
+    e4 r r
+    d' r r
+    r r8 a-! a( c) %165
+    c4 r8 a-! a( c)
+    c4 r8 a-\parenthesize-! \once \slurDashed a( c)
+    h4 r r
+    R2.*2 %170
+    r8 e\f c a e g!
+    f f' d c b a
+    gis h'! gis e h d
+    c a' f d h gis' \noBreak
+    r a, f d h gis' \bar "||" %175
+    \key a \major \time 4/4 \tempoQuiSedes \newSpacingSection
+      a16 a \tuplet 3/2 8 { cis h a } e' e fis gis a a \tuplet 3/2 8 { cis h a } h h \tuplet 3/2 8 { d cis h } \noBreak
+    cis a, \tuplet 3/2 8 { cis h a } e' e fis gis a a \tuplet 3/2 8 { cis h a } h h \tuplet 3/2 8 { d cis h } \noBreak
+    cis e, e e a a \tuplet 3/2 8 { cis h a } h e, e e gis gis \tuplet 3/2 8 { h16 a gis }
+    a a, a a fis' fis \tuplet 3/2 8 { a gis fis } gis e, fis gis a h cis dis
+    e e \tuplet 3/2 8 { gis fis e } fis fis \tuplet 3/2 8 { a gis fis } gis h, h h fis' fis \tuplet 3/2 8 { a gis fis } %180
+    gis h, h h gis' cis, cis cis a' cis, cis cis gis' gis \tuplet 3/2 8 { h a gis }
+    a cis, cis cis gis' gis \tuplet 3/2 8 { h a gis } a cis, gis' cis, fis fis \tuplet 3/2 8 { a gis fis } \noBreak
+    eis eis cis' cis gis gis eis eis cis8 cis,16 cis cis4\fermata \bar "||"
+    \tempoMiserere r4 r8 gis''16(-. gis-.) gis( eis) cis( gis) r8 gis'16(-. gis-.) \noBreak
+    fis cis ais fis r8 fis'16 fis fis cis ais fis r8 fis'16 fis %185
+    fis dis h fis r8 fis'16 fis fis dis h fis r8 fis'16 fis
+    e! h gis e r8 e'16 e e h gis e r8 e'16 e
+    e cis a e r8 e'16 e gis eis cis h r8 gis'16 gis
+    fis cis a fis r8 fis' eis eis fis gis
+    eis16 gis fis8 dis16 fis eis8 cis16 cis d8 h16 d cis h %190
+    a fis fis fis fis fis fis fis fis fis fis fis eis eis eis eis
+    fis a-!\pp a( h) h( gis) gis( a) a fis fis fis fis fis eis eis
+    fis'\ff fis,-! fis-! fis-! fis-! fis-! eis-! eis-! fis4 r\fermata \bar "||" %193 finis
+  }
+}

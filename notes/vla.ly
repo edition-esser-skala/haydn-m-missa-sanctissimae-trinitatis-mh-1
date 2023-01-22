@@ -326,3 +326,95 @@ GloriaViola = {
     d,8 g, a g fis4 r\fermata \bar "||" %111 finis
   }
 }
+
+QuiTollisViola = {
+  \relative c' {
+    \clef alto
+    \key fis \minor \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #112
+    cis8\pocoP r cis r d r cis r
+    cis r a' fis gis gis\pp a h
+    gis16 h a8 fis16 a gis8 eis16 gis fis8 gis gis
+    fis16\cresc fis fis fis d!\f d cis cis d\ff d dis dis cis cis h h %115
+    fis'8 fis fis fis fis fis fis fis
+    fis fis fis fis fis fis fis fis
+    fis fis eis eis fis\p r fis r
+    eis\fE eis cis gis' fis fis fis fis
+    fis fis d! d h h h' h %120
+    a a a a a a h h
+    h h a a a a gis gis
+    a r e\pocoP r fis r e r
+    e r a r h h\pp cis d
+    h16 d cis8 a16 cis h8 gis16 h a8 fis16 a gis fis %125
+    cis\cresc cis cis cis fis\f fis e e fis\ff fis fis fis e e e e
+    cis8 a' a a a a a a
+    a a a a fis fis e e
+    e e e e e e e e
+    e e e e f f f f %130
+    f f fis fis e e e e
+    e r e\pocoP r a, r c r \noBreak
+    e\cresc \slurDashed h'16( gis) gis( e) e( h) \slurSolid h\f \parOn gis-\parenthesize-! gis-! \parOff gis-\parenthesize-! gis4\fermata \bar "||"
+    \key a \minor \time 3/4 \tempoSuscipe \newSpacingSection
+      r8 a\p a( c e a) \noBreak
+    e4 r r %135
+    r8 a, a( c e a)
+    d,4 r r
+    r8 g, g( h d g)
+    c,4 r r
+    r8 a a' a a a %140
+    g g g g g g
+    a a g g f f
+    e4 r c\f
+    c r d
+    d r g, %145
+    g f a8 g
+    r c\p c e g c
+    g4 r r
+    r8 c, c e g c
+    g4 r r %150
+    r8 a, a cis e a
+    g4 r r
+    r8 a a g f e
+    gis h h a gis f!
+    h h e, e e e %155
+    e e e e fis fis
+    e e e gis h e
+    e, e e e e e
+    e e e a c e
+    e, e e e e e %160
+    e e e gis h e
+    e, e e e e e
+    e e e e e e
+    e e e e e e
+    r e e a a4 %165
+    r8 f f a a4
+    r8 fis fis a a4
+    fis8 fis fis fis fis fis
+    e e e e e e
+    f! f e e e e %170
+    c4 r a\f
+    a r d8 c
+    h!4 r e
+    e f e \noBreak
+    e, f e \bar "||" %175
+    \key a \major \time 4/4 \tempoQuiSedes \newSpacingSection
+      \kneeBeam e8 cis'' h16 a gis fis e8 a gis gis \noBreak
+    a cis h16 a gis fis e8 a gis gis
+    a a a a h h h h
+    a a h a gis gis fis16 e dis cis
+    h8 gis' fis fis gis gis fis16 e dis cis %180
+    h8 gis' gis gis a a gis gis
+    a a h h a gis fis h \noBreak
+    gis4 r eis r\fermata \bar "||"
+    \tempoMiserere eis8 eis eis eis gis gis gis gis \noBreak
+    fis fis fis fis ais ais gis fis %185
+    h h fis fis h h h h
+    h h h h gis gis gis gis
+    a a a a h h h h
+    a a a fis gis cis cis h
+    h a a gis gis fis fis eis %190
+    d!16 d fis fis fis fis fis fis d d dis dis cis cis cis cis
+    cis4 r cis8\pp cis d cis
+    cis16\ff cis a a d d cis cis cis4 r\fermata \bar "||"
+  }
+}

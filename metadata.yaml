@@ -4,7 +4,7 @@ composer:
 title: Missa Sanctissimæ Trinitatis
 id: MH 1
 genre: mass
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (D), timp (D–A), 2 vl, vla, b, org
+scoring: 2 S, A, T, B (solo), S, A, T, B (coro), 2 clno (D), timp (D–A), 2 vl, vla, b, org solo
 license: cc-by-sa-4.0
 sources:
   A1:

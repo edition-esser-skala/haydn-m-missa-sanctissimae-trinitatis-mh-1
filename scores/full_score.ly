@@ -126,76 +126,147 @@
   %     \midi { \tempo 4 = 110 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2" "Gloria"
+  %   \addTocEntry
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+  %           % \transpose c d
+  %           \partCombine #'(0 . 10) \GloriaClarinoI \GloriaClarinoII
+  %         >>
+  %       >>
+  %       \new Staff {
+  %         \set Staff.instrumentName = "timp"
+  %         % \transpose c d
+  %         \GloriaTimpani
+  %       }
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \GloriaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \GloriaViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \GloriaViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \GloriaSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \GloriaAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \GloriaAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \GloriaTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \GloriaBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \GloriaBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \GloriaOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \GloriaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "2" "Gloria"
+    \subsection "Qui tollis"
     \addTocEntry
+    \paper {
+      top-system-spacing.basic-distance = #10
+      top-system-spacing.minimum-distance = #10
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #10
+      markup-system-spacing.minimum-distance = #10
+      system-system-spacing.basic-distance = #17
+      system-system-spacing.minimum-distance = #17
+      systems-per-page = #2
+    }
     \score {
       <<
-        \new StaffGroup <<
-          \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            % \transpose c d
-            \partCombine #'(0 . 10) \GloriaClarinoI \GloriaClarinoII
-          >>
-        >>
-        \new Staff {
-          \set Staff.instrumentName = "timp"
-          % \transpose c d
-          \GloriaTimpani
-        }
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
+        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \GloriaViolinoI
+              \QuiTollisViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \GloriaViolinoII
+              \QuiTollisViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \GloriaViola
+            \QuiTollisViola
           }
         >>
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
           \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \GloriaSoprano }
+            \set Staff.instrumentName = \markup \center-column { "S" "S 1" }
+            \new Voice = "Soprano" { \dynamicUp \QuiTollisSoprano }
           }
-          \new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
+          \new Lyrics \lyricsto Soprano \QuiTollisSopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \GloriaAlto }
+            \set Staff.instrumentName = \markup \center-column { "A" "S 2" }
+            \new Voice = "Alto" { \dynamicUp \QuiTollisAlto }
           }
-          \new Lyrics \lyricsto Alto \GloriaAltoLyrics
+          \new Lyrics \lyricsto Alto \QuiTollisAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \GloriaTenore }
+            \new Voice = "Tenore" { \dynamicUp \QuiTollisTenore }
           }
-          \new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
+          \new Lyrics \lyricsto Tenore \QuiTollisTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \GloriaBasso }
+            \new Voice = "Basso" { \dynamicUp \QuiTollisBasso }
           }
-          \new Lyrics \lyricsto Basso \GloriaBassoLyrics
+          \new Lyrics \lyricsto Basso \QuiTollisBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \GloriaOrgano
+            \QuiTollisOrgano
           }
         >>
-        \new FiguredBass { \GloriaBassFigures }
+        \new FiguredBass { \QuiTollisBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 40 } % 65 – 120 – 40
     }
   }
 }

@@ -359,12 +359,158 @@ GloriaSopranoLyrics = \lyricmode {
   _ _ tris. %110 finis
 }
 
-% Qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% Qui tol -- lis pec -- ca -- ta mun -- di:
-% Su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- stram.
-% Qui se -- des ad dex -- te -- ram Pa -- tris:
-% Mi -- se -- re -- re no -- bis.
+QuiTollisSoprano = {
+  \relative c' {
+    \clef treble
+    \key fis \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #112
+    R1*4 %115
+    \mvTr cis'2\fE^\markup \remark "S Tutti" d
+    cis4. cis8 his4 his
+    cis cis r2
+    cis8 eis gis h,! a4 ais
+    h d! e e %120
+    a,8 cis e a, fis'[ e] d4~
+    d cis8[ h] h2
+    a4 r r2
+    R1*3 %126
+    e'2 fis
+    e4 e d2
+    cis4 cis cis2
+    c4. c8 c4. c8 %130
+    c2. h4
+    R1 \noBreak
+    R\fermata \bar "||"
+    \key a \minor \time 3/4 \tempoSuscipe \newSpacingSection
+      R2. \noBreak
+    \mvTr d~\pE^\markup \remark "S 1 Solo" %135
+    d8. c16 c2
+    f4. f8 f f
+    f2 f4
+    e4. e8 e e
+    d2.~ %140
+    d4 e8[ f] g4~
+    g8 f e4( d)\trill
+    c r r
+    R2.*4 %147
+    f2.~
+    f8. e16 e2
+    e4. e8 e e %150
+    e2 e4
+    e4. e8 a cis,
+    d2.
+    f~
+    f4 e d %155
+    c2.~
+    c4 h2
+    d4. c8 h4
+    c4. c8 c4
+    e4. e8 d cis %160
+    d2 d4
+    f4. f8 e dis
+    e2 d8([ cis)]
+    d2 c8([ h)]
+    c2. %165
+    c
+    c2 c4
+    h2.~
+    h4 c8[ d] e4~
+    e8 d c4( h) %170
+    a r r
+    R2.*4 \bar "||" %175
+    \key a \major \time 4/4 \tempoQuiSedes \newSpacingSection
+      \mvTr e'2\fE^\markup \remark "S Tutti" e \noBreak
+    e4 e e4. e8
+    e4 e e e8 e
+    e4( dis) e fis
+    e dis8 dis e8. e16 fis8 dis %180
+    e4 cis8 gis' fis4 eis8 eis
+    fis4 gis8 eis fis e16 e fis4 \noBreak
+    eis r r2\fermata \bar "||"
+    \tempoMiserere cis4 cis eis8 eis dis cis \noBreak
+    fis4 fis cis cis %185
+    dis dis fis fis
+    e!2 e
+    e4. e8 eis4 eis
+    fis2 eis4 fis8 gis
+    eis16([ gis)] fis8 dis16([ fis)] eis8 cis d h16([ d)] cis([ h)] %190
+    a4. a8 gis2
+    fis4 r r2
+    R1\fermata \bar "||" %193 finis
+  }
+}
+
+QuiTollisSopranoLyrics = \lyricmode {
+  Qui tol -- %116
+  lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se -- re -- re no -- bis,
+  mi -- se -- re -- re, %120
+  mi -- se -- re -- re no -- _
+  _ _
+  bis.
+
+  Qui tol -- %127
+  lis, qui tol --
+  lis pec -- ca --
+  ta, pec -- ca -- ta %130
+  mun -- di:
+
+  Su -- %135
+  sci -- pe
+  de -- pre -- ca -- ti --
+  o -- nem,
+  de -- pre -- ca -- ti --
+  o -- %140
+  _ _
+  nem no --
+  stram.
+
+  Su -- %148
+  sci -- pe
+  de -- pre -- ca -- ti -- %150
+  o -- nem,
+  de -- pre -- ca -- ti --
+  o --
+  _
+  _ nem %155
+  no --
+  stram,
+  su -- sci -- pe,
+  su -- sci -- pe
+  de -- pre -- ca -- ti -- %160
+  o -- nem,
+  de -- pre -- ca -- ti --
+  o -- nem
+  no -- stram,
+  de -- %165
+  pre --
+  ca -- ti --
+  o --
+  _ _
+  nem no -- %170
+  stram.
+
+  Qui se -- %176
+  des ad dex -- te --
+  ram, ad dex -- te -- ram
+  Pa -- tris, qui
+  se -- des ad dex -- te -- ram, ad %180
+  dex -- te -- ram Pa -- tris, qui
+  se -- des ad dex -- te -- ram Pa --
+  tris:
+  Mi -- se -- re -- re, mi -- se --
+  re -- re, mi -- se -- %185
+  re -- re, mi -- se --
+  re -- re,
+  mi -- se -- re -- re
+  no -- bis, mi -- se --
+  re -- re, mi -- se -- re -- re, mi -- se -- %190
+  re -- re no --
+  bis. %192 finis
+}
+
+
 % Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
 % tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.
 % Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.

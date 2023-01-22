@@ -212,3 +212,82 @@ GloriaTenoreLyrics = \lyricmode {
   Fi -- li -- us Pa --
   _ _ tris. %110 finis
 }
+
+QuiTollisTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key fis \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #112
+    R1*4 %115
+    \mvTr a2\fE^\tutti h
+    a4. a8 a4 a
+    a gis r2
+    R1
+    h8 d! fis a, gis4 gis %120
+    e' cis8([ a)] a[( gis] fis4
+    gis) a8[( fis')] e2
+    cis4 r r2
+    R1*3 %126
+    cis2 d
+    cis4 cis h2
+    a4 a a2
+    a4. a8 a4. a8 %130
+    a2. gis!4
+    R1 \noBreak
+    R\fermata \bar "||"
+    \key a \minor \time 3/4 \tempoSuscipe \newSpacingSection
+      R2.*42 \bar "||" %175
+    \key a \major \time 4/4 \tempoQuiSedes \newSpacingSection
+      r4 \mvTr h\fE^\tutti cis h8 h \noBreak
+    cis8. cis16 h8 h cis4 h8 h
+    cis4 cis8 cis h4 h8 h
+    cis h16 h a4 h h
+    h2 h %180
+    h4( cis) cis4. cis8
+    cis2 cis4.( h8) \noBreak
+    cis4 r r2\fermata \bar "||"
+    \tempoMiserere R1*2 %185
+    h4 h dis8 dis cis h
+    e4 h h h
+    cis2 cis
+    a8( cis4 his8) cis4 d!
+    cis h a gis8 gis %190
+    fis4. cis'8 d([ dis] cis4)
+    cis r r2
+    R1\fermata \bar "||" %193 finis
+  }
+}
+
+QuiTollisTenoreLyrics = \lyricmode {
+  Qui tol -- %116
+  lis pec -- ca -- ta
+  mun -- di:
+
+  Mi -- se -- re -- re no -- bis, %120
+  mi -- se -- re --
+  re __ no --
+  bis.
+
+  Qui tol -- %127
+  lis, qui tol --
+  lis pec -- ca --
+  ta, pec -- ca -- ta %130
+  mun -- di:
+
+  Qui se -- des ad %176
+  dex -- te -- ram, ad dex -- te -- ram
+  Pa -- tris, qui se -- des ad
+  dex -- te -- ram Pa -- tris, qui
+  se -- des %180
+  ad __ dex -- te --
+  ram Pa --
+  tris:
+
+  Mi -- se -- re -- re, mi -- se -- %186
+  re -- re, mi -- se --
+  re -- re
+  no -- bis, mi --
+  se -- re -- re, mi -- se -- %190
+  re -- re no --
+  bis. %192 finis
+}
