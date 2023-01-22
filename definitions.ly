@@ -23,6 +23,7 @@ tempoQuiTollis = \tempoMarkup "Largo"
   tempoSuscipe = \tempoMarkup "Adagio"
   tempoQuiSedes = \tempoMarkup "Allegro"
   tempoMiserere = \tempoMarkup "Largo"
+tempoQuoniam = \tempoMarkup "Allegro un poco"
 
 
 \include "notes/clno1.ly"

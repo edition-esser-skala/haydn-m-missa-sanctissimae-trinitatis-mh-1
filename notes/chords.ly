@@ -646,3 +646,443 @@ GloriaChords = {
     fis8 d a'4 a r\fermata %111 finis
   } >>
 }
+
+QuiTollisChords = {
+  \clef treble
+  \key fis \minor \time 4/4 \tempoQuiTollis
+    \set Score.currentBarNumber = #112
+  << \relative c' {
+    <cis fis>8 r q r <d fis> r <cis eis> r
+    <cis fis> r <a fis'> r <cis eis> r r4
+    R1*2 %115
+    <a' cis>2 <h d>
+    <a cis> <a his>
+    cis <a cis>8 r <a his> r
+    cis4. h8 <fis a>4 <e ais>
+    <fis h>2 <gis h> %120
+    a2~ a4 h~
+    h <fis a>8 <a h> <e h'>2
+    <e a>8 r q r <fis a> r <e gis> r
+    gis16 a r8 a4 <e gis>8 r r4
+    R1*2 %126
+    <cis' e>2 <d fis>
+    <cis e> <h d>
+    <a cis>1
+    <a c>~ %130
+    q2. <gis h>4
+    q8 r <e h'> r <a c> r q r \noBreak
+    <e h'>4 <e gis> <h e>2\fermata \bar "||"
+    \key a \minor \time 3/4 \tempoSuscipe a'2.~ \noBreak
+    a4 gis r %135
+    <gis h>4 <e a~>2
+    a4 r r
+    g2.~
+    g4 r r
+    d2.~ %140
+    <h d>4 <c e>8 <d f> <e g>4~
+    q8 <d f> <c e>4 <h d>
+    <g c> r <c g'>
+    <c f> r <d a'>
+    <d g> r <g d'> %145
+    <g c> <a d> <a c>8 <g h>
+    c2.~
+    c4 h r
+    <h d> <g c>2~
+    q4 r r %150
+    <g cis>2.~
+    q4 r r
+    \tieNeutral <f d'>2.~
+    q~
+    q4 <e c'!> <d h'> %155
+    <c a'>2.~
+    q4 \tieUp <h gis'>2
+    <gis' h>4 r r
+    <a c>2.
+    <c e>4 r r %160
+    <h d>2.
+    <d f>4 r r
+    <c e>2 <h d>8 <ais cis>
+    <h d>2 <a c>8 <gis h>
+    <e a>2. %165
+    <f a>
+    <c a'>
+    <fis a>
+    <h, gis'>4 <c a'>8 <d h'> \tieNeutral <e c'>4~
+    q8 \tieUp <d h'> <c a'>4 <h gis'> %170
+    <c a'> r <e a>
+    <f a> r <d b'>8 <c a'>
+    gis'4 r <e h'>
+    <e a> <f a> <e gis> \noBreak
+    <e a>4 <f a> <e gis> \bar "||" %175
+    \key a \major \time 4/4 \tempoQuiSedes <e a> <e h'> <a cis> <gis h> \noBreak
+    <a cis> <h e> <a cis> <gis h>
+    <a cis>2 <h e>
+    <cis e>4 <h dis> <h e> <h fis'>
+    <h e>4 <h dis> <h e> <h fis'> %180
+    <h e>4 <gis cis> <a cis> <gis cis>
+    <a cis> <h cis> cis cis8 h \noBreak
+    cis4 r <gis cis> r\fermata \bar "||"
+    \tempoMiserere <gis, cis>2 <cis eis> \noBreak
+    fis1~ %185
+    fis
+    <e gis>
+    <e a>2 <eis h'>
+    <fis a> <eis gis>4 r
+    R1 %190
+    <fis a>2 <fis gis>4 <eis gis>
+    <cis fis> r q4 <d fis>8 <cis eis>
+    <fis a>4 gis fis r\fermata \bar "||" %193 finis
+  } \\ \relative c' {
+    a8 r a r gis r gis r %112
+    fis r cis'8 his gis r r4
+    R1*2 %115
+    fis'2 fis
+    fis <d fis>
+    <fis a>4 <eis gis> gis8[ fis] fis r
+    <eis gis~>4 <cis gis'> cis2
+    h4 d e d %120
+    <a e'>2 <d fis~>4 <h fis'>
+    <d gis> cis8 fis a4 gis
+    cis,8 r cis r h r h r
+    <cis e> r <cis e> <h dis> h r r4
+    R1*2 %126
+    a'2 a
+    a fis4 e
+    e1
+    e2 f~ %130
+    f4 fis e2
+    e8 r h r e r dis r
+    a' gis h,4 gis2\fermata
+    <c e>2.
+    <d h'>2 r4 %135
+    d4 c2
+    <d f>4 r r
+    <h d f>2.
+    <c e>4 r r
+    <a c>2. %140
+    g
+    a4 g2
+    e4 r b'
+    a r c
+    h! r f' %145
+    e f d
+    <e g>2.
+    <f d'>2 r4
+    f4 e2~
+    e4 r r %150
+    e2.~
+    e4 r r
+    a2.
+    gis~
+    gis %155
+    e2 fis4
+    e2.
+    d4 r r
+    e2.
+    e4 r r %160
+    e2.
+    e4 r r
+    e2.~
+    e
+    c %165
+    c
+    fis2 f4
+    h,2.
+    e
+    f4 e2 %170
+    e4 r a,
+    d r f
+    <h,! e> r d
+    c d h
+    a d h %175
+    cis h e e
+    e e e e
+    e2 e
+    a gis4 fis
+    gis fis gis fis %180
+    gis cis,8 eis fis4 eis
+    fis gis <fis a>8 <e! gis> fis4
+    <eis gis> r eis r\fermata
+    eis,2 gis
+    <ais cis>1 %185
+    <h~ dis>
+    h
+    cis
+    cis4. his8 cis4 r
+    R1 %190
+    a4 d8 cis d dis cis4
+    a r a4 gis
+    cis8 d <d fis>[ <cis eis>] <fis, cis'>4 r\fermata  %193 finis
+  } >>
+}
+
+QuoniamChords = {
+  \clef treble
+  \twofourtime \key a \major \time 2/4 \tempoQuoniam
+    \set Score.currentBarNumber = #194
+  << \relative c' {
+    <e a>4 <fis h>8 <e gis>
+    <e a>4 <d h'> %195
+    <cis a'> <fis h>8 <e gis>
+    <e a>4 r8 <e g>
+    <d fis>4 r8 <fis a>
+    a4. h16 a
+    gis2 %200
+    a4 r8 <g a>
+    <fis a>4 <e gis>8 <e ais>
+    <fis h>4 r8 <fis a>
+    gis[ h] a4
+    <e h'>4 r8 <d gis> %205
+    <e a>4 <fis a>8 gis
+    <cis, a'>4 <fis h>8 <e gis>
+    <e a>4 <fis h>8 <e gis>
+    <cis a'>4 <fis h>8 <e gis>
+    <e a>2~ %210
+    q4 <fis h>8 <e gis>
+    <e a>4. <e gis>8
+    <e a>4 <fis h>8 <e gis>
+    <e a>4. <e gis>8
+    <e a>2 %215
+    h'4 gis
+    <e a> h'8 a
+    <a cis,> <gis h,> <e a>4
+    <fis a>8[ <e a>] <e fis> <d gis>
+    <e a>4 <fis h>8[ <e gis>] %220
+    <e a>4 r8 q
+    <cis a'>4 <h gis'>
+    <h gis'>4 r8 <gis' h>
+    q4 <fis a>
+    q r8 q %225
+    <e gis>4 <e h'>
+    <e a>8 fis4.
+    <dis a'>2
+    <e gis>4 r
+    h'2 %230
+    cis4 r
+    e4 dis8 cis
+    h4 r8 a
+    h2
+    h4 cis8 <dis, h'> %235
+    <gis h>4 a8 h
+    <gis h>4 cis8 <dis, h'>
+    <e h'>4 r8 <gis h>
+    <e a>4 r8 q
+    h'8 gis fis4 %240
+    <dis fis>2
+    e4 r8 <d e>
+    e4 dis8 eis
+    fis4 r8 dis
+    dis4 cis8 dis %245
+    e4 r8 <cis gis'>
+    <cis fis>4 r8 <h fis'>
+    <h e>4 fis'
+    <e gis>2~
+    q4 fis %250
+    <e gis>4. <dis a'>8
+    <e gis>4 fis
+    <e gis>4. <dis a'>8
+    <e gis> e'[ dis cis]
+    h a gis fis %255
+    e4 e8 fis
+    <e gis> <dis fis> <e gis>4
+    <e a>8 <e h'> <e h'> <fis a>
+    <e gis> a[ gis fis]
+    e d'[ cis h] %260
+    a4 h8 a
+    <a cis,> <gis h,> <e a>4
+    <fis a>8 <e a> <e fis>[ <d gis>]
+    <e a>4 <fis h>8 <e gis>
+    <e a>4. <e g>8 %265
+    q4 <d fis>8 <e fis>
+    <fis h>4. <fis a>8
+    q4 <e gis!>
+    h'8 gis a h
+    <a, a'>2 %270
+    <fis' a>8 <e ais> <fis h>4
+    <e h'> <e a>
+    <d a'> <d gis>
+    <cis gis'> <cis fis>
+    <h fis'> <h e> %275
+    <a e'> <a d>
+    h r
+    <h' d>8 <a cis>4 <gis h>8
+    <a cis>4 r
+    <e g>8 <d fis>4 <cis e>8 %280
+    <d fis>4 <cis a'>
+    <fis a> <e gis>
+    <e a> <fis h>8 <e gis>
+    <e a>4 <d h'>
+    <e a>2~ %285
+    q4 <fis h>8 <e gis>
+    <cis a'>4. <d gis>8
+    <cis a'>4 <fis h>8 <e gis>
+    <cis a'>4. <d gis>8
+    <cis a'> a'[ gis fis] %290
+    e d'[ cis h]
+    a4 r8 <e a>
+    a ais <fis h>4
+    <e h'> <e a>
+    <fis a>4. h16 a %295
+    gis4 r8 <e h'>
+    <cis a'>2
+    <h gis'>4 r8 <e a>
+    <fis a>4 <fis h>
+    <gis h> <gis cis> %300
+    <a cis> r
+    e2
+    fis4 r
+    a gis8 fis
+    e4 r8 <e gis> %305
+    <a, a'>2
+    <cis a'>4 <h gis'>
+    <cis a'>4 <fis h>8 <e gis>
+    <e a>4 <d h'>
+    <cis a'> <fis h>8 <e gis> %310
+    <e a>4 r8 <e g>
+    <d fis>4 r8 <fis a>
+    <e a> <cis a'> fis8 h16 a
+    gis2
+    a4 r8 <g a> %315
+    <fis a>4 <e gis>8 <e ais>
+    <fis h>4 r8 <fis a>
+    gis[ h] a4
+    <e h'>4 r8 <d gis> %205
+    <e a>4 <fis a>8 gis
+    <cis, a'>4 <fis h>8 <e gis>
+    <e a>4 <fis h>8 <e gis>
+    <cis a'>4 <fis h>8 <e gis>
+    <e a>4 r\fermata \bar "||" %324 finis
+  } \\ \relative c' {
+    cis4 h
+    cis fis8 e %195
+    e4 h
+    a r8 cis
+    a4 r8 d
+    <a e'>8 <d fis>4 q8
+    <h e>2 %200
+    <a e'>4 r8 <cis e>
+    d4 h8 cis
+    h4 r8 h
+    <h e>4 <cis e>8 <h dis>
+    h4 r8 h %205
+    cis a d d
+    e fis h,4
+    cis4 h4
+    a h
+    cis2~ %210
+    cis4 h
+    cis4. d8
+    cis4 h
+    cis4. d8
+    cis2 %215
+    <h e>
+    cis4 <h fis'>
+    e4 cis
+    d8 a a[ h]
+    cis4 h %220
+    cis r8 cis
+    e2
+    e4 r8 e
+    cis4. dis8
+    h4 r8 dis %225
+    h4 h
+    cis2
+    h
+    h4 r
+    gis' fis %230
+    e r
+    e2~
+    e4 r8 e
+    <e gis>4 <dis fis>
+    <e gis> fis %235
+    e4 fis
+    e fis
+    h, r8 d
+    cis4 r8 cis
+    <h e>4 <a cis> %240
+    h2
+    h4 r8 h
+    cis4 h
+    cis r8 a
+    h4 a %245
+    h r8 gis
+    a4 r8 fis
+    gis4 cis8 dis
+    h2~
+    h4 cis8 dis %250
+    h2
+    h4 cis8 dis
+    h2
+    h8 h'[ a gis]
+    fis e dis cis %255
+    h4 h8 cis
+    h4 h
+    cis8 h cis dis
+    h e[ d cis]
+    h a'[ gis! fis] %260
+    e4 <h fis'>
+    e cis
+    d8 a a[ h]
+    cis4 h
+    cis4. a8 %265
+    a4. ais8
+    d4. h8
+    h2
+    <h e>
+    cis4 d8 e %270
+    d cis h[ d]
+    cis4 cis
+    h h
+    a a
+    gis gis %275
+    fis fis
+    gis r
+    e'2~
+    e4 r
+    a,2~ %280
+    a4 e'8 fis
+    h,2
+    cis4 h
+    cis fis8 e
+    cis2~ %285
+    cis4 h
+    e2
+    e4 h
+    e2
+    e8 e[ d cis] %290
+    h a'[ gis fis]
+    e4 r8 a,
+    <d fis>4 h
+    cis a
+    d4. <h fis'>8 %295
+    <h e>4 r8 d
+    e4. fis8
+    e4 r8 a,
+    d4 d
+    e e %300
+    fis r
+    cis h
+    a r
+    a2~
+    a4 r8 d %305
+    cis d e d
+    e2
+    e4 h
+    cis fis8 e
+    e4 h %310
+    a r8 cis
+    a4 r8 d
+    a fis'16 e <h d>8 <h fis'>
+    <h e>2
+    <a e'>4 r8 <cis e> %315
+    d4 h8 cis
+    h4 r8 h
+    <h e>4 <cis e>8 <h dis>
+    h4 r8 h
+    cis a d d %320
+    e fis h,4
+    cis4 h4
+    a h
+    cis r\fermata %324 finis
+  } >>
+}

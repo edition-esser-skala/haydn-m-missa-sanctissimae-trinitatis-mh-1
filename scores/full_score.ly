@@ -198,75 +198,115 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \subsection "Qui tollis"
+  %   \addTocEntry
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \QuiTollisViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \QuiTollisViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \QuiTollisViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "S" "S 1" }
+  %           \new Voice = "Soprano" { \dynamicUp \QuiTollisSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \QuiTollisSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "A" "S 2" }
+  %           \new Voice = "Alto" { \dynamicUp \QuiTollisAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \QuiTollisAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \QuiTollisTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \QuiTollisTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \QuiTollisBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \QuiTollisBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \QuiTollisOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \QuiTollisBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 40 } % 65 – 120 – 40
+  %   }
+  % }
   \bookpart {
-    \subsection "Qui tollis"
+    \subsection "Quoniam"
     \addTocEntry
     \paper {
-      top-system-spacing.basic-distance = #10
-      top-system-spacing.minimum-distance = #10
-      top-markup-spacing.basic-distance = #0
-      top-markup-spacing.minimum-distance = #0
-      markup-system-spacing.basic-distance = #10
-      markup-system-spacing.minimum-distance = #10
-      system-system-spacing.basic-distance = #17
-      system-system-spacing.minimum-distance = #17
-      systems-per-page = #2
+      system-system-spacing.basic-distance = #22
+      system-system-spacing.minimum-distance = #22
+      systems-per-page = #3
     }
     \score {
       <<
-        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
-          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \QuiTollisViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \QuiTollisViolinoII
-            }
-          >>
+        \new StaffGroup <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "vl" "1, 2" }
+            \QuoniamViolinoIeII
+          }
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \QuiTollisViola
+            \QuoniamViola
           }
         >>
-        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+        \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "S" "S 1" }
-            \new Voice = "Soprano" { \dynamicUp \QuiTollisSoprano }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \QuoniamSoprano }
           }
-          \new Lyrics \lyricsto Soprano \QuiTollisSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "A" "S 2" }
-            \new Voice = "Alto" { \dynamicUp \QuiTollisAlto }
-          }
-          \new Lyrics \lyricsto Alto \QuiTollisAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \QuiTollisTenore }
-          }
-          \new Lyrics \lyricsto Tenore \QuiTollisTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \QuiTollisBasso }
-          }
-          \new Lyrics \lyricsto Basso \QuiTollisBassoLyrics
+          \new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \QuiTollisOrgano
+            \QuoniamOrgano
           }
         >>
-        \new FiguredBass { \QuiTollisBassFigures }
+        \new FiguredBass { \QuoniamBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 40 } % 65 – 120 – 40
+      \midi { \tempo 4 = 100 }
     }
   }
 }

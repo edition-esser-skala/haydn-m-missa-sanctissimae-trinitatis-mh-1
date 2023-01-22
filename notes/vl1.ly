@@ -405,3 +405,142 @@ QuiTollisViolinoI = {
     a'\ff a,-! a-! a-! gis-! gis-! gis-! gis-! fis4 r\fermata \bar "||" %193 finis
   }
 }
+
+QuoniamViolinoIeII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \major \time 2/4 \tempoQuoniam
+      \set Score.currentBarNumber = #194
+    r8 a''\fE h, gis'
+    a a, h8.( cis32 d) %195
+    cis8 a' h, gis'
+    a a,16 e' e8.(\trill fis32 g)
+    fis8 a,16 fis' fis8.\trill gis32 a
+    e16 e fis e d cis h a
+    gis fis e e e4\trill %200
+    r8 e'16 e, e8.\trill fis32 g
+    fis8 fis16( gis) gis( ais) ais( h)
+    h8 fis'16 fis, fis8.\trill gis32 a
+    gis8 h16( cis) cis( dis) dis( e)
+    e8 h'16 h, h8.\trill cis32 d %205
+    cis8 e16( fis) fis( gis) gis( a)
+    a8 a,16 h h4\trill
+    a8 a'-! h,-! gis'-!
+    a-! a,-! h,-! gis'-!
+    a, d\p e d %210
+    cis a' d h
+    cis d e gis
+    a a, d h
+    cis d e gis
+    a e d cis %215
+    h a gis fis
+    e4 fis
+    \appoggiatura cis8 h4 a
+    a'8 a4 gis8
+    a a'-!\f h,-! gis'-! %220
+    a,4 r8 a\p
+    a4 gis8 h-!\f
+    e4 r8 gis,\p
+    gis4 fis8 dis'-!\f
+    fis4-! r8 fis,\p %225
+    e4 r
+    e8 fis fis fis
+    a a a a
+    gis4 r
+    gis'8 gis fis fis %230
+    e4 r
+    e8 e dis cis
+    h4 r8 e,
+    e4 dis
+    e8 e'-!\f fis,-! dis'-! %235
+    e e, fis8.( gis32 a)
+    gis8 e' fis, dis'
+    e e,16 h' h8.\trill cis32 d
+    cis8 e,16 cis' cis8.\trill dis32 e
+    h16 e gis h a gis fis e %240
+    dis( cis) h-! h-! h4\trill
+    r8 h'16 h, h8.\trill cis32 d!
+    cis8 cis16( dis) dis( eis) eis( fis)
+    fis8 a16 a, a8.\trill h32 cis
+    h8 h16( cis) cis( dis) dis( e!) %245
+    e8 gis16 gis, gis8.\trill a32 h
+    a8 fis'16 fis, fis8.\trill gis32 a
+    gis8 e' fis, dis'
+    e, a\p h a
+    gis e fis a %250
+    gis a h dis
+    e e, fis a
+    gis a h dis
+    e^\critnote e dis cis
+    h a gis fis %255
+    e4 h'8 cis
+    \appoggiatura gis fis4 e
+    e8 e cis dis
+    e a' gis fis
+    e d! cis h %260
+    a4 fis
+    cis8 h a4
+    a'8 a4 gis8
+    a a'-!\f h,-! gis'-!
+    a,4 r8 e\p %265
+    e4 d8 ais'(
+    h4) r8 fis
+    fis4 e8 a
+    h e, e e
+    e a a a %270
+    a( ais) h4~
+    h a~
+    a8 fis gis4~
+    gis fis~
+    fis8 dis e4~ %275
+    e d8 fis
+    e4~ e16 fis gis a
+    h8 a4 gis8
+    a4 a16 h cis d
+    e8 d4 cis8 %280
+    d4 r
+    R2
+    r8 a'\f h, gis'
+    a a, h8. cis32 d
+    cis8 d\p e d %285
+    cis a d h
+    cis d e gis
+    a a, d h
+    cis d e gis
+    a a gis fis %290
+    e d cis h
+    a4 r8 a
+    a ais h4~
+    h8 a16 gis a4
+    fis r8 fis %295
+    e d' cis h
+    \appoggiatura h a2\trill
+    gis8 h-! dis( e)
+    fis, e d! fis
+    gis fis e gis %300
+    a4 r
+    cis8 cis h h
+    a4 r
+    a8 a gis fis
+    e4 r8 d' %305
+    cis4 r
+    R2
+    r8 a'-!\f h,-! gis'-!
+    a-! a, h8. cis32 d
+    cis8 a' h, gis' %310
+    a a,16 e' e8.\trillE fis32 g
+    fis8 a,16 fis' fis8.\trill gis32 a
+    e16 e fis e d cis h a
+    gis( fis) e-! e-! e4\trill
+    r8 e'16 e, e8.\trill fis32 g %315
+    fis8 fis16( gis) gis( ais) ais( h)
+    h8 fis'16 fis, fis8.\trill gis32 a
+    gis8 h16( cis) cis( dis) dis( e)
+    e8 h'16 h, h8.\trill cis32 d
+    cis8 e16( fis) fis( gis) gis( a) %320
+    a8 a,16 h h4\trill
+    a8 a'-! h,-! gis'-!
+    a-! a,-! h,-! gis'-!
+    a,4-! r\fermata \bar "||" %324 finis
+  }
+}

@@ -810,7 +810,7 @@ QuiTollisBassFigures = \figuremode {
   <6 5 [_+]>2.
   \bo <[5 _+]>4 <6 4>8 <8 6> <10 8>4
   <9 7>8 <8 6> <6 4>4 <5 _+> %170
-  r2 \bc <[6 5!]>4
+  r2 \bc <[6 _]>4
   r2 \bo <[8] 6->8 <7 5>
   \bc <[5!] _+>2 \bo <[6 5]>4
   r2 <_+>4
@@ -833,4 +833,277 @@ QuiTollisBassFigures = \figuremode {
   <5 3>4.. \once \bassFigureExtendersOn q16 <6 5>8 <\t \t [_+]> <_+>4
   r2. <6 5 [_!]>8 <[_+]>
   <6>4 <6 5>8 <_+> <_!>2 %193 finis
+}
+
+QuoniamOrgano = {
+  \relative c {
+    \clef bass
+    \twofourtime \key a \major \time 2/4 \tempoQuoniam
+      \set Score.currentBarNumber = #194
+    \mvTr a8\fE-\solo cis d e
+    a, a'4 gis8 %195
+    a cis, d e
+    cis4 r8 a
+    d d, r d'
+    cis d fis d
+    e e16 fis e8 d %200
+    cis4 r8 a
+    d d e cis
+    d4 r8 dis
+    e gis a fis
+    gis4 r8 e %205
+    a, cis d h
+    cis fis d e
+    a, cis-! d-! e-!
+    fis-! cis-! d-! e-!
+    a, h\p cis h %210
+    a a' d, e
+    a, h cis h
+    a a' d, e
+    a, h cis h
+    a cis' h a %215
+    gis fis e d
+    cis4 d8 dis
+    e d cis a
+    d cis h e,
+    a cis-!\f d-! e-! %220
+    a,4 r8 a\p
+    e'4 e,
+    e'\fE r8 e\pE
+    fis4. e8
+    dis4 r8 h %225
+    e fis gis e
+    a, a' a a
+    fis, fis' fis fis
+    e4 r
+    e'8 e dis dis %230
+    cis4 r
+    cis8 cis h a
+    gis4 r8 cis
+    h a h h,
+    e gis\fE a h %235
+    e, e'4 dis8
+    e gis, a h
+    gis4 r8 e
+    a a, r a'
+    gis e fis a %240
+    h h, h' a
+    gis4 r8 gis
+    a a h gis
+    a4 r8 fis
+    gis gis a fis %245
+    gis4 r8 e
+    fis4 r8 dis
+    e gis a h
+    e, fis\p gis fis
+    e gis a h %250
+    e, fis gis fis
+    e gis a h
+    e, fis gis fis
+    e gis fis e
+    dis cis h a %255
+    gis4 gis'8 a
+    h a gis e
+    a gis fis h,
+    e cis' h a
+    gis fis e d! %260
+    cis4 d8 dis
+    e d cis a
+    d cis h e,
+    a cis-!\f d-! e-!
+    a,-! a\p h cis %265
+    d d, d' cis
+    h h cis dis
+    e e, e' fis
+    gis e fis gis
+    a a, h cis %270
+    d cis d h
+    cis h cis a
+    h4 r8 h'
+    a gis a fis
+    gis4 r8 gis %275
+    fis e fis d
+    e4 r
+    e8 e e e
+    a,4 r
+    a8 a a a %280
+    d4 cis8 fis
+    d h e e,
+    a cis\f d e
+    a, a'4 gis8
+    a h\p cis h %285
+    a a d, e
+    a, h cis h
+    a a' d, e
+    a, h cis h
+    a cis' h a %290
+    gis fis e d
+    cis4 r8 cis
+    d4 r8 d
+    cis4 r8 cis
+    d4 d8 dis %295
+    e4 r8 gis
+    a fis e dis
+    e4 r8 cis
+    d! cis h d
+    e d cis e %300
+    fis4 r
+    a8 a gis gis
+    fis4 r
+    fis8 fis e d
+    cis4 r8 h %305
+    a h cis fis
+    e d e e,
+    a cis-!\f d-! e-!
+    a, a'4 gis8
+    a cis, d e %310
+    cis4 r8 a
+    d d, r d'
+    cis a h d
+    e e16 fis e8[ d]
+    cis4 r8 a %315
+    d d e cis
+    d4 r8 dis
+    e gis a fis
+    gis4 r8 e
+    a, cis d h %320
+    cis fis d e
+    a, cis-! d-! e-!
+    fis-! cis-! d-! e-!
+    a,4-! r\fermata \bar "||" %324 finis
+  }
+}
+
+QuoniamBassFigures = \figuremode {
+  r4 <[6]>
+  r <4 2>8 <6 5> %195
+  r4 \bo <[6]>
+  \bc q4. <7!>8
+  r2
+  <[6]>4. <6>16 <5>
+  r2 %200
+  \bo <[6]>4. \bc <[7!]>8
+  r4 <[_+]>8 <6\\>
+  <6>4. <[5!]>8
+  r4. <6\\>8
+  <6>4. <7!>8 %205
+  r4. \bo <[6]>8
+  <6>4 q
+  r q
+  r8 <6> q4
+  r2 %210
+  r4 \bc <[6]>
+  r4. <6>8
+  r4 <[6]>
+  r4. <6>8
+  r2 %215
+  \bo <[6]>
+  \bc q4 <6>8 <5>
+  \bo <[6 4]>8 <6 4> <6>4
+  r8 <6> <7 4> <7>
+  r4 \bc <[6 _]> %220
+  r2
+  <6 4>4 <[5] 3>
+  r2
+  <4 2>4 <3>8 <\t>
+  <\t>4. <[7 _+]>8 %225
+  r4 <6>
+  <5>8 <6>4.
+  <6\\>2
+  r
+  \bo <[3]>4 <3> %230
+  q2
+  q4 <3+>8 <3>
+  \bc <[6]>4. <6>8
+  \bo <[6 4]>4 <5 _+>
+  r <6>8 <_+> %235
+  r4 <2>8 <6>
+  r4 q8 <_+>
+  <6>4. <7!>8
+  r2
+  <6>4. q8 %240
+  <_+>4. <\t>8
+  <6>4. \bc <[5! _]>8
+  r4 <_+>8 <6\\>
+  <6>4. \bo <[6\\]>8
+  <5\+>4. \bc <[6\\]>8 %245
+  <6[!]>4. \bo <[6 _]>8
+  r4. <6>8
+  r4 q8 <_+>
+  r2
+  r4 <6>8 <7 _+> %250
+  r4. <6\\>8
+  r4 <6>8 <7 _+>
+  r4. \bc <[6\\ _]>8
+  r <6> <6\\> <6>
+  q q <6 [_+]> <6> %255
+  <[6]>4 <6>8 q
+  <[6 4]> <4\+> <6>4
+  r8 <[6]> <7 [4]> <[7] _+>
+  r <6> <6 [_!]> <6>
+  q q q q %260
+  <[6]>4 <6>8 <5>
+  <[6 4]> <4> <6>4
+  r8 \bo <[6 _]> <7 4> <7>
+  r4 <6>
+  r4. <5!>8 %265
+  <9 4!>4 \bc <[8 3]>8 <6\\>
+  r4. <5[!]>8
+  \bo <[9] 4>4 <8 _+>
+  \bc <[6]>2
+  r %270
+  <5>8 <6\\> <6>4
+  <7> <6[!]>
+  <7> <6>
+  <7> <6>
+  <7 [5+]> <6> %275
+  <7> <6[!]>
+  r2
+  <7 [5]>8 <6 4>4 <[5] 3>8
+  r2
+  <7! [5]>8 <6 4>4 <[5] 3>8 %280
+  r4 \bo <[6 _]>
+  <6 5>2
+  r4 \bc <[6 _]>
+  r <4 2>8 <6 5>
+  r2 %285
+  r4 <[6]>
+  r4. <6>8
+  r4 \bo <[6]>
+  r4. \bc q8
+  r <6> q q %290
+  q q q q
+  q2
+  \bo <[5]>8 \bc <[5\+]> <6>4
+  <7> <6[!]>
+  r4. <6>16 <5> %295
+  r4. \bo <[6 5]>8
+  <8 3>4. \once \bassFigureExtendersOn q8
+  r4. <6>8
+  r2
+  r %300
+  r
+  <3>4 q
+  q2
+  q4 q8 q
+  <6>4. q8 %305
+  r4. q8
+  <6 4>4 <5 3>
+  r \bc <[6 _]>
+  r <4 2>8 \bo <[6]>
+  r4 <6> %310
+  \bc <[6]>4. <7!>8
+  r2
+  <[6]>8 <6>16 <5> <3>8 <6>16 <5>
+  r2
+  <[6]>4. <7!>8 %315
+  r4 <_+>8 <6\\>
+  <6>4. <6 5[!]>8
+  r4. <6\\>8
+  <6>4. <7!>8
+  r4. \bo <[6]>8 %320
+  <6>4 q
+  r q
+  r8 q \bc <[6]>4
+  r2 %324 finis
 }

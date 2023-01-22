@@ -418,3 +418,106 @@ QuiTollisViola = {
     cis16\ff cis a a d d cis cis cis4 r\fermata \bar "||"
   }
 }
+
+QuoniamViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key a \major \time 2/4 \tempoQuoniam
+      \set Score.currentBarNumber = #194
+    cis8\fE e fis h,
+    cis e d e %195
+    e e fis h,
+    a4 r8 cis
+    a4 r8 a
+    a a' a fis
+    h,16 a gis a gis8 fis %200
+    e4 r8 cis'
+    d4 r8 e
+    fis4 r8 h,
+    h4 r8 a'
+    h4 r8 gis %205
+    e a4 d,8
+    e cis fis d
+    cis e fis d
+    cis a'-! h,-! gis'-!
+    a, h\p cis h %210
+    a a' d, e
+    a, h cis d
+    cis a' d, e
+    a, h cis d
+    cis cis' h a %215
+    gis fis e d
+    cis4 d8 dis
+    e d cis a
+    d cis h e,
+    a e'-!\f fis-! d-! %220
+    cis4 r8 e\p
+    e4 e
+    gis r
+    cis,4. a'8-!\f
+    a4-! r8 dis,\pE %225
+    h4 r
+    R2*8 %234
+    gis8\f h cis a %235
+    gis gis a h
+    h h cis h
+    h4 r8 gis'
+    e4 r8 e
+    e e cis cis %240
+    fis,4 dis'8 cis
+    h4 r8 e
+    e4 r8 h'
+    cis4 r8 dis,
+    dis r r a' %245
+    h4 r8 cis,
+    cis4 r8 fis
+    h, h cis a
+    gis4 r
+    r8 h\p cis h %250
+    h4 r8 a'
+    gis h, cis h
+    h4 r8 a'
+    gis h a gis
+    fis e dis cis %255
+    h4 r
+    R2*2
+    r8 e' d! cis
+    h a gis fis %260
+    e4 r
+    R2*2
+    r8 e\f fis d
+    cis cis\p d e %265
+    a,4. e'8
+    d d e fis
+    h,4 r
+    R2*14 %282
+    r8 e\f fis h,
+    cis cis d e
+    e4 r %285
+    r r8 e\p
+    e4 r8 d
+    cis4 r8 e
+    e4 r8 d
+    cis e' d cis %290
+    h a gis fis
+    e4 r
+    R2*15 %307
+    cis8\f e fis h,
+    cis cis d e
+    e e fis h, %310
+    a4 r8 cis
+    a a' a a
+    a, a' fis fis
+    h,16 a gis a gis8 fis
+    e4 r8 cis' %315
+    d4 r8 e
+    fis4 r8 h,
+    h4 r8 a'
+    h4 r8 gis
+    e a4 d,8 %320
+    e cis fis d
+    cis e-! fis-! d-!
+    cis-! a'-! h,-! gis'-!
+    a,4-! r\fermata \bar "||" %324 finis
+  }
+}

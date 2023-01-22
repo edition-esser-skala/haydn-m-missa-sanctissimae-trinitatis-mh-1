@@ -36,19 +36,49 @@
   %     \midi { \tempo 4 = 110 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2" "Gloria"
+  %   \score {
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff { \GloriaChords }
+  %         \new Staff { \GloriaOrgano }
+  %       >>
+  %       \new FiguredBass { \GloriaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
+  % \bookpart {
+  %   \subsection "Qui tollis"
+  %   \score {
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff { \QuiTollisChords }
+  %         \new Staff { \QuiTollisOrgano }
+  %       >>
+  %       \new FiguredBass { \QuiTollisBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 40 }
+  %   }
+  % }
   \bookpart {
-    \section "2" "Gloria"
+    \subsection "Quoniam"
     \score {
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff { \GloriaChords }
-          \new Staff { \GloriaOrgano }
+          \new Staff { \QuoniamChords }
+          \new Staff { \QuoniamOrgano }
         >>
-        \new FiguredBass { \GloriaBassFigures }
+        \new FiguredBass { \QuoniamBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 100 }
     }
   }
 }
