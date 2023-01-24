@@ -544,3 +544,83 @@ QuoniamViolinoIeII = {
     a,4-! r\fermata \bar "||" %324 finis
   }
 }
+
+CumSanctoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoCumSancto
+      \set Score.currentBarNumber = #325
+    r4 a'\fE d2
+    d d4. d8
+    d4 fis e e \noBreak
+    e4. e8 e2\fermata \bar "||"
+    \tempoInGloria d,16 d d' d cis cis d d h h d d cis cis d d \noBreak
+    fis, fis d' d cis cis d d h h e e cis cis g' g %330
+    fis fis e e d d a' a g g fis fis g g e e
+    fis fis e e d d cis cis d d fis fis e e d d
+    cis cis a a gis gis a a fis fis a a gis gis a a
+    cis, cis a' a gis gis a a fis fis h h gis gis d' d
+    cis cis a a d d fis fis h, h a a h h g'! g %335
+    a, a g g a a fis' fis g, g fis fis g g e' e
+    fis, fis d' d cis cis d d h h d d cis cis d d
+    fis, fis d' d cis cis d d h h e e cis cis g' g
+    fis fis e e d d a a g g fis fis g g e' e
+    a, a cis cis d d e e d d fis fis e e h' h %340
+    cis, cis a a gis gis a a fis fis a a gis gis a a
+    cis, cis a' a gis gis a a fis fis h h gis gis d' d
+    cis cis a a d d fis fis h, h a a h h g'! g
+    a, a g g a a fis' fis g, g fis fis g g e' e
+    fis, fis d' d cis cis d d h h d d cis cis d d %345
+    fis, fis d' d cis cis d d h h e e cis cis g' g
+    fis fis e e d d a' a g g fis fis g g e e
+    fis fis d d h h e e cis cis a' a a, a d d
+    cis cis d d cis cis c c h h a a h h e e
+    dis dis e e dis dis d d cis cis h h cis cis fis fis %350
+    eis eis fis fis eis eis e e d d fis fis gis gis a a
+    h h d, d cis cis a' a h, h dis dis e e d d
+    cis cis a' a a, a cis cis d d h' h h, h d d
+    e e cis' cis cis, cis e e fis fis d' d d, d fis fis
+    gis gis e' e e, e d d cis cis e e fis fis gis gis %355
+    a a a, a a' a gis gis fis fis e e d d fis fis
+    h h d, d cis cis a' a h, h a' a h, h gis' gis
+    a a cis, cis h h gis' gis a, a a' a gis gis a a
+    fis fis a a gis gis a a e e a a gis gis a a
+    d, d a' a gis gis a a cis, cis a' a gis gis a a %360
+    fis fis d d fis, fis h h gis gis a a h, h gis' gis
+    a, a a' a gis gis a a fis fis a a gis gis a a
+    cis, cis a' a gis gis a a fis fis h h gis gis d' d
+    cis cis gis gis a a e' e d d cis cis d d h h
+    cis cis h h a a d d h h d d e, e cis' cis %365
+    d, d d' d cis cis d d h h d d cis cis d d
+    fis, fis d' d cis cis d d h h e e cis cis g' g
+    fis fis e e d d a' a g g fis fis g g e e
+    fis fis e e d d a a h h a a h h e e
+    cis cis h h cis cis fis fis d d cis cis d d g g %370
+    e e d d e e a a fis fis a a g g fis fis
+    e e a a e e cis cis a a d d e e gis gis
+    a a a, a e' e gis gis a a a, a e' e a a
+    fis fis d d e e a a fis fis d d e e a a
+    g g d d h' h g g fis fis cis cis a' a fis fis %375
+    e e h h g' g e e d d a a fis' fis d d
+    cis cis d d e e a a fis fis cis cis d d e e
+    d^\critnote d e e a, a cis cis d d a' a a, a a' a
+    c, c h h d d h h e e h' h h, h h' h
+    d, d cis cis e e cis cis fis fis e e fis fis cis cis %380
+    e e d d fis fis d d g g fis fis g g d d
+    fis fis e e g g e e a a a, a cis cis e e
+    a a a, a  cis cis e e a a a, a cis cis e e
+    fis fis d d e e a a fis fis d d e, e cis' cis
+    d d fis, fis g g a a h h cis cis d d e e %385
+    fis fis d d cis cis d d h h d d cis cis d d
+    fis, fis d' d cis cis d d h h e e cis cis g' g
+    fis fis e e d d a' a g g fis fis g g e e
+    fis fis e e d d a a h h a a h h e e
+    cis cis h h cis cis fis fis d d cis cis d d g g %390
+    e e d d e e a a fis fis d d e, e cis' cis
+    d d fis, fis e e cis' cis d, d d' d cis cis d d
+    h h d d cis cis d d fis, fis d' d cis cis d d
+    h h e e cis cis g' g fis fis d d cis cis d d
+    h h d d cis cis d d fis, fis d' d cis cis d d %395
+    h h e e a, a cis cis <fis a, d,>4 r\fermata \bar "|." %396 finis
+  }
+}

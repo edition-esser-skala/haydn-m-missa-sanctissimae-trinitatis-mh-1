@@ -269,44 +269,116 @@
   %     \midi { \tempo 4 = 40 } % 65 – 120 – 40
   %   }
   % }
+  % \bookpart {
+  %   \subsection "Quoniam"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #22
+  %     system-system-spacing.minimum-distance = #22
+  %     systems-per-page = #3
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "vl" "1, 2" }
+  %           \QuoniamViolinoIeII
+  %         }
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \QuoniamViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \QuoniamSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \QuoniamOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \QuoniamBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
-    \subsection "Quoniam"
+    \subsection "Cum Sancto Spiritu"
     \addTocEntry
-    \paper {
-      system-system-spacing.basic-distance = #22
-      system-system-spacing.minimum-distance = #22
-      systems-per-page = #3
-    }
     \score {
       <<
         \new StaffGroup <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "vl" "1, 2" }
-            \QuoniamViolinoIeII
-          }
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+            % \transpose c d
+            \partCombine #'(0 . 10) \CumSanctoClarinoI \CumSanctoClarinoII
+          >>
+        >>
+        \new Staff {
+          \set Staff.instrumentName = "timp"
+          % \transpose c d
+          \CumSanctoTimpani
+        }
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \CumSanctoViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \CumSanctoViolinoII
+            }
+          >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \QuoniamViola
+            \CumSanctoViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \QuoniamSoprano }
+            \new Voice = "Soprano" { \dynamicUp \CumSanctoSoprano }
           }
-          \new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
+          \new Lyrics \lyricsto Soprano \CumSanctoSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \CumSanctoAlto }
+          }
+          \new Lyrics \lyricsto Alto \CumSanctoAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \CumSanctoTenore }
+          }
+          \new Lyrics \lyricsto Tenore \CumSanctoTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \CumSanctoBasso }
+          }
+          \new Lyrics \lyricsto Basso \CumSanctoBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \QuoniamOrgano
+            \CumSanctoOrgano
           }
         >>
-        \new FiguredBass { \QuoniamBassFigures }
+        \new FiguredBass { \CumSanctoBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 100 }
+      \midi { \tempo 4 = 60 } % 120
     }
   }
 }

@@ -291,3 +291,140 @@ QuiTollisTenoreLyrics = \lyricmode {
   re -- re no --
   bis. %192 finis
 }
+
+CumSanctoTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 4/4 \autoBeamOff \tempoCumSancto
+      \set Score.currentBarNumber = #325
+    r2 r4 \mvTr a\fE^\tuttiE
+    h d h d
+    d d d d \noBreak
+    d4. cis8 cis2\fermata \bar "||"
+    \tempoInGloria R1*8 %336
+    d2 d4 d8 d
+    d4 d e2
+    fis4 a g8[ fis g e]
+    fis[ e d cis] d8.[\trillE cis32 d] e8[ d] %340
+    cis4 r r2
+    e2 h8([ fis' e)] e
+    e4 r d4.( e8)
+    e4 d2( cis4)
+    d a g4. g8 %345
+    a2 h8 h a([ g)]
+    fis g[ a d]~ d4 cis
+    h gis a a8([ fis]
+    g[ fis g d')] d4 h8([ g]
+    a^[ gis a e')] e4 cis8[ a] %350
+    h[ ais h fis'] d[ cis h a?]
+    gis[ h e fis] e4 r
+    r a,8([ cis)] fis,4 h8 d
+    gis,4 cis8([ e)] a,4 d8([ fis)]
+    e2 e4 r %355
+    r8 cis[ d e] fis2
+    e4. fis8 fis4( e)
+    e e cis r
+    R1*3 %361
+    a2 a4 a8 a
+    a4 a h2
+    cis4 e( d8[ cis d h])
+    cis4 d2( cis4) %365
+    d4 d2 d4~
+    d e8 fis h,4 a
+    a d d( cis)
+    d r d4.( e8)
+    e4 r fis4.( g8) %370
+    g4 r d8[( a cis d])
+    cis4 r cis2
+    cis4 cis8 cis cis4. cis8
+    d4 cis d cis
+    d2 cis4 cis8 cis %375
+    h2 a
+    a4 a fis'4.( e8)
+    e2 d~
+    d4 h e2~
+    e4 cis! cis2~ %380
+    cis8[ h] h4 d2~
+    d8[ cis] cis4 cis2
+    cis4 cis8 cis cis4. cis8
+    d4 e d8 d d([ cis)]
+    d4 r r2 %385
+    r d4 d~
+    d e8 fis h,4 a
+    a d d( cis)
+    d r d4. e8
+    e4. fis8 fis4. g8 %390
+    g4. e8 e( d4 cis8)
+    d d4( cis8) d4 r
+    R1
+    r4 cis d r
+    R1 %395
+    r4 cis d r\fermata \bar "|." %396 finis
+  }
+}
+
+CumSanctoTenoreLyrics = \lyricmode {
+  Cum %325
+  San -- cto Spi -- ri --
+  tu, cum San -- cto
+  Spi -- ri -- tu
+
+  in glo -- ri -- a %337
+  De -- i Pa --
+  tris, a -- _
+  _ _ _ %340
+  men,
+  in glo -- ri --
+  a, a --
+  men, a --
+  men, in glo -- ri -- %345
+  a De -- i Pa --
+  tris, a -- _
+  _ _ men, a --
+  men, a --
+  men, a -- %350
+  _ _
+  _ men,
+  in __ glo -- ri -- a
+  De -- i __ Pa -- tris,
+  a -- men, %355
+  a -- _
+  _ men, a --
+  men, a -- men.
+
+  In glo -- ri -- a %362
+  De -- i Pa --
+  tris, a --
+  men, a -- %365
+  men, in glo --
+  ri -- a De -- i
+  Pa -- tris, a --
+  men, a --
+  men, a -- %370
+  men, a --
+  men, in
+  glo -- ri -- a De -- i
+  Pa -- tris, a -- men,
+  in glo -- ri -- a %375
+  De -- i
+  Pa -- tris, a --
+  men, a --
+  men, a --
+  men, a -- %380
+  men, a --
+  men, in
+  glo -- ri -- a De -- i
+  Pa -- tris, a -- men, a --
+  men, %385
+  in glo --
+  ri -- a De -- i
+  Pa -- tris, a --
+  men, a -- men,
+  a -- _ _ _ %390
+  _ men, a --
+  men, a -- men,
+
+  a -- men,
+  %395
+  a -- men. %396 finis
+}

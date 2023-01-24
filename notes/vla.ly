@@ -521,3 +521,83 @@ QuoniamViola = {
     a,4-! r\fermata \bar "||" %324 finis
   }
 }
+
+CumSanctoViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 4/4 \tempoCumSancto
+      \set Score.currentBarNumber = #325
+    r4 a'\fE d fis,
+    h, d h d
+    d d d d \noBreak
+    d4. cis8 cis2\fermata \bar "||"
+    \tempoInGloria d8-! d'-! cis-! d-! h-! d-! cis-! d-! \noBreak
+    fis,-! d'-! cis-! d-! g, e a a, %330
+    d e fis d e d e a
+    d cis h a h a gis e
+    a a-! gis-! a-! fis-! a-! gis-! a-!
+    \parOn cis,-\parenthesize-! a'-! gis-! \parOff a-\parenthesize-! d, h e e,
+    a a' fis d g fis g e %335
+    fis e fis d e d e a,
+    d d'-! cis-! d-! h-! d-! cis-! d-!
+    fis,-! d'-! cis-! d-! g, e a a,
+    d e fis d e d e a
+    d cis h a h a gis e %340
+    a, a'-! gis-! a-! fis-! a-! gis-! a-!
+    cis, a' gis a d, h e e,
+    a a' fis d g fis g e
+    fis e fis d e d e a,
+    d d' cis d h d cis d %345
+    fis, d' cis d g, e a a,
+    d e fis d e d e a,
+    d h e e, a a' fis d
+    e d e fis g! fis g e
+    fis e fis gis a gis a fis %350
+    gis fis gis ais h a gis fis
+    e gis a dis, e fis gis e
+    a a, fis' a h h, gis' h
+    cis cis, a' cis d d, h' d
+    e e, gis e a cis d h %355
+    cis a h cis d cis h a
+    gis e a fis d h e e,
+    a a' e e, a4 r8 a
+    a4 r8 a a4 r8 a
+    a4 r8 a a4 r8 cis %360
+    a4 r8 fis' h, e fis h,
+    cis a' gis a fis a gis a
+    cis, a' gis a d, h e e,
+    a h cis a h a h e
+    a g! fis d e d e a, %365
+    d d' cis d h d cis d
+    fis, d' cis d g, e a a,
+    d e fis d e d e a,
+    d e fis d g fis g e
+    a g a fis h a h g %370
+    cis h cis a d, fis e d
+    a' a, cis e a h cis h
+    a h cis h a h cis a
+    d, d' a a, d d' cis a
+    h h, h h' a a, a a' %375
+    g g, g g' fis fis, fis fis'
+    e d cis a d e fis g
+    a a, a' g fis e d fis
+    g g, h' a gis fis e gis
+    a a, cis' h a g fis a %380
+    h h, d' cis h a g h
+    cis cis, e' d cis h a h
+    cis h a h cis h a cis
+    d d, a' cis d d, a' a,
+    d d e fis g a h cis %385
+    d d cis d h d cis d
+    fis, d' cis d g, e a a,
+    d e fis d e d e a,
+    d e fis d g fis g e
+    a g a fis h a h g %390
+    cis h cis a d d, a' a,
+    d fis g a d, d' cis d
+    h d cis d fis, d' cis d
+    g, e a a, d d' cis d
+    h d cis d fis, d' cis d %395
+    g, e a a, d4 r\fermata \bar "|." %396 finis
+  }
+}

@@ -698,10 +698,145 @@ QuoniamSopranoLyrics = \lyricmode {
   ste. %308 finis
 }
 
-% Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.
+CumSanctoSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoCumSancto
+      \set Score.currentBarNumber = #325
+    r4 \mvTr a'\fE^\tuttiE d2
+    d d4. d8
+    d4 fis e e \noBreak
+    e4. e8 e2\fermata \bar "||"
+    \tempoInGloria d2 d4 d8 d \noBreak
+    d4 d e2 %330
+    fis4 a g8[ fis g e]
+    fis[ e d cis] d8.[\trill cis32 d] e8[ d]
+    cis4 r r2
+    e2 h8([ fis' e)] e
+    e4 r d4.( e8) %335
+    e4 d2( cis4)
+    d r d2
+    d4 d8 d d4 cis
+    fis8([ e)] d4 d( cis)
+    d r r e %340
+    e r r2
+    R1*3
+    d2 d4 d8 d %345
+    d4 d e2
+    fis4 a g8[ fis g e]
+    fis4 e e d(
+    cis8[ d cis c)] h4 e(
+    dis8[ e dis d]) cis4 fis %350
+    eis8[ fis eis e] d2~
+    d4 cis h h
+    h8 a cis4 cis8([ h)] d4
+    d8([ cis)] e4 e8([ d)] fis4
+    e4.( d8) cis8 e8[ fis gis] %355
+    a4. gis8 fis[ e] d4~
+    d cis h2
+    cis4 h a r
+    R1*7 %365
+    d2 d4 d8 d
+    d4 d e2
+    fis4 a( g8[ fis g e)]
+    fis4 d( h8[ a h e)]
+    cis4 fis( d8[ cis d g)] %370
+    e4 a( fis8[ d g fis])
+    e4 r e2
+    e4 e8 e e4. e8
+    fis4 e fis e
+    g2 fis4 fis8 fis %375
+    e2 d
+    cis8([ d)] e4 e8[ d16 cis] d4~
+    d cis c2~
+    c8[ h] d4 d2~
+    d8[ cis] e4 e2~ %380
+    e8[ d] fis4 fis2~
+    fis8[ e] g4 g2
+    g4 g8 g g4. g8
+    fis4 e fis8 fis e4
+    d8 fis,[( g a] h[ cis d e]) %385
+    fis4 d d d8 d
+    d4 d e2
+    fis4 a( g8[ fis g e])
+    fis4 d h8[ a h e]
+    cis8[ h cis fis] d[ cis d g] %390
+    e[ d e a] fis fis e4
+    fis8 d( e4)\trill d r
+    R1
+    r4 e fis r
+    R1 %395
+    r4 e d r\fermata \bar "|." %396 finis
+  }
+}
 
+CumSanctoSopranoLyrics = \lyricmode {
+  Cum San -- %325
+  cto Spi -- ri --
+  tu, cum San -- cto
+  Spi -- ri -- tu
+  in glo -- ri -- a
+  De -- i Pa -- %330
+  tris, a -- _
+  _ _ _
+  men,
+  in glo -- ri --
+  a, a -- %335
+  men, a --
+  men, in
+  glo -- ri -- a De -- i
+  Pa -- tris, a --
+  men, a -- %340
+  men,
 
-% ## Credo
+  in glo -- ri -- a %345
+  De -- i Pa --
+  tris, a -- _
+  _ _ men, a --
+  men, a --
+  men, a -- %350
+  _ _
+  _ men, in
+  glo -- ri -- a De -- i
+  Pa -- tris, a -- men,
+  a -- men, a -- %355
+  _ _ _ _
+  men, a --
+  men, a -- men.
+
+  In glo -- ri -- a %366
+  De -- i Pa -- tris,
+  a --
+  men, a --
+  men, a -- %370
+  men, a --
+  men, in
+  glo -- ri -- a De -- i
+  Pa -- tris, a -- men,
+  in glo -- ri -- a %375
+  De -- i
+  Pa -- tris, a -- _
+  men, a --
+  men, a --
+  men, a -- %380
+  men, a --
+  men, in
+  glo -- ri -- a De -- i
+  Pa -- tris, a -- men, a --
+  men, a -- %385
+  men, in glo -- ri -- a
+  De -- i Pa --
+  tris, a --
+  men, a -- _
+  _ _ %390
+  _ _ men, a --
+  men, a -- men,
+
+  a -- men,
+  %395
+  a -- men. %396 finis
+}
+
 
 % Cre -- do in u -- num De -- um,
 % Pa -- trem o -- mni -- po -- ten -- tem,

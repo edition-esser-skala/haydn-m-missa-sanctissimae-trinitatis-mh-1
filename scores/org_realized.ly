@@ -23,6 +23,7 @@
   % }
   % \bookpart {
   %   \subsection "Christe"
+  %   \addTocEntry
   %   \score {
   %     <<
   %       \new PianoStaff <<
@@ -38,6 +39,7 @@
   % }
   % \bookpart {
   %   \section "2" "Gloria"
+  %   \addTocEntry
   %   \score {
   %     <<
   %       \new PianoStaff <<
@@ -53,6 +55,7 @@
   % }
   % \bookpart {
   %   \subsection "Qui tollis"
+  %   \addTocEntry
   %   \score {
   %     <<
   %       \new PianoStaff <<
@@ -66,19 +69,36 @@
   %     \midi { \tempo 4 = 40 }
   %   }
   % }
+  % \bookpart {
+  %   \subsection "Quoniam"
+  %   \addTocEntry
+  %   \score {
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff { \QuoniamChords }
+  %         \new Staff { \QuoniamOrgano }
+  %       >>
+  %       \new FiguredBass { \QuoniamBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
-    \subsection "Quoniam"
+    \subsection "Cum Sancto Spiritu"
+    \addTocEntry
     \score {
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff { \QuoniamChords }
-          \new Staff { \QuoniamOrgano }
+          \new Staff { \CumSanctoChords }
+          \new Staff { \CumSanctoOrgano }
         >>
-        \new FiguredBass { \QuoniamBassFigures }
+        \new FiguredBass { \CumSanctoBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 100 }
+      \midi { \tempo 4 = 60 }
     }
   }
 }

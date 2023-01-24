@@ -1107,3 +1107,158 @@ QuoniamBassFigures = \figuremode {
   r8 q \bc <[6]>4
   r2 %324 finis
 }
+
+CumSanctoOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoCumSancto
+      \set Score.currentBarNumber = #325
+    \mvTr d4\fE-\tuttiE \clef treble a''-! d-! \clef bass d,,
+    g fis h a
+    g fis g gis \noBreak
+    a4. a,8 a2\fermata \bar "||"
+    \tempoInGloria d8-! d'-! cis-! d-! h-! d-! cis-! d-! \noBreak
+    fis,-! d'-! cis-! d-! g, e a a, %330
+    d e fis d e d e a
+    d cis h a h a gis e
+    a a-! gis-! a-! fis-! a-! gis-! a-!
+    cis,-! a'-! gis-! a-! d, h e e,
+    a a' fis d g fis g e %335
+    fis e fis d e d e a,
+    d d'-! cis-! d-! h d cis d
+    fis, d' cis d g, e a a,
+    d e fis d e d e a
+    d cis h a h a gis e %340
+    a, a'-! gis-! a-! fis-! a-! gis-! a-!
+    cis, a' gis a d, h e e,
+    a a' fis d g fis g e
+    fis e fis d e d e a,
+    d d' cis d h d cis d %345
+    fis, d' cis d g, e a a,
+    d e fis d e d e a,
+    d h e e, a a' fis d
+    e d e fis g! fis g e
+    fis e fis gis a gis a fis %350
+    gis fis gis ais h a gis fis
+    e gis a dis, e fis gis e
+    a a, fis' a h h, gis' h
+    cis cis, a' cis d d, h' d
+    e e, gis e a cis d h %355
+    cis a h cis d cis h a
+    gis e a fis d h e e,
+    a a' e e, a4 r8 cis-\soloE
+    d4 r8 d' cis4 r8 cis
+    h4 r8 h a4 r8 a %360
+    d,4 r8 dis e cis d? e
+    a,-\tuttiE a' gis a fis a gis a
+    cis, a' gis a d, h e e,
+    a h cis a h a h e
+    a g! fis d e d e a, %365
+    d d' cis d h d cis d
+    fis, d' cis d g, e a a,
+    d e fis d e d e a,
+    d e fis d g fis g e
+    a g a fis h a h g %370
+    cis h cis a d, fis e d
+    a' a, cis e a h cis h
+    a h cis h a h cis a
+    d, d' a a, d d' cis a
+    h h, h h' a a, a a' %375
+    g g, g g' fis fis, fis fis'
+    e d cis a d e fis g
+    a a, a' g fis e d fis
+    g g, h' a gis fis e gis
+    a a, cis' h a g fis a %380
+    h h, d' cis h a g h
+    cis cis, e' d cis h a h
+    cis h a h cis h a cis
+    d d, a' cis d d, a' a,
+    d d e fis g a h cis %385
+    d d cis d h d cis d
+    fis, d' cis d g, e a a,
+    d e fis d e d e a,
+    d e fis d g fis g e
+    a g a fis h a h g %390
+    cis h cis a d d, a' a,
+    d fis g a d, d' cis-\soloE d
+    h d cis d fis, d' cis d
+    g, e a-\tuttiE a, d d' cis-\soloE d
+    h d cis d fis, d' cis d %395
+    g, e a-\tuttiE a, d4 r\fermata \bar "|." %396 finis
+  }
+}
+
+CumSanctoBassFigures = \figuremode {
+  r1 %325
+  r4 <[6]> <6> <6 [4]>
+  r <6> <6 5> <\t \t>
+  <4>4. <3>8 r2
+  r1
+  <[6]>2 <6 5> %330
+  r2 \bo <[7]>4 <6>8 \bc <[7]>
+  r2 r8 <[6]> <6> <7 [_+]>
+  r1
+  <[6]>2 <6 5>4 <_+>
+  r <6>2. %335
+  \bo <[7 _]>4 <6> <7> <6>
+  r1
+  q2 <6 5>
+  r2 \bo <[7]>4 \bc <[6]>8 <7>
+  r2 r8 <[6]> <6 5> <7 _+> %340
+  r1
+  <6>2 <6 5>4 <_+>
+  r <6>2 q4
+  <7>4 <6> <7> <6>
+  r2 q %345
+  \bc <[6 _]>2 <6 5>
+  r <7>4 <6>8 <7>
+  <6 5>4 <_+>2 <6>4
+  <6 [_!]>8 <8> <6> <5!> <3>4 <6>
+  <6\\>8 <8> <6\\> <5!> r4 <6> %350
+  <6\\>8 <_+> <6\\> <5!> <_!>2
+  <7 [_+]>4. <7>4 <6\\>8 \bo <[6]> \bc <[_+]>
+  <10 9>4 <5> <10 9> <5>
+  <10 [5+] 9> <5> <10 9> <5>
+  <[_+]>4 <6>8 <7 [_+]>2 <6\\>8 %355
+  <[6]>2.. <6>8
+  <5>8 <\t>4. <6 5>4 <_+>
+  r \bo <[_+]> r4. \bc <[6]>8
+  r2 <6>4. <\t>8
+  <7>4. <\t>8 r2 %360
+  r4. <6>8 <_+> <6> <6 5> <_+>
+  r1
+  <6>2 <6 5>4 <_+>
+  r2 <7>4 <6\\>8 <\t>
+  r4 \bo <[6 _]> <7 _!> <6> %365
+  r1
+  <6>2 \bc <[6 5]>
+  r <7>4 <6>8 <7>
+  r1
+  r4 <6>2. %370
+  r4 <[6]>2 <6>4
+  r2.. <6\\>8
+  r4. q8 r2
+  r2. <[6]>4
+  <6>2 q %375
+  q q
+  q4 <5> <9> \bo <[6 _]>8 <6 5>
+  <5 4>4 \bc <[\t 3]> <5!>4. \once \bassFigureExtendersOn q8
+  <4! 2> <3 1>4. <6 5>4. \once \bassFigureExtendersOn q8
+  <4 2> <3[+] 1>4. <6 5>4. \once \bassFigureExtendersOn q8 %380
+  <4 2> <3 1>4. <6 5>4. \once \bassFigureExtendersOn q8
+  \bo <[4 2]> \bc <[3 1]>4. \bo <[6] 5>2 \bassFigureExtendersOn
+  <6 5>2.. \bc <[6] 5>8 \bassFigureExtendersOff
+  r2. \bo <[4]>8 \bc <[3]>
+  r <3> q q \bo <[3]> <3> q \bc <[3]> %385
+  r1
+  <[6]>2 <6 5>
+  r <7>4 <6>8 <7>
+  r4 <6>2.
+  r1 %390
+  r2 \bo <[9]>8 \bc <[8]> <4> <3>
+  <10 9> <6> <6 5>2.
+  r2 \bo <[6 _]>
+  <6 5>1
+  r2 \bc <[6 _]> %395
+  <6 5>1 %396 finis
+}

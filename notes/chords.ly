@@ -1086,3 +1086,156 @@ QuoniamChords = {
     cis r\fermata %324 finis
   } >>
 }
+
+CumSanctoChords = {
+  \clef treble
+  \key d \major \time 4/4 \tempoCumSancto
+    \set Score.currentBarNumber = #325
+  << \relative c' {
+    <a' d>4 r r q %325
+    \tieNeutral <d, d'>1~
+    q4 \tieUp <d' fis> e2
+    <a, e'> q\fermata \bar "||"
+    \tempoInGloria <a d>2 <h d>
+    <a d> e' %330
+    fis <h, d>4 <a cis>
+    <a d>4 <h d> q2
+    <a cis> <fis a>
+    <e a> h'
+    cis4 <a d> <h d>4. <h e>8 %335
+    <a e'>4 <a d> <h d> <a cis>
+    <a d>2 <h d>
+    <a d> e'
+    fis <h, d>4 <a cis>
+    <a d>4 <h d> q2 %340
+    <a cis> <fis a>
+    <e a> h'
+    cis4 <a d> <h d> <h e>
+    <a e'> <a d> <h d> <a cis>
+    <a d>2 <h d> %345
+    <a d> e'
+    fis2 <h, d>4 <a cis>
+    h2 a4 <a d>
+    <g cis>8 <fis d'> <g cis>[ <d c'>] <g h>4 <h e>
+    <a dis>8 <g e'> <a dis>[ <e d'>] <a cis>4 <cis fis> %350
+    <h eis>8 <ais fis'> <h eis>[ <fis e'>] <h d>2~
+    q4 <a cis> <gis h>8 <h dis> <h e>4
+    <e, cis'> <fis cis'> <fis d'> <gis d'>
+    <gis e'> <a e'> <a fis'> <h fis'>
+    e4. d8 cis4 d %355
+    e2 d4. <cis fis>8
+    e d <a cis>4 h2
+    a4 gis a r8 <e a>
+    <fis a>4 r8 a a4 r8 a
+    a4 r8 a a4 r8 <e a> %360
+    <fis a>4 r8 <fis h> <gis h> a <fis a>[ <e gis>]
+    <e a>2 <fis a>
+    <e a> h'
+    cis2 <fis, a>4 <e gis>
+    a <a d> <h d> <a cis> %365
+    <a d>2 <h d>
+    <a d> e'
+    fis2 <h, d>4 <a cis>
+    <a d>2 d4. e8
+    e4 fis fis4. g8 %370
+    g4 a <d, fis>4 <cis g'>8 <d fis>
+    <cis e>2 <a cis>4. <gis d'>8
+    <a cis>4. <gis d'>8 <a cis>2
+    <a d>4 <cis e> <a d> e'8 cis
+    <g d'>2 <cis fis> %375
+    <h e> <a d>
+    <g cis>8 <fis d'> <a e'>4~ q <a d>8 <h d>
+    d4 cis <a c>2~
+    q8 <g h>4. <h d>2~
+    q8 <a cis>4. <cis e>2~ %380
+    q8 <h d>4. <d fis>2~
+    q8 <cis e>4. <e g>2~
+    q1
+    <d fis>4 <cis e> <a d> d8 cis
+    d2. r4 %385
+    <a d>2 <h d>
+    <a d> e'
+    fis2 <h, d>4 <a cis>
+    <a d>2 d4. e8
+    e4. fis8 fis4. g8 %390
+    g4. a8 <fis a,>4 <e a,>
+    e8[ d] <h d> <a cis> <a d>2
+    <h d> <a d>
+    e' <a, d>
+    <h d> <a d> %395
+    e' d4 r\fermata \bar "|." %396 finis
+  } \\ \relative c' {
+    fis4 r r fis %325
+    h a g fis
+    h a <h d>2
+    d4. cis8 cis2\fermata
+    fis,2 fis
+    d <h' d>4 <a cis> %330
+    <a d>2 g
+    fis4 fis fis e
+    e2 cis
+    a <fis' a>4 <e gis>
+    <e a> d g4. g8 %335
+    fis4 fis g2
+    fis fis
+    d <h' d>4 <a cis>
+    <a d>2 g
+    fis4 fis fis e %340
+    e2 cis
+    a <fis' a>4 <e gis>
+    <e a> d g g
+    fis fis g2
+    fis2 fis %345
+    d <h' d>4 <a cis>
+    <a d>2 g
+    <fis a>4 <e gis> <cis e> fis
+    a2 d,4 g
+    h2 e,4 a %350
+    cis2 fis,4 h8 a
+    gis e4 fis8 e8 a gis4
+    h8 a a4 cis8 h h4
+    d8 cis cis4 e8 d d4
+    <gis, h>2 <e a>4 <fis a>8 <e gis> %355
+    <e a>2 <fis~ a>4 <fis h>8 fis
+    <gis h>4 e8 fis <fis a>4 <e gis>
+    <cis e> <h e> <cis e> r8 a
+    d4 r8 fis e4 r8 e
+    d4 r8 d cis4 r8 cis %360
+    d4 r8 h e4 h
+    cis2 cis
+    a <fis' a>4 <e gis>
+    <e a>2 d
+    <cis e>4 d g2 %365
+    fis fis
+    d <h' d>4 <a cis>
+    <a d>2 g
+    fis <g h>
+    <a cis> <h d> %370
+    <cis e> a
+    a2 e4. e8
+    e4. e8 e2
+    fis4 a fis <e a>
+    d2 a' %375
+    e fis
+    a4 g fis fis8 e
+    <e a>2 d~
+    d e~
+    e fis~ %380
+    fis g~
+    g <a cis>~
+    q1
+    a2 fis4 <e a>
+    <fis a>8 fis[ g a] h cis d e %385
+    fis,2 fis
+    d <h' d>4 <a cis>
+    <a d>2 g
+    fis2 <g h>
+    <a cis> <h d> %390
+    <cis e> e8 d d[ cis]
+    <fis, a>4 e fis2
+    fis d
+    <h' d>4 <a cis> fis2
+    fis d %395
+    <h' d>4 <a cis> <fis a> r\fermata %396 finis
+  } >>
+}
