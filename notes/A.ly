@@ -650,3 +650,67 @@ CumSanctoAltoLyrics = \lyricmode {
   %395
   a -- men. %396 finis
 }
+
+CredoAlto = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoCredo
+    \mvTr a'2\fE^\tutti a4. a8
+    d4 a h2
+    a4 r r2
+    R1
+    r2 fis4 fis %5
+    r e e a
+    fis( gis) a r
+    a( d8[ h)] gis4 cis8[ a]
+    fis4 h8([ gis)] e4 e8 e
+    fis4( e) e r %10
+    R1*2
+    h'8 h h cis16 cis d8. d16 d4
+    a8 a a h a4. a8
+    a4 r8 a a4 a %15
+    a8. a16 a8 a a a a8. a16
+    fis4 r \tempoEtInUnum r2
+    R1*44 %61
+    r8 \mvTr a\fE^\tutti a a a4 r8 a
+    a4. a8 a a a a
+    a4 a8 a d,4( a')
+    a r r2 %65
+    r4 r8 a g2
+    h4. h8 h2(
+    a4) a8 a h4( a)
+    a r r2
+    r4 r8 a a a16 a h8([^\critnote a)] %70
+    fis4 r r2\fermata \bar "||" %71 finis
+  }
+}
+
+CredoAltoLyrics = \lyricmode {
+  Cre -- do in
+  u -- num De --
+  um,
+
+  Pa -- trem %5
+  o -- mni -- po --
+  ten -- tem,
+  fa -- cto -- _
+  _ rem coe -- li et
+  ter -- rae, %10
+
+  vi -- si -- bi -- li -- um o -- mni -- um %13
+  et in -- vi -- si -- bi -- li --
+  um, in -- vi -- %15
+  si -- bi -- li -- um, in -- vi -- si -- bi -- li --
+  um.
+
+  Qui pro -- pter nos, nos %62
+  ho -- mi -- nes et pro -- pter
+  no -- stram sa -- lu --
+  tem %65
+  de -- scen --
+  dit, de -- scen --
+  dit de coe --
+  lis,
+  de -- scen -- dit de coe -- %70
+  lis. %71 finis
+}

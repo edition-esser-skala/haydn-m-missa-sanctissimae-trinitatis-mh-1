@@ -491,3 +491,87 @@ CumSanctoBassoLyrics = \lyricmode {
   %395
   a -- men. %396 finis
 }
+
+CredoBasso = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \autoBeamOff \tempoCredo
+    \mvTr a'2\fE^\tutti a4. a8
+    d4 a h2
+    a4 r r2
+    R1
+    r2 h,4 h %5
+    r e a a,
+    h4.( e8) a,4 r
+    d( gis8[ h)] cis,4 fis8([ a)]
+    h,4 e8 gis a,4 cis8 a
+    d4( e) a, r %10
+    R1*2
+    g'!8 g g a16 a h8. h16 h4
+    fis8 fis fis g a([ d,] a8.) a16
+    d4 r8 cis d([ fis)] a([ cis,)] %15
+    d fis a cis, d fis a a,
+    d4 r \tempoEtInUnum r2
+    R1*22 %39
+    \mvTr a'8\pE^\solo a a a a2~ %40
+    a~ a8 fis e d
+    h'4 a8 d a4( g8.)\trill fis16
+    fis4 r r2
+    a4 fis8 d e8[( \grace d16 cis8)] \appoggiatura h8 a4
+    a' cis8 e, \appoggiatura e d8. cis16 h4 %45
+    h'4. d,8 cis([ e)] a cis
+    h4. gis16 e cis'8([ gis a)] d,
+    e2 a,4 r
+    R1*13 %61
+    r8 \mvTr d\fE^\tutti fis d a'4 r8 a,
+    d4( fis8) d a' a, a h
+    cis4 cis8 a h4( cis)
+    d r r2 %65
+    r r4 r8 g
+    g2 g,4. g'8
+    a([ cis,)] d fis g([ e a a,)]
+    d4 r r2
+    r4 r8 cis d fis16 fis g8([ a)] %70
+    d,4 r r2\fermata \bar "||" %71 finis
+  }
+}
+
+CredoBassoLyrics = \lyricmode {
+  Cre -- do in
+  u -- num De --
+  um,
+
+  Pa -- trem %5
+  o -- mni -- po --
+  ten -- tem,
+  fa -- cto -- rem,
+  fa -- cto -- rem coe -- li et
+  ter -- rae, %10
+
+  vi -- si -- bi -- li -- um o -- mni -- um %13
+  et in -- vi -- si -- bi -- li --
+  um, in -- vi -- %15
+  si -- bi -- li -- um, in -- vi -- si -- bi -- li --
+  um.
+
+  Et ex Pa -- tre na -- %40
+  tum an -- te
+  o -- mni -- a sae -- cu --
+  la.
+  De -- um de De -- o,
+  lu -- men de lu -- mi -- ne, %45
+  De -- um ve -- rum de
+  De -- o, de De -- o
+  ve -- ro.
+
+  Qui pro -- pter nos, nos %62
+  ho -- mi -- nes et pro -- pter
+  no -- stram sa -- lu --
+  tem %65
+  de --
+  scen -- dit, de --
+  scen -- dit de coe --
+  lis,
+  de -- scen -- dit de coe -- %70
+  lis. %71 finis
+}

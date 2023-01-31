@@ -601,3 +601,74 @@ CumSanctoViola = {
     g, e a a, d4 r\fermata \bar "|." %396 finis
   }
 }
+
+CredoViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 4/4 \tempoCredo
+    d8\fE fis a cis, d fis a cis,
+    d d fis d g a h cis
+    d h a g fis g fis e
+    d fis a cis, d e fis gis
+    a h cis a h h, h' a %5
+    gis fis gis e a a, cis a
+    h a h e a a, cis a
+    d d' gis, h cis, cis' fis, a
+    h, h' e, gis a, a' cis, a
+    d d e e a,4 r8 e' %10
+    e4 r8 e e^\critnote r a r
+    a r d, r cis cis cis d
+    e e e e h h h cis
+    d d d d cis d d cis
+    d fis a cis, d fis a cis, %15
+    d fis a cis, d fis a a,
+    d c h a \tempoEtInUnum g h16 c d8 c
+    h4 r8 g g4 r8 e'
+    d4 r16 d c h e4 r8 e
+    a,16 g fis g a8 fis' d g a a, %20
+    a4 r8 d d a h g
+    fis a' gis f e4 r8 e
+    d4 r8 d e4 g8 e
+    a, d16 e d8 c h4 r8 g
+    g4 r8 g g4 r8 g %25
+    e'4 r8 d d d a c
+    h4 r r2
+    R1
+    r8 h16\f c d8 c h4 r8 g
+    g4 g'8 d d4 r8 d %30
+    d4 r r2
+    R1*3
+    r2 r8 fis16\f g a8 g %35
+    fis4 r8 d d4 r8 h
+    d4 r8 a h4 r8 e
+    e4 r8 d d4 r8 e
+    e4 r8 a, a a' h g
+    fis4 r r2 %40
+    R1*2
+    r8 fis\f a g fis fis a e
+    d4 r r2
+    R1*3 %47
+    r2 r8 cis16\f d e8 d
+    cis4 r8 a a4 r8 a
+    a4 r8 e' d4 r8 fis %50
+    h, e fis h, cis4 r
+    R1*2
+    r8 cis\f e d cis4 r8 gis'
+    a4 r r2 %55
+    R1*2
+    r8 fis16\f g a8 g fis4 r8 a
+    d,4 r8 h a4 r8 a
+    h4 r8 e d a' h h, %60
+    a4 r8 e' d a' h e,
+    fis d d d cis cis e cis
+    d d d d cis a a a
+    a a a cis d d e e
+    d d d a' fis fis r fis %65
+    d d r d h h r h
+    g g r g e e r h'
+    cis a a d d d cis cis
+    d4 r8 d d4 r8 e
+    e4 r8 a, a fis' d cis %70
+    d4 r r2\fermata \bar "||" %71 finis
+  }
+}

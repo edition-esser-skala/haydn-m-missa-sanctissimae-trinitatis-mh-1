@@ -85,20 +85,36 @@
   %     \midi { \tempo 4 = 100 }
   %   }
   % }
+  % \bookpart {
+  %   \subsection "Cum Sancto Spiritu"
+  %   \addTocEntry
+  %   \score {
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff { \CumSanctoChords }
+  %         \new Staff { \CumSanctoOrgano }
+  %       >>
+  %       \new FiguredBass { \CumSanctoBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
-    \subsection "Cum Sancto Spiritu"
+    \section "3" "Credo"
     \addTocEntry
     \score {
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff { \CumSanctoChords }
-          \new Staff { \CumSanctoOrgano }
+          \new Staff { \CredoChords }
+          \new Staff { \CredoOrgano }
         >>
-        \new FiguredBass { \CumSanctoBassFigures }
+        \new FiguredBass { \CredoBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 90 }
     }
   }
 }

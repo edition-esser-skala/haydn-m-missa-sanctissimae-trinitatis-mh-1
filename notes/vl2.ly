@@ -500,3 +500,81 @@ CumSanctoViolinoII = {
     h h e e a, a cis cis <fis a, d,>4 r\fermata \bar "|." %396 finis
   }
 }
+
+CredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoCredo
+    d'8\fE d, cis e' d d, cis e'
+    d fis, d fis' d g, g h
+    a d cis h a h a g
+    d' d, cis e' d d, d d'
+    cis cis, cis cis' cis cis, d h' %5
+    d h e, d' cis cis a cis
+    cis cis h h a cis a cis
+    d d' gis, h cis, cis' fis, a
+    h, h' e, gis a, a' cis, a
+    d, d e e cis' a, gis h' %10
+    a a, gis h' a \parOn e'-\parenthesize-! cis,-! e'-!
+    d,-! fis'-! e,-! gis'-! a-! e-! \parOff e-\parenthesize-! fis
+    g h, h cis d d d e
+    d a a h a d e e
+    d d, cis e' d d, cis e' %15
+    d d, cis e' d a e cis'
+    d,4 r \tempoEtInUnum r8 g' g g
+    h16([ g) g8.] d16-! c-! h-! g'([ e) e8.] c16 h a
+    g'([ d) d8.] h16 a g c c e d c h a g
+    fis e d8 r a' h16( cis) cis( d) d( e) e( fis) %20
+    fis a-! a-! a-! a-! fis, g a h h cis d e,8 cis'
+    d, d' d d h'16([ d,) d8.]-! c16 h c
+    a'([ c,) c8.] h16 a h a a e' d c h a g
+    \appoggiatura g fis8 d16-! e-! d8-! c-! \kneeBeam h16-! g''-! g-! g-! \kneeBeam g-! h,, c d
+    e g' g g g c,, d e d g' g g \kneeBeam g h,, c d %25
+    \kneeBeam c a'' a a \kneeBeam a a,, h c h d g h e, c a fis'
+    g8 g, r4 h''16([\p g) g8.] d16 c h
+    \once \slurDashed c'[( a) a8.] c,16 h a h4 r
+    r8 g'\f g g \once \slurDashed h16[( g) g8.] d16 c h
+    g'16([ e) e8.] c16 h a h d g h a a, h c %30
+    \appoggiatura c8 h4 r r8 a'-!\p a-! a-!
+    a16([ h,) h8.] a'16 a a a([ d,) d8.] a'16 a a
+    \once \slurDashed a([ e) e8.] a16 a a a fis fis d d4
+    R1
+    r2 r8 d-!\f d-! d-! %35
+    fis16[( d) d8.]-! a16 g fis d'([ h) h8.]-! g16 fis e
+    \once \slurDashed d'([ a) a8.] fis16 e d e g h dis e g a h
+    \appoggiatura d, cis8 a16 a'-! a-! a, h c h h'-! h-! h-! h h, cis d
+    cis e e e e e, fis g fis a d fis h, g e cis'
+    d8 d, r4 a''16([\p fis) fis8.] a,16 g fis %40
+    \once \slurDashed a'([ e) e8.] e,16 fis g \appoggiatura g8 fis4 r
+    R1
+    r8 d'\f d d \once \slurDashed fis16[( d) d8.] h16 a g
+    fis e d8 r4 r8 e'\p e e
+    a16( e) e8 r4 r8 d d d %45
+    h'16( d,) d8 r4 a'16 e cis e a, cis e a
+    \once \slurDashed d,( e,) e8 r4 r2
+    r r8 a'-!\f a-! a-!
+    \slurDashed cis16([ a) a8.] e16 d cis a'([ fis) fis8.] d16 cis h
+    a'([ e) e8.] cis16 h a \slurSolid fis' e d cis d cis h a %50
+    gis e a cis, cis h a' gis a8 a, r4
+    \slurDashed cis''16([\p a) a8.] e16 d cis h'([ d,) d8.] h16 cis d \slurSolid
+    \appoggiatura d8 cis4 r r2
+    r8 a'\f a a \once \slurDashed cis16([ a) a8.] fis16 e d
+    cis h a8 r4 r8 a'\p a a %55
+    \slurDashed a16([ h,) h8.] a'16 a a a([ d,) d8.] a'16 a a \slurSolid
+    h,4 r r2
+    \slurDashed r8 d\f d d fis16([ d) d8.] a16 g fis
+    d'([ h) h8.] g16 fis e d'([ a) a8.] fis16 e d
+    e'([ g,) g8.] e16 fis g \slurSolid fis a d a' g fis e d %60
+    cis cis h a g'8.\trill fis32 e fis16 d cis d h g e cis'
+    d d, fis a d a' g fis e cis h a gis a e' g
+    fis a, h cis d a' g fis e cis h a cis a d a
+    e' cis h a e' g fis a g fis e d cis h a g'
+    fis a, h cis d a' a g fis[ fis fis8.] fis16 fis fis %65
+    fis[ d d8.] d16 d d d[ h h8.] h16 h h
+    h[ g g8.] g16 g g g[ e e8.] h'16 h h
+    cis a e' g fis a cis, d e, e d' d e, e cis' cis
+    d a' a a a a, h c h h' h h h h, cis d
+    cis e e e e e, fis g fis a d fis e,8 cis' %70
+    d,4 r r2\fermata \bar "||" %71 finis
+  }
+}

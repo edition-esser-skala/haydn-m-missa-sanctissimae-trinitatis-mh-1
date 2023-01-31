@@ -1262,3 +1262,155 @@ CumSanctoBassFigures = \figuremode {
   r2 \bc <[6 _]> %395
   <6 5>1 %396 finis
 }
+
+CredoOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoCredo
+    \mvTr d8\fE-\tuttiE fis a cis, d fis a cis,
+		d d fis d g a h cis
+		d h a g fis g fis e
+		d fis a cis, d e fis gis
+		a h cis a h h, h' a %5
+		gis fis gis e a a, cis a
+		h a h e a a, cis a
+		d d' gis, h cis, cis' fis, a
+		h, h' e, gis a, a' cis, a
+		d d e e a, cis e-\soloE gis, %10
+		a cis e gis, a r cis r
+		d r e r a,4 \clef "treble_8" cis'8-\tuttiE d
+		\clef bass g,,!8 g' g a h h, h h'
+		fis fis, fis' g a d, a' a,
+		d fis a cis, d fis a cis, %15
+		d fis a cis, d fis a a,
+		d c h-\solo a \tempoEtInUnum g g'16 a h8 a
+		g g, h g c, c' e c
+		h h' g g, a h c cis
+		d d16 e fis8 d g e fis cis! %20
+		d4 r16 d e fis g8 fis g a
+		d, c h a gis gis' a a,
+		fis fis' g g, c4 e8 c
+		d d16-! e-! d8-! c-! h4-! r16 g a h
+		c4 r16 a h c h4 r16 g a h %25
+		a4 r16 fis' g a g8 h, c d
+		g,4 r g8\p g' h g
+		d, d' fis d g g, c a
+		g g'16\f a h8 a g g, h g
+		c c e fis g g fis d %30
+		g g, r g'\pE fis e fis d
+		g g, g' e fis fis, fis' d
+		cis h cis a d, d'16 e fis8 d
+		cis h cis a d e fis g
+		a g a a, d d16\f e fis8 e %35
+		d d fis d g, g' h g
+		fis, fis' d fis g g, r g'
+		a8. g16 fis16 fis g a g4 r16 gis a h
+		a4 r16 cis, d e d8 fis g a
+		d,4 r d,8\p d' fis d %40
+		cis h cis a d4 r8 fis
+		g, g' fis d e d e a,
+		d d\f fis e d d fis a
+		d d, r d\p a a' cis h
+		a a, r a' h a gis fis %45
+		e fis gis e a, a' cis a
+		gis fis e gis a d, cis fis
+		e d e e, a a'16\f h cis8 h
+		a a, cis a d, d' fis d
+		cis cis' a cis d d, r dis %50
+		e cis d e a,4 r
+		a8\p a' cis a gis fis gis e
+		a a, h cis d cis h e
+		a, a'\f cis h a a, cis e
+		a a,\p cis a d d fis d %55
+		g,! g'16 fis g8 e fis e fis d
+		g h a g fis h g a
+		d, d16\f e fis8 e d d fis d
+		g, g' h g fis, fis' d fis
+		e d cis a d fis e g %60
+		a a, r cis d fis g a
+		d, d-\tutti fis d a' a, cis a
+		d, d' fis d a' a, a h
+		cis4 cis8 a h4 cis
+		d8 d fis a d d, r d' %65
+		d d, r d g g, r g'
+		g g, r e' e e, r g'
+		a cis, d fis g e a a,
+		d4 r16 fis g a g4 r16 gis a h
+		a4 r16 cis, d e d8 fis g a %70
+		d,4 r r2\fermata \bar "||" %71 finis
+  }
+}
+
+CredoBassFigures = \figuremode {
+  r4. <5>2 q8
+	r1
+	r2 <6>4. \once \bassFigureExtendersOn q8
+	r4. <5>8 r2
+	r <9 4>4 <8 3> %5
+	\bo <[6 5]>4. \once \bassFigureExtendersOn \bc q8 r2
+	<9 4>4 \bo <[6\\]>8 \bc <[\t]> r2
+	<10 9>4 <7> <10 9 [5+]> <7>
+	\bo <[10 9]> <7 _+> <10 9> \bc <[6 _]>
+	<6 5> <_+>2 \bo <[_+]>8 <5> %10
+	r4 <_+>8 <5> r4 <6>
+	r \bc <[_+]>2 <10>8 q
+	<6>4 \once \bassFigureExtendersOn q8 <[7]> <5>4. <4 2>8
+	<6>4. <[7]> <4>8 <3>
+	r4. \bo <[6 5]> <7>8 \bc <[6 5]> %15
+	r4 <7>8 <6 5>8 <9> <6> <4> <3>
+	r1
+	r
+	<6>2. \bo <[6]>8 \bc <[5]>
+	r2 r8 <6\\>8 <6> <[6]> %20
+	r2 r8 <[6]> <6 5>4
+	r8 <6 [4]> <6\\> <6! [4]> <6> <6 5> <4> <_!>
+	<6 5!>4 <4>8 <3> \bo <[6]>4. \once \bassFigureExtendersOn <6>8
+	r2 \bc <[6]>4 r16 <3> <3[!]> <3>
+	r2 <[6]> %25
+	<_!>2 r8 \bo <[6]> <6> <7!>
+	r1
+	<7!>2.. <6>8
+	r1
+	r4 <6>8 q4. \bc <[6]>8 <7> %30
+	r2 <6>
+	\bo <[9]>8 \bc <[8]>4 <6\\>8 <6>2
+	\bo <[6]>1
+	\bc q2 r8 <8>16 <7> <5> <4> <2\+>8
+	\bo <[6 4]>4 \bc <[5 3]>2. %35
+	r1
+	<[6]>4. <6>8 q2
+	r4 r16 <3> q <3!> <3>2
+	\bo <[_+]>2 r8 <6> q <7>
+	r1 %40
+	<6>2 <4>8 <3>4 <6>8
+	r4 <6> <4> <6>8 \bc <[\t]>
+	r1
+	r
+	r %45
+	\bo <[7 _+]>4. \once \bassFigureExtendersOn <7 _+>8 r2
+	<6 5>4. \once \bassFigureExtendersOn \bc <[6 5]>4 <4\+ 2>8 <6> q
+	\bo <[6 4]>4 \bc <[5 _+]>2.
+	r1
+	<[6]> %50
+	<_+>8 <6> <6 5> <_+> r2
+	r <6 5>
+	\bo <4>8 <3> <6\\> \bc <[6]> <4\+> <6> <[4]> <7 _+>
+	r2.. <[_+]>8
+	r1 %55
+	\bo <9>8 <8>4 <6>8 \bc <[6]>2
+	r8 <6> q q \bo <[6]>4 \bc q
+	r1
+	r2 \bo <[6 _]>
+	r4 <6 5>8 <\t \t>2 <6>8 %60
+	r4. <6 5>4 \bc <[6 _]>8 <6 5>4
+	r1
+	r
+	<[6]>4. <6>8 q4 <6 5>
+	r1 %65
+	r
+	r2.. <6>8
+	r2 <[6 5]>
+	r4 r16 <3> q <3!> r4 r16 \bo <[3]> <3+> <3>
+	r4 r16 <3> q \bc <[3]> <9>8 \bo <[6 _]> \bc <[6 5]>4 %70
+	r1 %71 finis
+}

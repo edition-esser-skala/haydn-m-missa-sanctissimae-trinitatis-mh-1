@@ -28,6 +28,9 @@ tempoQuoniam = \tempoMarkup "Allegro un poco"
 tempoCumSancto = \tempoMarkup "Adagio"
   tempoInGloria = \tempoMarkup "Allegro"
 
+tempoCredo = \tempoMarkup "Allegro"
+  tempoEtInUnum = \tempoMarkup "Andante"
+
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"
