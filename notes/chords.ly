@@ -1389,3 +1389,118 @@ CredoChords = {
 		fis r r2\fermata %71 finis
   } >>
 }
+
+EtIncarnatusChords = {
+  \clef treble
+  \key d \minor \time 3/4 \tempoEtIncarnatus
+    \set Score.currentBarNumber = #72
+  << \relative c' {
+    <d f>8 r <d a'> r <e a> r
+		<f a> r <d a'>r <e a> r
+		<f gis> r q r q r
+		<e a> r q r <e g> r %75
+		<d f> r <d g> r <cis e> r
+		<a d> r <d a'> r <e a> r
+		<f a> r <d a'> r <e a> r
+		<f a> r <f b> r <f a> r
+		<e gis> r <e g> r q r %80
+		q r <e a> r <e g> r
+		<e f> r <d f> r q r
+		<cis e> r <e a> r <e gis> r
+		<e a> r <e a> r <cis e> r
+		<e f> r <d f> r <cis e> r %85
+		<d f> r <d fis> r q r
+		<d a'> r <d g> r <g b> r
+		<e g b> r <f a> r <e g> r
+		<f a> r q r q r
+		<a c> r <g b> r <fis a> r %90
+		<g b> r q r q r
+		<b d> r <a c> r <g b> r
+		<f a> r q r q r
+		q[ <g b>] <f a> r <e g> r
+		<c f> r q r <e g> r %95
+		<f a> r <c f> r <e g> r
+		<f g> r q r q r
+		<e g> r q r q r
+		<c f> r <d g> r <b e> r
+		<c f> r q r <f a> r %100
+		q r <e g> r q r
+		<g b> r q r q r
+		q r <f a> r <f c'> r
+		q r <g b> r q r
+		<e b'> r <f a> r q r %105
+		<d a'> r <e g> r <c f> r
+		q r <c e> r q r
+		<c g'> r <c f> r q r
+		<e g b> r <f a> r q r
+		<d f> r q r q r %110
+		q r q r <f g> r
+		q r <e g> r q r
+		<e f> r <d f> r q r
+		q r <cis e> r q r
+		<e g> r <d f> r q r %115
+		<g a> r <f a> r q r
+		q r <e g> r q r
+		<d f> r q r q r
+		q r q r <cis e> r
+		<a d> r <d a'> r <e a> r %120
+		<f a> r <d f> r <cis e> r
+		<a d> \oneVoice r r4 r
+		R2.
+		R\fermata \bar "||" %124 finis
+  } \\ \relative c' {
+    a8 r a r cis r %72
+		d r a r cis r
+		d r d r d r
+		cis r cis r cis r %75
+		a r b r a r
+		f r a r cis r
+		d r a r cis r
+		d r d r d r
+		h r b r b r %80
+		a r a r a r
+		a r b r h r
+		a r a r h r
+		cis r cis r a r
+		a r a r a r %85
+		a r a r a r
+		b r b r d r
+		c r c r c r
+		c r c r c r
+		c r c r c r %90
+		c r c r c r
+		c r c r c r
+		c r d r c r
+		d4 c8 r c r
+		a r f r c' r %95
+		c r f, r c' r
+		h r h r h r
+		c r b r b r
+		a r b r g r
+		a r a r c r %100
+		c r c r c r
+		<c e> r q r q r
+		q r c r c r
+		d r d r d r
+		c r c r c r %105
+		b r b r a r
+		a r g r g r
+		b r a r a r
+		c r c r c r
+		a r a r a r %110
+		g r g r d' r
+		c r c r a r
+		a r b r h r
+		a r a r a r
+		<a cis> r a r a r %115
+		<cis e> r d r d r
+		a r a r a r
+		gis r gis r gis r
+		gis r a r a r
+		f r a r cis r %120
+		d r a r a r
+		f s s4 s
+		s2.
+		s %124 finis
+  } >>
+}

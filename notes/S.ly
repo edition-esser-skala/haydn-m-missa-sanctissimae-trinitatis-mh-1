@@ -918,12 +918,129 @@ CredoSopranoLyrics = \lyricmode {
   lis. %71 finis
 }
 
+EtIncarnatusSopranoI = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 3/4 \autoBeamOff \tempoEtIncarnatus
+      \set Score.currentBarNumber = #72
+    R2.*28 %99
+    r4 \mvTr f'\pE^\solo f %100
+    f e2
+    g4. b,8 b b
+    b4 a c
+    d2 d4
+    c2 c4 %105
+    b b a
+    a g r
+    b a r
+    g' f r
+    a,2 a4 %110
+    g2 g4
+    g g g
+    f2 f4
+    f( e) r
+    g f r %115
+    e' d r
+    a' g r
+    gis,2 gis4~
+    gis8[ a] f4 e
+    d r r %120
+    R2.
+    r4 r a'\p
+    b2 b4
+    a2.\fermata \bar "||" %124 finis
+  }
+}
 
-% Et in -- car -- na -- tus est de Spi -- ri -- tu San -- cto
-% ex Ma -- ri -- a Vir -- gi -- ne, et ho -- mo fa -- ctus est.
+EtIncarnatusSopranoILyrics = \lyricmode {
+  Cru -- ci -- %100
+  fi -- xus
+  e -- ti -- am pro
+  no -- bis sub
+  Pon -- ti --
+  o Pi -- %105
+  la -- to, Pi --
+  la -- to,
+  pas -- sus,
+  pas -- sus,
+  pas -- sus %110
+  et se --
+  pul -- tus, se --
+  pul -- tus
+  est, __
+  pas -- sus, %115
+  pas -- sus,
+  pas -- sus
+  et se --
+  pul -- tus
+  est, %120
 
-% Cru -- ci -- fi -- xus e -- ti -- am pro no -- bis
-% sub Pon -- ti -- o Pi -- la -- to, pas -- sus et se -- pul -- tus est.
+  se --
+  pul -- tus
+  est. %124 finis
+}
+
+EtIncarnatusSopranoII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 3/4 \autoBeamOff \tempoEtIncarnatus
+      \set Score.currentBarNumber = #72
+    R2.*28 %99
+    r4 \mvTr a'\pE^\solo a %100
+    a g2
+    b4. g8 g g
+    g4 f c'
+    c( b) b
+    b( a) a %105
+    a g f
+    f e r
+    g f r
+    b a r
+    f2 f4 %110
+    f2 f4
+    f e e
+    e( d) d
+    d( cis) r
+    e d r %115
+    g f r
+    f' e r
+    d,2 d4~
+    d d cis
+    d r r %120
+    R2.
+    r4 r fis\p
+    g2 g4
+    fis2.\fermata \bar "||" %124 finis
+  }
+}
+
+EtIncarnatusSopranoIILyrics = \lyricmode {
+  Cru -- ci -- %100
+  fi -- xus
+  e -- ti -- am pro
+  no -- bis sub
+  Pon -- ti --
+  o __ Pi -- %105
+  la -- to, Pi --
+  la -- to,
+  pas -- sus,
+  pas -- sus,
+  pas -- sus %110
+  et se --
+  pul -- tus, se --
+  pul -- tus
+  est, __
+  pas -- sus, %115
+  pas -- sus,
+  pas -- sus
+  et se --
+  pul -- tus
+  est, %120
+
+  se --
+  pul -- tus
+  est. %124 finis
+}
 
 % Et re -- sur -- re -- xit ter -- ti -- a di -- e
 % se -- cun -- dum Scri -- ptu -- ras,

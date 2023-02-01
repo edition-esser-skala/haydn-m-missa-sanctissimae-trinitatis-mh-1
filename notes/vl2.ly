@@ -578,3 +578,64 @@ CredoViolinoII = {
     d,4 r r2\fermata \bar "||" %71 finis
   }
 }
+
+EtIncarnatusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 3/4 \tempoEtIncarnatus
+      \set Score.currentBarNumber = #72
+    r8 f'\mf r \slurDashed f16( d) r8 e16( cis) \slurSolid
+    d8-! a-! r a16( f) r8 \once \slurDashed g16( e)
+    d8 d r d r d
+    cis( a') r f16( e) r8 d16( cis) %75
+    d8( f) r g16( e) e4\trill
+    d8 f'\p r f16( d) r8 e16( cis)
+    d8-! a-! r a16( f) r8 g16( e)
+    f8-! f-! r d' r d
+    h-! h-! r b r b %80
+    a-! g-! r a r a
+    a-! a-! r b r h
+    a cis-!\f r cis16( a) r8 h16( gis)
+    a8 e\p-\parenthesize-! r e r e
+    f f' r f16( d) r8 \once \slurDashed e16( cis) %85
+    d8-! a-! r a r a
+    b-! b-! r b r b
+    c-! c-! r c r c
+    c-! c-! r a r a
+    f'-! f-! r c r a %90
+    b b r b r b
+    d d r f r e
+    a, a r a r c
+    d b r a r b
+    a a'-!\f r a16( f) r8 g16( e) %95
+    f8-! c-! r c16( a) r8 b16( g)
+    f8 f r f r f
+    e( c') r a16( g) r8 f16( e)
+    f8( a) r b16( g) g4\trill
+    f8 a\p r a r a %100
+    a-! a-! r g r g
+    b b r b r b
+    g g r a r f
+    f f r b r g
+    e e r a r f %105
+    d d r g r f
+    f f r e r e
+    g g r a r a
+    c c r c r a
+    a a r a r a %110
+    d d r d r d
+    g, g r g r g
+    f f r f r f
+    f f r e r e
+    e e r d r d %115
+    g g r f r f
+    f' f r e r e
+    d, d r f r f
+    f f r d r cis
+    d f'\f r f16( d) r8 e16( cis) %120
+    \parOn d8-\parenthesize-! \parOff a-\parenthesize-! r a16( f) r8 g16( e)
+    f8 fis r g16(\p fis) r8 g16( fis)
+    g8\pp g r g r g
+    fis2.\fermata \bar "||" %124 finis
+  }
+}

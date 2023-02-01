@@ -714,3 +714,55 @@ CredoAltoLyrics = \lyricmode {
   de -- scen -- dit de coe -- %70
   lis. %71 finis
 }
+
+EtIncarnatusAlto = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 3/4 \autoBeamOff \tempoEtIncarnatus
+      \set Score.currentBarNumber = #72
+    R2.*5 %76
+    \mvTr a'2.~\pE^\solo
+    a~
+    a4 b a
+    gis g2~ %80
+    g8[ b] a4 g
+    \appoggiatura e8 f2\trill f4
+    e r r
+    e e f8 e
+    \appoggiatura e f8.([ e16)] d4 r %85
+    a' a b8 a
+    \appoggiatura a b8.([ a16)] g4 r
+    b( a) g
+    a a2
+    c4 b a %90
+    b8. b16 b2
+    d4 c b
+    a2.~
+    a8 b a4( g8.)\trill f16
+    f4 r r %95
+    R2.*28 %123
+    R2.\fermata \bar "||" %124 finis
+  }
+}
+
+EtIncarnatusAltoLyrics = \lyricmode {
+  Et __ %77
+
+  in -- car --
+  na -- _ %80
+  _ _
+  _ tus
+  est
+  de Spi -- ri -- tu
+  San -- cto, %85
+  de Spi -- ri -- tu
+  San -- cto
+  ex __ Ma --
+  ri -- a,
+  Ma -- ri -- a %90
+  Vir -- gi -- ne,
+  et ho -- mo,
+  ho --
+  mo fa -- ctus
+  est. %95 finis
+}

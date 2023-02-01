@@ -101,20 +101,36 @@
   %     \midi { \tempo 4 = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3" "Credo"
+  %   \addTocEntry
+  %   \score {
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff { \CredoChords }
+  %         \new Staff { \CredoOrgano }
+  %       >>
+  %       \new FiguredBass { \CredoBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "3" "Credo"
+    \subsection "Et incarnatus est · Crucifixus"
     \addTocEntry
     \score {
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff { \CredoChords }
-          \new Staff { \CredoOrgano }
+          \new Staff { \EtIncarnatusChords }
+          \new Staff { \EtIncarnatusOrgano }
         >>
-        \new FiguredBass { \CredoBassFigures }
+        \new FiguredBass { \EtIncarnatusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 60 }
     }
   }
 }

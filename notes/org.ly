@@ -1414,3 +1414,120 @@ CredoBassFigures = \figuremode {
 	r4 r16 <3> q \bc <[3]> <9>8 \bo <[6 _]> \bc <[6 5]>4 %70
 	r1 %71 finis
 }
+
+EtIncarnatusOrgano = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 3/4 \tempoEtIncarnatus
+      \set Score.currentBarNumber = #72
+    \mvTrr d8\mf-\solo r f r a r \noBreak
+		d r f, r a r
+		b r b, r b r
+		a r a' r a, r %75
+		d r g, r a r
+		d r f\p r a r
+		d r f, r a r
+		d, r d r d r
+		d r d r d r %80
+		cis r cis r cis r
+		d r b r gis r
+		a\f r cis r e r
+		a r a,\p r a r
+		d r f r a r %85
+		d r d, r d r
+		g r g, r g r
+		c r c r c r
+		c r c r c r
+		c r c r c r %90
+		c r c r c r
+		c r c r c r
+		f r d r a r
+		b r c r c r
+		f,\f r a r c r %95
+		f r a, r c r
+		d r d r d r
+		c r c r c r
+		f r b, r c r
+		f, r f\p r f r %100
+		c' r c r c r
+		c r c r c r
+		f r f, r a r
+		b r g' r e r
+		a r f r d r %105
+		g r e r f r
+		c' r c, r c r
+		c r c r c r
+		c r c r c r
+		d r d r c r %110
+		b r b r h r
+		c r c r cis r
+		d r b! r gis r
+		a r a r a r
+		a r a r a r %115
+		a r a r a r
+		a r a r a r
+		b r b r b r
+		b r a r a r
+		d r f\f r a r %120
+		d r f, r a r
+		d, r \mvTr d\p-\senzaOrg r d r
+		d\pp r d r d r \noBreak
+		d2.\fermata \bar "||" %124 finis
+  }
+}
+
+EtIncarnatusBassFigures = \figuremode {
+  r4 <6> <_+> %72
+	r <6> <_+>
+	<6\\> <\t> q
+	<_+>2 <7 _+>4 %75
+	r <_-> <_+>
+	r \bo <[6]> <_+>
+	r <6> \bc <[_+]>
+	r <6> <5>
+	\bo <[6!] 4\+ 2> \bc <[6-] 4! 2> <\t \t \t> %80
+	<5> <6 3> <5>
+	<9>8 <8>4. <7 [_!]>4
+	<_+> <[6]> <[5!] _+>
+	<_+>2.
+	\bo <[9]>8 <8> <6>4 \bc <[_+]> %85
+	<_!> <_+>2
+	\bo <[9] _->8 \bc <[8] \t> r2
+	<7>4 <6 4> <5 3>
+	<6 4>2.
+	<8 6>4 <7 [5]> <6 4[+]> %90
+	<7 [5]>2.
+	<9 7>4 <8 6> <7 5>
+	r2 <[6]>4
+	\bo <7 [5]>8 \bc <8 [6]> <6 4>4 <[7] 5>
+	r \bo <[6]>2 %95
+	r4 \bc q2
+	<6!>4 <\t> q
+	r <7->2
+	r4 \bo <[6]> \bc <[7]>
+	r2. %100
+	<6 4>4 <5 3>2
+	<7>2.
+	\bo <[9 4]>4 <8 3> \bc <[6 _]>
+	<9> \bo <[5]> \bc <[7]>
+	<9> \bo <[5 _]> <7> %105
+	<9> <5>2
+	<6 4>4 \bc <[5 3]>2
+	<7 [5]>4 <6 4> r
+	<7 [5]> <6 4> r
+	<5 3> <\t \t> q %110
+	<6 5> <\t \t> q
+	<5 4> <\t 3> <\t \t>
+	<9> <[5]> <7 [_!]>
+	<6 4> \bo <[5] _+> \bc <[\t] \t>
+	<7 [5]> <6 4>2 %115
+	<7 [5]>4 <6 4>2
+	<8 6>4 <7 [5]>2
+	<6\\>2.
+	r4 <6 4> <[5] _+>
+	r <6> <_+> %120
+	r \bo <[6]> \bc <[_+]>
+	r2.
+	r
+  r %124 finis
+}

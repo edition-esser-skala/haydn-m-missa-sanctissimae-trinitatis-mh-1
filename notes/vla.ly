@@ -672,3 +672,33 @@ CredoViola = {
     d4 r r2\fermata \bar "||" %71 finis
   }
 }
+
+EtIncarnatusViola = {
+  \relative c' {
+    \clef alto
+    \key d \minor \time 3/4 \tempoEtIncarnatus
+      \set Score.currentBarNumber = #72
+    d8-!\mf r a-! r a-! r
+    a-! r d-! r a-! r
+    f r d' r d r
+    e r a, r a r %75
+    a r b r a r
+    a r r4 r
+    R2.*5 %82
+    a8\f r e r e r
+    e r r4 r
+    R2.*10 %94
+    f'8\f r c r c r %95
+    c r f r c r
+    a r f' r f r
+    g r c, r c r
+    c r d r b r
+    a r r4 r %100
+    R2.*19 %119
+    d8\f r a r a r %120
+    a r d r a r
+    a r d\p r d r
+    d\pp r d r d r
+    d2.\fermata \bar "||" %124 finis
+  }
+}
