@@ -117,20 +117,36 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \subsection "Et incarnatus est · Crucifixus"
+  %   \addTocEntry
+  %   \score {
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff { \EtIncarnatusChords }
+  %         \new Staff { \EtIncarnatusOrgano }
+  %       >>
+  %       \new FiguredBass { \EtIncarnatusBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
-    \subsection "Et incarnatus est · Crucifixus"
+    \subsection "Et resurrexit · Et vitam"
     \addTocEntry
     \score {
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff { \EtIncarnatusChords }
-          \new Staff { \EtIncarnatusOrgano }
+          \new Staff { \EtResurrexitChords }
+          \new Staff { \EtResurrexitOrgano }
         >>
-        \new FiguredBass { \EtIncarnatusBassFigures }
+        \new FiguredBass { \EtResurrexitBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 120 }
     }
   }
 }

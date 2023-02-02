@@ -1531,3 +1531,352 @@ EtIncarnatusBassFigures = \figuremode {
 	r
   r %124 finis
 }
+
+EtResurrexitOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 3/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #125
+    \mvTr d4\fE-\solo r r
+		d8 d, r d' e a
+		fis d r d e a
+		d fis, g e fis d
+		e cis d fis g a
+		d,4-\tutti r r %130
+		d8 d, r d' g a
+		d, d, r d' g a
+		d, fis a h cis a
+		h h, h' a gis e
+		a a, a' fis d e %135
+		a,4 r r
+		a'8-\soloE a, r a h e
+		cis a r cis d h
+		cis a h gis a cis
+		e d cis fis d e %140
+		a,4-\tuttiE r r
+		a r r
+		a r r
+		a r a
+		d r r %145
+		d r r
+		d r r
+		d r d
+		g, r e'
+		a a, a' %150
+		a a, a'
+		a a, d
+		fis g a
+		d, r r
+		d8-\soloE d, r d' e a %155
+		fis d r d e a
+		d fis, g e fis d
+		e cis d h cis ais
+		h4 d8 h e fis
+		h,4-\tuttiE r r %160
+		h'8 h, r h e fis
+		h h, r h e fis
+		h, d fis gis ais gis
+		fis fis, r fis' fis, fis'
+		h h, r h' h, h' %165
+		e,4 d r
+		cis h r
+		h8\f h'\p h h h h
+		g,\f g'\p g g g g
+		fis4 fis\f fis %170
+		fis2 fis4
+		fis r d
+		ais r fis'
+		h8 h, fis'4 fis,
+		h r r %175
+		h'8-\soloE h, r h' e, fis
+		h, h' d\p h ais fis
+		h h, h' a g fis
+		e fis g e fis g
+		a a, a' g fis e %180
+		fis e d fis e d
+		a' a, r a cis a
+		d d, d' e fis d
+		g g, g' fis e g
+		a a, a' g fis e %185
+		fis g a g a a,
+		d4\f r r
+		d'8 d, r h' g a
+		d, e fis\pE e fis d
+		g, g' fis d cis a %190
+		d4 r r
+		\mvTr d8\fE-\tutti d, r d' e a
+		fis d r d e a
+		fis d r d e a
+		d,4 a' a, %195
+		a' a, a'
+		fis gis e
+		a, a' a,
+		cis8 fis e4 e,
+		a r r %200
+		a'8 a, r a' d, e
+		a, a' r cis h a
+		h4 r8 h a gis
+		a a, r cis' h a
+		h4 r8 h a gis %205
+		a a, r cis' h a
+		d, d, r d' cis h
+		cis4. a8 h e
+		a,4 r8 a' fis d
+		g4 g, r %210
+		g'8 g, r gis' a h
+		a4 a, r
+		a a' a,
+		d d, fis'
+		g a a, %215
+		d r r
+		d8 d, r d' g a
+		d, d, r d' g a
+		d, d, r d' g a
+		d,4 a r \noBreak %220
+		a2.\fermata \bar "||"
+		\key d \dorian \time 4/4 \tempoMortuorum \newSpacingSection
+      d8\p d d d b' b b b \noBreak
+		b, b b b b b b b \noBreak
+		a a a a a2\fermata \bar "||"
+    \key d \major \tempoEtVitam
+      d8-!\fE d'-! cis-! d-! h-! d-! cis-! d-! \noBreak %225
+    fis,-! d'-! cis-! d-! g, e a a,
+    d e fis d e d e a
+    d cis h a h a gis e
+    a a-! gis-! a-! fis-! a-! gis-! a-!
+    cis,-! a'-! gis-! a-! d, h e e, %230
+    a a' fis d g fis g e
+    fis e fis d e d e a,
+    d d' cis d h d cis d
+    fis, d' cis d g, e a a,
+    d e fis d e d e a %235
+    d cis h a h a gis e
+    a a gis a fis a gis a
+    cis, a' gis a d, h e e,
+    a a' fis d g fis g e
+    fis e fis d e d e a, %240
+    d d' cis d h d cis d
+    fis, d' cis d g, e a a,
+    d e fis d e d e a,
+    d h e e, a a' fis d
+    e d e fis g! fis g e %245
+    fis e fis gis a gis a fis
+    gis fis gis ais h a gis fis
+    e gis a dis, e fis gis e
+    a a, fis' a h h, gis' h
+    cis cis, a' cis d d, h' d %250
+    e e, gis e a cis d h
+    cis a h cis d cis h a
+    gis e a fis d h e e,
+    a a' e e, a4 r8 cis-\soloE
+    d4 r8 d' cis4 r8 cis %255
+    h4 r8 h a4 r8 a
+    d,4 r8 dis e cis d? e
+    a,-\tuttiE a' gis a fis a gis a
+    cis, a' gis a d, h e e,
+    a h cis a h a h e %260
+    a g! fis d e d e a,
+    d d' cis d h d cis d
+    fis, d' cis d g, e a a,
+    d e fis d e d e a,
+    d e fis d g fis g e %265
+    a g a fis h a h g
+    cis h cis a d, fis e d
+    a' a, cis e a h cis h
+    a h cis h a h cis a
+    d, d' a a, d d' cis a %270
+    h h, h h' a a, a a'
+    g g, g g' fis fis, fis fis'
+    e d cis a d e fis g
+    a a, a' g fis e d fis
+    g g, h' a gis fis e gis %275
+    a a, cis' h a g fis a
+    h h, d' cis h a g h
+    cis cis, e' d cis h a h
+    cis h a h cis h a cis
+    d d, a' cis d d, a' a, %280
+    d d e fis g a h cis
+    d d cis d h d cis d
+    fis, d' cis d g, e a a,
+    d e fis d e d e a,
+    d e fis d g fis g e %285
+    a g a fis h a h g
+    cis h cis a d d, a' a,
+    d fis g a d, d' cis-\soloE d
+    h d cis d fis, d' cis d
+    g, e a-\tuttiE a, d d' cis-\soloE d %290
+    h d cis d fis, d' cis d
+    g, e a-\tuttiE a, d4 r\fermata \bar "|." %292 finis
+  }
+}
+
+EtResurrexitBassFigures = \figuremode {
+  r2. %125
+	r
+	\bo <[6]>
+	r8 \bc q <9> <6 5> <9> <6 5>
+	<9> <6 5> <9> <6> <6 5>4
+	r2. %130
+	r2 <6>4
+	r2 <[6]>4
+	r2.
+	<9 4>4 <8 3> \bo <[6 5]>8 \bc <[\t \t]>
+	<9 4>4 <8 [3]> <6 5>8 <_+> %135
+	r2.
+	r2 r8 \bo <[_+]>
+	<6>4. \bc <[6]>8 <9> <6\\>
+	<9 [5\+]> <6> <9> <6> <9> <6>
+	<_+>4 <[6]> <6 5>8 <_+> %140
+	r2.
+	r
+	r
+	<7[!]>
+	r %145
+	r
+	r
+	<[7!]>
+	r
+	<7> \bassFigureExtendersOn %150
+	q
+	q4 q \bassFigureExtendersOff r
+	<6> <6 5>2
+	r2.
+	r %155
+	\bo <[6]>
+	r8 \bc q <9> <6 5> <9> <6>
+	<9> <6> <9> <6> <9> <6 5>
+	r4 <[6]> <6 5>8 <_+>
+	r2. %160
+	r2 \bo <[6]>8 <_+>
+	r2 <6>8 <_+>
+	r4 \bc <[_+]>2
+	<_+>2.
+	r %165
+	<4\+ 3>4 <6>2
+	<6\\>4 <8>2
+	r2.
+	<6\\>
+	<_+>4 <\t> q %170
+	<[5] _+>2 <6 4>4
+	<7 _+>2 <6>4
+	<7!>2 \bo <[8 6 _+]>8 \bc <[7 5 \t]>
+	r4 <6 4> <[5] _+>
+	<_!>2. %175
+	r2 <6 5>8 <_+>
+	r2 <6>8 <\t>
+	\bo <[4]>8 \bc <[3]> r2
+	r2 <6>4
+	\bo <[4]>8 \bc <[3]>4 <\l> \once \bassFigureExtendersOn q8 %180
+	<[6]>2 <6>4
+	<6 4>4 <5 3>2
+	r2 <5>4
+	\bo <[4]>8 \bc <[3]>2 <5>8
+	\bo <[4]>4 \bc <[3]> <6> %185
+	r8 \bo <[6]> <5 4>4 \bc <[\t] 3>
+	r2.
+	r2 <[6]>4
+	r2.
+	r4 <[6]> <6>8 <7> %190
+	\bo <[4]> \bc <[3]> r2
+	r2.
+	\bo <[6]>
+	\bc q
+	r %195
+	r
+	<6 5>2 <6 4>8 <5 3>
+	r2.
+	<6>8 q <6 4>4 <5 _+>
+	r2. %200
+	r2 r8 <[_+]>
+	r4. <3>8 q q
+	\bo <[6\\ _]>2.
+	r
+	<6\\> %205
+	r
+	r2 <6>8 <6\\>
+	<6>2 <7>8 \bc <[7 _+]>
+	r2 <6>4
+	\bo <[4]>8 \bc <[3]> r2 %210
+	<6>4. \bo <[6]>4 <6\\>8
+	<4>4 <3>2
+	\bc <[7]>2.
+	r2 <6>4
+	<6 5> \bo <[4]> \bc <[3]> %215
+	r2.
+	r2 <6>8 <3>
+	r2 \bo <[6]>8 <3>
+	r2 <6>8 \bc <[3]>
+	r2. %220
+	r
+	r1
+	r2 <6\\>
+	<6 4>4 <[5] _+>8 <7\\ [2]> <[8] _+>2
+  r1 %225
+  <[6]>2 <6 5>
+  r2 \bo <[7]>4 <6>8 \bc <[7]>
+  r2 r8 <[6]> <6> <7 [_+]>
+  r1
+  \bo <[6 _]>2 <6 5>4 <_+> %230
+  r <6>2.
+  <7>4 <6> <7> <6>
+  r1
+  <6>2 <6 5>
+  r2 <7>4 <6>8 <7> %235
+  r2 r8 <6> <6 5> <7 _+>
+  r1
+  <6>2 <6 5>4 \bc <[_+ _]>
+  r <6>2 <[6]>4
+  <7>4 <6> <7> <6> %240
+  r2 \bo <[6 _]>
+  <6>2 \bc <[6 5]>
+  r <7>4 <6>8 <7>
+  <6 5>4 <_+>2 <6>4
+  <6 [_!]>8 <8> <6> <5!> <3>4 <6> %245
+  <6\\>8 <8> <6\\> <5!> <3>4 <6>
+  <6\\>8 \bo <[_+]> \bc <[6\\]> <5!> <_!>2
+  <7 [_+]>4. <7>4 <6\\>8 \bo <[6]> \bc <[_+]>
+  <10 9>4 <5> <10 9> <5>
+  \bo <[10 5+ 9> <5> <10 9> <5> %250
+  <_+>4 <6>8 \bc <[7 _+ _]>2 <6\\>8
+  \bo <[6]>2.. \bc q8
+  <6 5>8 <\t \t>4. \bo <[6 5]>4 <_+>
+  r q r4. \bc <[6 _]>8
+  r2 <6>4. <\t>8 %255
+  <7>4. <\t>8 r2
+  r4. <6>8 <_+> <6> <6 5> <_+>
+  r1
+  <6>2 <6 5>4 <_+>
+  r2 <7>4 <6\\>8 <\t> %260
+  r4 <6> <7 [_!]> <6>
+  r1
+  \bo <[6 _]>2 \bc <[6 5]>
+  r <7>4 <6>8 <7>
+  r1 %265
+  r4 \bo <[6]>2.
+  r4 \bc q2 <6>4
+  r2.. \bo <[6\\]>8
+  r4. \bc q8 r2
+  r2. <[6]>4 %270
+  <6>2 q
+  q q
+  q4 <6 5> <9> \bo <[6 _]>8 \bc <[6 5]>
+  <4>4 <3> <6 5!>4. \once \bassFigureExtendersOn q8
+  <4! 2> <3 1>4. <6 5>4. \once \bassFigureExtendersOn q8 %275
+  <4 2> <3+ 1>4. <6 5>4. \once \bassFigureExtendersOn q8
+  \bo <[4 2]> <3 1>4. <6 5>4. \once \bassFigureExtendersOn q8
+  <4 2> \bc <[3 1]>4. \bo <[6] 5>2 \bassFigureExtendersOn
+  <6 5>2.. \bc <[6] 5>8 \bassFigureExtendersOff
+  r2. \bo <[4]>8 \bc <[3]> %280
+  r <3> q q \bo <[3]> <3> q \bc <[3]>
+  r1
+  \bo <[6 _]>2 \bc <[6 5]>
+  r <7>4 <6>8 <7>
+  r4 <6>2. %285
+  r1
+  r2 \bo <[9]>8 \bc <[8]> <4> <3>
+  <10 9> <6> <6 5>2.
+  r2 \bo <[6 _]>
+  <6 5>1 %290
+  r2 \bc <[6 _]>
+  <6 5>1 %292 finis
+}

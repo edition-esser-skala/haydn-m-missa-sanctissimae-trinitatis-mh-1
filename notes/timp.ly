@@ -159,3 +159,99 @@ CredoTimpani = {
     c r r2\fermata \bar "||" %71 finis
   }
 }
+
+EtResurrexitTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #125
+    c4\fE r r
+    c r g
+    c r g
+    c r r
+    R2.
+    c4 r r %130
+    c r g
+    c r g
+    c g r
+    R2.*2 %135
+    g4 r r
+    R2.*4 %140
+    g4 r r
+    g r r
+    g r r
+    g r g
+    c r r %145
+    c r r
+    c r r
+    c r c
+    c r r
+    g r r %150
+    g r r
+    g g c
+    c g2
+    c4 r r
+    c r g %155
+    c r g
+    c r r
+    R2.*37 %194
+    c4\fE g r %195
+    R2.*4
+    g4 r r %200
+    R2.
+    g4 r r
+    R2.*10 %212
+    g2 g4
+    c2 r4
+    r r g %215
+    c r r
+    c2 g4
+    c2 g4
+    c2 g4
+    c g r \noBreak %220
+    g2.\fermata \bar "||"
+    \time 4/4 \tempoMortuorum \newSpacingSection
+      R1*2 \noBreak
+    R1\fermata \bar "||"
+    \tempoEtVitam R1*16 %240
+    c4 r c r
+    c r r g
+    c r r g
+    c r g r
+    R1*9 %253
+    r2 g4 r
+    g r g r %255
+    g r g r
+    R1
+    g4 r r2
+    g4 r r2
+    g4 r r2 %260
+    g4 r r g
+    c r r2
+    c4 r r g
+    c r r g
+    c r r2 %265
+    R1*3
+    g4 g8 g g4. g8
+    c4 g8 g c4 g %270
+    R1*2
+    r2 r4 c
+    g r r2
+    R1*3 %277
+    r2 g
+    g4 g8 g g4. g8
+    c4 g c8 c g4 %280
+    c r r2
+    c4 r c r
+    c r r g
+    c r r g
+    c r r2 %285
+    R1
+    r2 r4 g
+    c8 c g4 c r
+    c r c r
+    r g c r %290
+    c r c r
+    r g c r\fermata \bar "|." %292 finis
+  }
+}

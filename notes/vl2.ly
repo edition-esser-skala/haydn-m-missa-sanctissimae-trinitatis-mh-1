@@ -639,3 +639,179 @@ EtIncarnatusViolinoII = {
     fis2.\fermata \bar "||" %124 finis
   }
 }
+
+EtResurrexitViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #125
+    r8 d-!\fE fis-! a-! d-! fis-!
+    a8.\trill g32 a d8 fis, \appoggiatura a16 g8 fis16 e
+    a8.\trill g32 a d8 fis, \appoggiatura a16 g8 fis16 e
+    fis8 a h, g' a, fis'
+    g, e' fis, d' e, cis'
+    \parOn d,-\parenthesize-! d-! fis-! a-! d-! \parOff fis-\parenthesize-! %130
+    a8.\trill g32 a d8 fis, \appoggiatura a16 g8 fis16 e
+    a8.\trill g32 a d8 fis, \appoggiatura a16 g8 fis16 e
+    fis8 a, cis e a e
+    e8.\trill d32 e d8 fis gis h
+    d,8.\trill cis32 d cis8 a' h, gis' %135
+    a, \parOn a,-\parenthesize-! cis-! e-! a-! \parOff cis-\parenthesize-!
+    e8.\trill d32 e a8 cis, \appoggiatura e16 d8 cis16 h
+    e8.\trill d32 e a8 e fis d'
+    e, cis' d, h' cis, a'
+    h, gis' a cis, h gis' %140
+    a, a, cis e a cis
+    e8.\trill d32 e a8 e \appoggiatura d16 cis8 h16 a
+    e'8.\trill d32 e a8 e \appoggiatura d16 cis8 h16 a
+    g'!8.\trill fis32 g a,8 cis e g
+    fis d, fis a d fis %145
+    a8.\trill g32 a d8 fis, \appoggiatura a16 g8 fis16 e
+    a8.\trill g32 a d8 fis, \appoggiatura a16 g8 fis16 e
+    fis8.\trill e32 fis a8 a, h c
+    h g h d g h
+    g8.\trill fis32 g a,8 cis! e g %150
+    g8.\trill fis32 g a,8 cis e g
+    g8.\trill fis32 g a,8 g' fis d
+    a' d, h' d, e, cis'
+    d, d-! fis-! a-! d-! fis-!
+    a8.\trill g32 a d8 fis, \appoggiatura a16 g8 fis16 e %155
+    a8.\trill g32 a d8 fis, \appoggiatura a16 g8 fis16 e
+    fis8 a h, g' a, fis'
+    g, e' fis, d' e, cis'
+    d, h' fis' h cis, ais'
+    h, h, d fis h d %160
+    fis8.\trill e32 fis h8 d, \appoggiatura fis16 e8 d16 cis
+    fis8.\trill e32 fis h8 d, \appoggiatura fis16 e8 d16 cis
+    d8 fis, ais cis fis cis
+    fis8.\trill e32 fis fis,8 fis' \appoggiatura fis16 e8 d16 cis
+    fis8.\trill e32 fis h,8 h' \appoggiatura h16 a!8 g16 fis %165
+    g8.\trill fis32 g fis8 h, fis' h
+    cis,8.\trill h32 cis d8 fis ais h
+    d,\f d\p d d d d
+    h\f h\p h h h h
+    ais fis\f fis ais cis fis %170
+    fis8.\trill e32 fis cis8 fis d fis
+    fis8.\trill e32 fis cis8 fis d fis
+    g8.\trill fis32 g cis,8 g' fis e
+    d h' d, h' cis, ais'
+    h, h, d fis h d %175
+    fis8.\trill e32 fis h8 d, cis ais'
+    h,4 r r
+    R2.
+    e2\pE d4
+    \appoggiatura d8 cis4. h8 a4 %180
+    R2.
+    r8 a\pocoF cis e a e
+    fis8.\trill e32 fis d,4 r
+    R2.*3 %186
+    r8 d\f fis a d fis
+    a8.\trill g32 a d8 fis, e cis'
+    d,4 r r
+    R2. %190
+    r8 d,\pocoF fis a d fis
+    a8.\trill\f g32 a d8 fis, \appoggiatura a16 g8 fis16 e
+    a8.\trill g32 a d8 fis, \appoggiatura a16 g8 fis16 e
+    a8.\trill g32 a d8 fis, \appoggiatura a16 g8 fis16 e
+    fis8.\trill e32 fis e8 a cis e, %195
+    e8.\trill d32 e cis'8 e, d cis
+    d8.\trill cis32 d h'8 d, cis h
+    cis8.\trill h32 cis a'8 d, e gis
+    a d, cis a' h, gis'
+    a, a, cis e a cis %200
+    e8.\trill d32 e a8 cis, h gis'
+    a, cis16 e a8 e d cis
+    d8.\trill cis32 d h'8 d, cis h
+    cis16 a cis e a8 e d cis
+    d8.\trill cis32 d h'8 d, cis h %205
+    cis16 a cis e a8 e d cis
+    fis8.\trill e32 fis a8 fis e gis
+    a8.\trill gis32 a cis8 e, d h'
+    cis,8.\trill h32 cis a'8 a, d a
+    h8.\trill a32 h d8 h a g %210
+    e'8.\trill d32 e h'8 h, cis d
+    cis8.\trill h32 cis e8 cis h a
+    g'8.\trill fis32 g a,8 g' fis e
+    fis8.\trill e32 fis a8 fis e d
+    h' d, e, d' e, cis' %215
+    d d, fis a d fis
+    a8.\trill g32 a d8 fis, \appoggiatura a16 g8 fis16 e
+    a8.\trill g32 a d8 fis, \appoggiatura a16 g8 fis16 e
+    a8.\trill g32 a d8 fis, \appoggiatura a16 g8 fis16 e
+    fis4 e8 a, e cis \noBreak %220
+    a2.\fermata \bar "||"
+    \key d \dorian \time 4/4 \tempoMortuorum \newSpacingSection
+      a'8\p a a a f f f f \noBreak
+    d d d d d d d d \noBreak
+    d d cis h cis2\fermata \bar "||"
+    \key d \major \tempoEtVitam
+      d16 d d' d cis cis d d h h d d cis cis d d \noBreak %225
+    fis, fis d' d cis cis d d h h e e cis cis g' g
+    fis fis e e d d a' a g g fis fis g g e e
+    fis fis e e d d cis cis d d fis fis e e d d
+    cis cis a a gis gis a a fis fis a a gis gis a a
+    cis, cis a' a gis gis a a fis fis h h gis gis d' d %230
+    cis cis a a d d fis fis h, h a a h h g'! g
+    a, a g g a a fis' fis g, g fis fis g g e' e
+    fis, fis d' d cis cis d d h h d d cis cis d d
+    fis, fis d' d cis cis d d h h e e cis cis g' g
+    fis fis e e d d a a g g fis fis g g e' e %235
+    a, a cis cis d d e e d d fis fis e e h' h
+    cis, cis a a gis gis a a fis fis a a gis gis a a
+    cis, cis a' a gis gis a a fis fis h h gis gis d' d
+    cis cis a a d d fis fis h, h a a h h g'! g
+    a, a g g a a fis' fis g, g fis fis g g e' e %240
+    fis, fis d' d cis cis d d h h d d cis cis d d
+    fis, fis d' d cis cis d d h h e e cis cis g' g
+    fis fis e e d d a' a g g fis fis g g e e
+    fis fis d d h h e e cis cis a' a a, a d d
+    cis cis d d cis cis c c h h a a h h e e %245
+    dis dis e e dis dis d d cis cis h h cis cis fis fis
+    eis eis fis fis eis eis e e d d fis fis gis gis a a
+    h h d, d cis cis a' a h, h dis dis e e d d
+    cis cis a' a a, a cis cis d d h' h h, h d d
+    e e cis' cis cis, cis e e fis fis d' d d, d fis fis %250
+    gis gis e' e e, e d d cis cis e e fis fis gis gis
+    a a a, a a' a gis gis fis fis e e d d fis fis
+    h h d, d cis cis a' a h, h a' a h, h gis' gis
+    a a cis, cis h h gis' gis a, a a' a gis gis a a
+    fis fis a a gis gis a a e e a a gis gis a a %255
+    d, d a' a gis gis a a cis, cis a' a gis gis a a
+    fis fis d d fis, fis h h gis gis a a h, h gis' gis
+    a, a a' a gis gis a a fis fis a a gis gis a a
+    cis, cis a' a gis gis a a fis fis h h gis gis d' d
+    cis cis gis gis a a e' e d d cis cis d d h h %260
+    cis cis h h a a d d h h d d e, e cis' cis
+    d, d d' d cis cis d d h h d d cis cis d d
+    fis, fis d' d cis cis d d h h e e cis cis g' g
+    fis fis e e d d a' a g g fis fis g g e e
+    fis fis e e d d a a h h a a h h e e %265
+    cis cis h h cis cis fis fis d d cis cis d d g g
+    e e d d e e a a fis fis a a g g fis fis
+    e e a a e e cis cis a a d d e e gis gis
+    a a a, a e' e gis gis a a a, a e' e a a
+    fis fis d d e e a a fis fis d d e e a a %270
+    g g d d h' h g g fis fis cis cis a' a fis fis
+    e e h h g' g e e d d a a fis' fis d d
+    cis cis d d e e a a fis fis cis cis d d e e
+    d^\critnote d e e a, a cis cis d d a' a a, a a' a
+    c, c h h d d h h e e h' h h, h h' h %275
+    d, d cis cis e e cis cis fis^\critnote fis e e fis fis cis cis
+    e e d d fis fis d d g g fis fis g g d d
+    fis fis e e g g e e a a a, a cis cis e e
+    a a a, a  cis cis e e a a a, a cis cis e e
+    fis fis d d e e a a fis fis d d e, e cis' cis %280
+    d d fis, fis g g a a h h cis cis d d e e
+    fis fis d d cis cis d d h h d d cis cis d d
+    fis, fis d' d cis cis d d h h e e cis cis g' g
+    fis fis e e d d a' a g g fis fis g g e e
+    fis fis e e d d a a h h a a h h e e %285
+    cis cis h h cis cis fis fis d d cis cis d d g g
+    e e d d e e a a fis fis d d e, e cis' cis
+    d d fis, fis e e cis' cis d, d d' d cis cis d d
+    h h d d cis cis d d fis, fis d' d cis cis d d
+    h h e e cis cis g' g fis fis d d cis cis d d %290
+    h h d d cis cis d d fis, fis d' d cis cis d d
+    h h e e a, a cis cis <fis a, d,>4 r\fermata \bar "|." %292 finis
+  }
+}

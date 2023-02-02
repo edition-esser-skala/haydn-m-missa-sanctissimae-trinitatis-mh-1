@@ -514,3 +514,281 @@ CredoTenoreLyrics = \lyricmode {
   de -- scen -- dit de coe -- %70
   lis. %71 finis
 }
+
+EtResurrexitTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 3/4 \autoBeamOff \tempoEtResurrexit
+      \set Score.currentBarNumber = #125
+    R2.*6 %130
+    \mvTr fis4\fE^\tutti fis8([ d]) e([ cis)]
+    fis4 fis8 d e cis
+    d4 cis r8 cis
+    cis4 h h
+    h a8 a a([ gis)] %135
+    a4 r r
+    R2.*8 %144
+    d,2. %145
+    fis
+    a4 a a
+    c2.
+    h2 e4~
+    e8[ d] cis!4 e %150
+    e8. d16 cis4 e
+    e4. cis8 d4~
+    d d( cis)
+    d r r
+    R2.*6 %160
+    d4 d8 h cis ais
+    d4. h8 cis ais
+    h8. h16 ais4 r
+    cis8 cis cis4 cis
+    d8 d d4 d %165
+    cis d r
+    ais h r
+    h2.\p
+    d2 h4
+    cis ais\f ais %170
+    ais2 h4
+    cis^\critnote r d
+    e r8 e d([ cis)]
+    h4 h( ais)
+    h r r %175
+    R2.
+    r4 \mvTr fis'\pE^\solo fis
+    \appoggiatura e8 d4. cis8 h4
+    e2 d4
+    \appoggiatura d8 cis4. h8 a4 %180
+    d4. d8 e fis
+    fis4 e r
+    r d cis
+    \appoggiatura cis8 h4 h e8 d
+    \appoggiatura d4 cis2 d4~ %185
+    d8 e e2
+    d4 r r
+    R2.*4 %191
+    \mvTr a2.\fE^\tutti
+    a
+    a2 a4
+    d cis cis %195
+    cis4. cis8 h a
+    cis4 h a8 gis
+    a4 a8 h cis4~
+    cis8 a a4( gis)
+    a r r %200
+    R2.*5 %205
+    cis4 cis cis
+    d4. d8 e4~
+    e8 cis \appoggiatura cis h4. h8
+    a2 r4
+    R2.*3 %212
+    cis4. cis8 cis cis
+    d4. d8 d4
+    d d( cis) %215
+    d r r
+    fis4.( d8) e([ cis)]
+    fis4.( d8) e([ cis)]
+    fis4. d8 e cis
+    d4 cis r \noBreak %220
+    R2.\fermata \bar "||"
+    \key d \dorian \time 4/4 \tempoMortuorum \newSpacingSection
+      d2\p b \noBreak
+    f1~ \noBreak
+    f4 e8[ d] e2\fermata \bar "||"
+    \key d \major \tempoEtVitam R1*8 %232
+    d'2\fE d4 d8 d
+    d4 d e4. e8
+    fis4 a g8[ fis g e] %235
+    fis[ e d cis] d8.[\trill cis32 d] e8[ d]
+    cis4 r r2
+    e2 h8([ fis'] e4)^\critnote
+    e r d4.( e8)
+    e4 d2( cis4) %240
+    d a g2
+    a4. a8 h h a g
+    fis g[ a d]~ d4 cis
+    h gis a a8([ fis]
+    g[ fis g d')] d4 h8([ g] %245
+    a^[ gis a e')] e4 cis8[ a]
+    h[ ais h fis'] d[ cis h a?]
+    gis[ h e fis] e4 r
+    r a,8([ cis)] fis,4 h8 d
+    gis,4 cis8([ e)] a,4 d8 fis %250
+    e2 e4 r
+    r8 cis[ d e] fis2
+    e4. fis8 fis4( e)
+    e e cis r
+    R1*3 %257
+    a2 a4 a8 a
+    a4 a h4. h8
+    cis4 e( d8[ cis d h]) %260
+    cis4 d2( cis4)
+    d4 d2 d4~
+    d e8 fis h,4 a
+    a d8 d d4( cis)
+    d r d4.( e8) %265
+    e4 r fis4.( g8)
+    g4 r d8[( a cis d])
+    cis4 r cis2
+    cis4 cis8 cis cis4. cis8
+    d4 cis8 cis d4 cis %270
+    d2 cis4 cis8 cis
+    h2 a
+    a4 a8 a fis'4.( e8)
+    e2 d~
+    d4 h e2~ %275
+    e4 cis! cis2~
+    cis8[ h] h4 d2~
+    d8[ cis] cis4 cis2
+    cis4 cis8 cis cis4. cis8
+    d8. d16 e4 d8 d d([ cis)] %280
+    d4 r r2
+    r d4 d~
+    d e8 fis h,4 a
+    a d8 d d4( cis)
+    d r d4. e8 %285
+    e4. fis8 fis4. g8
+    g4. e8 e( d4 cis8)
+    d d4( cis8) d4 r
+    R1
+    r4 cis d r %290
+    R1
+    r4 cis d r\fermata \bar "|." %292 finis
+  }
+}
+
+EtResurrexitTenoreLyrics = \lyricmode {
+  Et re -- sur -- %130
+  re -- xit
+  ter -- ti -- a
+  di -- e se --
+  cun -- dum, se --
+  cun -- dum Scri -- ptu -- %135
+  ras.
+
+  Et %145
+  a --
+  scen -- dit in
+  coe --
+  lum, se --
+  det ad %150
+  dex -- te -- ram, ad
+  dex -- te -- ram __
+  Pa --
+  tris.
+
+  Et i -- te -- rum ven -- %161
+  tu -- rus est cum
+  glo -- ri -- a
+  iu -- di -- ca -- re,
+  iu -- di -- ca -- re %165
+  vi -- vos,
+  vi -- vos
+  et
+  mor -- tu --
+  os, cu -- ius %170
+  re -- gni
+  non, non,
+  non, non e --
+  rit fi --
+  nis. %175
+
+  Et in
+  Spi -- ri -- tum
+  San -- ctum,
+  Do -- mi -- num %180
+  et vi -- vi -- fi --
+  can -- tem,
+  qui ex
+  Pa -- tre Fi -- li --
+  o -- que __ %185
+  pro -- ce --
+  dit.
+
+  Si -- %192
+  mul
+  ad -- o --
+  ra -- tur et %195
+  con -- glo -- ri -- fi --
+  ca -- tur: qui lo --
+  cu -- tus est per __
+  Pro -- phe --
+  tas. %200
+
+  Et a -- po -- %206
+  sto -- li -- cam __
+  Ec -- cle -- si --
+  am.
+
+  In re -- mis -- si -- %213
+  o -- nem pec --
+  ca -- to -- %215
+  rum.
+  Et __ ex --
+  pe -- cto
+  re -- sur -- re -- cti --
+  o -- nem %220
+
+  mor -- tu --
+  o --
+  _ rum,
+
+  et vi -- tam ven -- %233
+  tu -- ri sae -- cu --
+  li, a -- _ %235
+  _ _ _
+  men,
+  et vi --
+  tam, a --
+  men, a -- %240
+  men, et vi --
+  tam ven -- tu -- ri sae -- cu --
+  li, a -- _
+  _ _ men, a --
+  men, a -- %245
+  men, a --
+  _ _
+  _ men,
+  et __ vi -- tam ven --
+  tu -- ri sae -- cu -- li, %250
+  a -- men,
+  a -- _
+  _ men, a --
+  men, a -- men.
+
+  Et vi -- tam ven -- %258
+  tu -- ri sae -- cu --
+  li, a -- %260
+  men, a --
+  men, et vi --
+  tam ven -- tu -- ri
+  sae -- cu -- li, a --
+  men, a -- %265
+  men, a --
+  men, a --
+  men, et
+  vi -- tam ven -- tu -- ri
+  sae -- cu -- li, a -- men, %270
+  et vi -- tam ven --
+  tu -- ri
+  sae -- cu -- li, a --
+  men, a --
+  men, a -- %275
+  men, a --
+  men, a --
+  men, et
+  vi -- tam ven -- tu -- ri
+  sae -- cu -- li, a -- men, a -- %280
+  men,
+  et vi --
+  tam ven -- tu -- ri
+  sae -- cu -- li, a --
+  men, a -- men, %285
+  a -- _ _ _
+  _ men, a --
+  men, a -- men,
+
+  a -- men, %290
+
+  a -- men. %292 finis
+}

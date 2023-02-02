@@ -702,3 +702,172 @@ EtIncarnatusViola = {
     d2.\fermata \bar "||" %124 finis
   }
 }
+
+EtResurrexitViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 3/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #125
+    fis4\fE r r
+    fis8 fis, r fis' e cis
+    d fis r fis e cis
+    d fis h cis, a' h,
+    g' a, a' fis a a,
+    a4 r r %130
+    fis'8 fis, r fis' h a
+    fis fis, r fis' h a
+    a4 a r8 a
+    cis,4 h h
+    h a8 a a gis %135
+    a4 r r
+    cis r8 e d gis
+    a( cis) r e4 fis,8
+    d' e, cis' d, h' cis,
+    e4. a,8 fis' h, %140
+    cis4 r r
+    cis r r
+    cis r r
+    cis r cis
+    d r r %145
+    d r r
+    fis r r
+    a r a
+    g r e~
+    e8 d cis4 e %150
+    e8.-! d16-! cis4 e
+    e4. cis8 d4~
+    d d cis
+    d r r
+    fis8 fis, r a' g cis %155
+    d a r a g cis
+    a4 h8 cis a h
+    g a fis g e fis
+    d d h d g cis,
+    d4 r r %160
+    d d8 h cis ais
+    d4. h8 cis ais
+    h4 ais r
+    cis8 cis r cis cis cis
+    d d r d d d %165
+    e4 fis r
+    ais, h r
+    h8\f h\p h h h h
+    d\f d\p d d h h
+    cis4 ais\f ais %170
+    ais2 h4
+    cis r d
+    e r8 e d cis
+    h4 h ais
+    h r r %175
+    d8 d r fis g cis,
+    h4 r r
+    R2.*9 %186
+    fis'4\f r r
+    fis8^\critnote fis, r d' h a
+    a4 r r
+    R2.*2 %191
+    fis'8\f fis, r a' g cis
+    d a r a g cis
+    d a r a g cis
+    d4 a a %195
+    a4. a8 a a
+    a4 h e,8 e
+    e4 e8 e e4~
+    e8 a e2
+    e4 r r %200
+    cis r8 e fis h,
+    cis4 r8 a h cis
+    h4 r8 gis a h
+    a a' r a, h cis
+    h4 r8 gis a h %205
+    a4 a' a
+    a4. a8 a4
+    r r8 a a gis
+    a4 r a
+    d, d r %210
+    e r8 h' a gis
+    a2 r4
+    a a a
+    a a a
+    h a a %215
+    a r r
+    a2 h8 a
+    a2 h8 a
+    a4. a8 h a
+    a4 a r \noBreak %220
+    cis,2.\fermata \bar "||"
+    \key d \dorian \time 4/4 \tempoMortuorum \newSpacingSection
+      d8\p d d d b b b b \noBreak
+    f f f f f f f f \noBreak
+    f f e d e2\fermata \bar "||"
+    \key d \major \tempoEtVitam
+      d'8-! d'-! cis-! d-! h-! d-! cis-! d-! \noBreak %225
+    fis,-! d'-! cis-! d-! g, e a a,
+    d e fis d e d e a
+    d cis h a h a gis e
+    a a gis a fis a gis a
+    cis, a' gis a d, h e e, %230
+    a a' fis d g fis g e
+    fis e fis d e d e a,
+    d d' cis d h d cis d
+    fis, d' cis d g, e a a,
+    d e fis d e d e a %235
+    d cis h a h a gis e
+    a a gis a fis a gis a
+    cis, a' gis a d, h e e,
+    a a' fis d g fis g e
+    fis e fis d e d e a, %240
+    d d' cis d h d cis d
+    fis, d' cis d g, e a a,
+    d e fis d e d e a,
+    d h e e, a a' fis d
+    e d e fis g! fis g e %245
+    fis e fis gis a gis a fis
+    gis fis gis ais h a gis fis
+    e gis a dis, e fis gis e
+    a a, fis' a h h, gis' h
+    cis cis, a' cis d d, h' d %250
+    e e, gis e a cis d h
+    cis a h cis d cis h a
+    gis e a fis d h e e,
+    a a' e e, a4 r8 a
+    a4 r8 a a4 r8 a %255
+    a4 r8 a a4 r8 cis
+    a4 r8 fis' h, e fis h,
+    cis a' gis a fis a gis a
+    cis, a' gis a d, h e e,
+    a h cis a h a h e %260
+    a g! fis d e d e a,
+    d d' cis d h d cis d
+    fis, d' cis d g, e a a,
+    d e fis d e d e a,
+    d e fis d g fis g e %265
+    a g a fis h a h g
+    cis h cis a d, fis e d
+    a' a, cis e a h cis h
+    a h cis h a h cis a
+    d, d' a a, d d' cis a %270
+    h h, h h' a a, a a'
+    g g, g g' fis fis, fis fis'
+    e d cis a d e fis g
+    a a, a' g fis e d fis
+    g g, h' a gis fis e gis %275
+    a a, cis' h a g fis a
+    h h, d' cis h a g h
+    cis cis, e' d cis h a h
+    cis h a h cis h a cis
+    d d, a' cis d d, a' a, %280
+    d d e fis g a h cis
+    d d cis d h d cis d
+    fis, d' cis d g, e a a,
+    d e fis d e d e a,
+    d e fis d g fis g e %285
+    a g a fis h a h g
+    cis h cis a d d, a' a,
+    d fis g a d, d' cis d
+    h d cis d fis, d' cis d
+    g, e a a, d d' cis d %290
+    h d cis d fis, d' cis d
+    g, e a a, d4 r\fermata \bar "|." %292 finis
+  }
+}

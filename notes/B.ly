@@ -575,3 +575,254 @@ CredoBassoLyrics = \lyricmode {
   de -- scen -- dit de coe -- %70
   lis. %71 finis
 }
+
+EtResurrexitBasso = {
+  \relative c {
+    \clef bass
+    \key d \major \time 3/4 \autoBeamOff \tempoEtResurrexit
+      \set Score.currentBarNumber = #125
+    R2.*6 %130
+    \mvTr d4\fE^\tutti d( g8) a
+    d,4 d8 d g a
+    d,4 a r8 a'
+    h4 h8([ a)] gis([ e)]
+    a4 a8 fis d([ e)] %135
+    a,4 r r
+    R2.*8 %144
+    d2. %145
+    fis
+    a4 a a
+    c2.
+    h
+    a4 a a %150
+    a8. a16 a4 a
+    a4. a8 d,4(
+    fis) g( a)
+    d, r r
+    R2.*6 %160
+    h4 h8 h e fis
+    h,4. h8 e fis
+    h,8. h16 fis'4 r
+    fis8 fis fis4 fis,
+    h'8 h h4 h, %165
+    e d r
+    cis h r
+    h'2.\p
+    g2 g4
+    fis fis\f fis %170
+    fis2 fis4
+    fis r d
+    ais r fis'
+    h8 h, fis'2
+    h,4 r r %175
+    R2.*13 %188
+    r4 \mvTr a'\pE^\solo d
+    h a4. g8 %190
+    \appoggiatura g fis4. e8 d4
+    \mvTr a'2.\fE^\tutti
+    a
+    a2 a4
+    d, a' a, %195
+    a'4. a8 a a
+    fis4 gis e8 e
+    a4. a,8 a4
+    cis8 fis e2
+    a,4 r r %200
+    R2.*5 %205
+    a'4 a a
+    d,2 cis8([ h)]
+    cis4. a8 h e
+    a,2 r4
+    R2.*3 %212
+    a4. a8 a a
+    d4. d8 fis4
+    g a( a,) %215
+    d r r
+    d2 g8([ a)]
+    d,2 g8([ a)]
+    d,4. d8 g a
+    d,4 a r \noBreak %220
+    R2.\fermata \bar "||"
+    \key d \dorian \time 4/4 \tempoMortuorum \newSpacingSection
+      d2\p b' \noBreak
+    b,1 \noBreak
+    a2 a\fermata \bar "||"
+    \key d \major \tempoEtVitam R1*12 %236
+    a'2\fE a4 a8 a
+    a4 a h4. h8
+    cis4 d h8[ a h g!]
+    a[ g a fis] g2\trill %240
+    fis4 r d'2
+    fis,4 fis8 fis g e a a
+    d,4 fis8[ d] e[ d e a,]
+    d[ h] e4 a, fis'8[( d]
+    e[ d e fis)] g!4 g8([ e] %245
+    fis[ e fis gis]) a4 a8[ fis]
+    gis[ fis gis ais] h[ a gis fis]
+    e[ gis a dis,] e4 r
+    r2 h4 gis'8([ h])
+    cis, cis a' cis d,4 h'8 d %250
+    e,4( gis8[ e)] a4 r
+    r8 a[ h cis] d[ cis h a]
+    gis[ e a] fis d([ h] e4)
+    a, e' a, r
+    R1*3 %257
+    a'2 a4 a8 a
+    a4 a d,8([ h e]) e
+    a,4 cis( h8[ a h e)] %260
+    a4 fis8([ d] e[ d e a,)]
+    d2 r
+    d g8([ e] a4)
+    d,8 d fis d e d16 d e8([ a,)]
+    d4 fis8([ d] g[ fis g e]) %265
+    a4 a8([ fis] h[ a h g])
+    cis4 cis8([ a] d[ fis, e d)]
+    a4 r r a'~
+    a a4. a8 a4
+    d,8 d a' a,16 a d4 a' %270
+    h2 a4 a8 a
+    g2 fis
+    e8([ d)] cis a d([ e fis g]
+    a4) a, fis'8([ e d fis]
+    g4) h8([ a)] gis([ fis e gis]) %275
+    a4 cis8([ h] a[ g fis a])
+    h4 d8([ cis] h[ a g h])
+    cis4 r a2
+    a4 a8 a a4. a8
+    d,8. d16 a'4 d,8 d a4 %280
+    d r r2
+    R1
+    d2 g8([ e)] a a,
+    d d fis d e d([ e a,)]
+    d4 fis8[ d] g[ fis g e] %285
+    a[ g a fis] h[ a h g]
+    cis[ h cis a] d d, a'4
+    d,8 fis([ g a)] d,4 r
+    R1
+    r4 a d r %290
+    R1
+    r4 a d r\fermata \bar "|." %292 finis
+  }
+}
+
+EtResurrexitBassoLyrics = \lyricmode {
+  Et re -- sur -- %131
+  re -- xit ter -- ti -- a
+  di -- e se --
+  cun -- dum, se --
+  cun -- dum Scri -- ptu -- %135
+  ras.
+
+  Et %145
+  a --
+  scen -- dit in
+  coe --
+  lum,
+  se -- det ad %150
+  dex -- te -- ram, ad
+  dex -- te -- ram __
+  Pa --
+  tris.
+
+  Et i -- te -- rum ven -- %161
+  tu -- rus est cum
+  glo -- ri -- a
+  iu -- di -- ca -- re,
+  iu -- di -- ca -- re %165
+  vi -- vos,
+  vi -- vos
+  et
+  mor -- tu --
+  os, cu -- ius %170
+  re -- gni
+  non, non,
+  non, non e --
+  rit fi --
+  nis. %175
+
+  Qui cum %189
+  Pa -- tre et %190
+  Fi -- li -- o
+  si --
+  mul
+  ad -- o --
+  ra -- tur et %195
+  con -- glo -- ri -- fi --
+  ca -- tur: qui lo --
+  cu -- tus est
+  per Pro -- phe --
+  tas. %200
+
+  Et a -- po -- %206
+  sto -- li --
+  cam Ec -- cle -- si --
+  am.
+
+  In re -- mis -- si -- %213
+  o -- nem pec --
+  ca -- to -- %215
+  rum.
+  Et ex --
+  pe -- cto
+  re -- sur -- re -- cti --
+  o -- nem %220
+
+  mor -- tu --
+  o --
+  _ rum,
+
+  et vi -- tam ven -- %237
+  tu -- ri sae -- cu --
+  li, a -- _
+  _ _ %240
+  men, et
+  vi -- tam ven -- tu -- ri sae -- cu --
+  li, a -- _
+  _ _ men, a --
+  men, a -- %245
+  men, a --
+  _ _
+  _ men,
+  et vi --
+  tam ven -- tu -- ri sae -- cu -- li, %250
+  a -- men,
+  a -- _
+  _ men, a --
+  men, a -- men.
+
+  Et vi -- tam ven -- %258
+  tu -- ri sae -- cu --
+  li, a -- %260
+  men, a --
+  men,
+  et vi --
+  tam ven -- tu -- ri sae -- cu -- li, a --
+  men, a -- %265
+  men, a --
+  men, a --
+  men, et __
+  vi -- tam ven --
+  tu -- ri sae -- cu -- li, a -- men, %270
+  et vi -- tam ven --
+  tu -- ri
+  sae -- cu -- li, a --
+  men, a --
+  men, a -- %275
+  men, a --
+  men, a --
+  men, et
+  vi -- tam ven -- tu -- ri
+  sae -- cu -- li, a -- men, a -- %280
+  men,
+
+  et vi -- tam ven --
+  tu -- ri sae -- cu -- li, a --
+  men, a -- _ %285
+  _ _
+  _ _ men, a --
+  men, a -- men,
+
+  a -- men, %290
+
+  a -- men. %292 finis
+}
