@@ -987,7 +987,7 @@ SanctusViolinoI = {
     cis4 r8 e,\p fis4. fis8
     gis4. gis8 a4. h8
     gis a4 gis8 a16 cis\f e a d, h' e,, d'
-    cis e a e d h' e,, d' cis d e a h,8 gis'
+    cis e a e d h' e,, d' h^\critnote d e a h,8 gis'
     a,16 a h cis d e fis gis a e d cis h8 gis' %45
     a,4 a4.\p cis8 \appoggiatura cis d4
     cis16 a\f e' g! fis d a' fis e4 a,\p
@@ -1000,5 +1000,89 @@ SanctusViolinoI = {
     fis8 a,16 a' \appoggiatura a8 g4 fis8 d' \appoggiatura a g4
     fis16 g a g fis e d c h4 d %55
     h2 a\fermata \bar "|." %56 finis
+  }
+}
+
+BenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoBenedictus
+    a''8\p a, r h' a a, r h'
+    a a, r e' fis16 a-!\f a-! a-! g32[ fis e d] cis h a g
+    fis16 a' a a h32[ a g fis] g fis e d \appoggiatura d16 cis8 a\p r fis'
+    e e, r fis' e e, r g'
+    fis fis, r a' h h, r h' %5
+    a a, r a' g g, r g'
+    fis fis, r g' fis fis, r g'
+    fis d r e fis fis, r g'
+    fis fis, r e' fis16 a-!\f a-! a-! g32[-! fis-! e-! d-!] cis-! h-! a-! g-!
+    fis16 a' a a g32[ fis e d] cis h a g fis[ a h cis] d h a g fis16 d' e, cis' %10
+    d8 d,\p r g' a a, r g'
+    fis e r fis g fis r e
+    fis fis, r h d fis, r cis'
+    d fis, r h' a a, r e'
+    fis fis, r e' fis fis, r fis' %15
+    e e, r e' fis fis, r fis'
+    fis e r e d d, r d'
+    cis cis, r e' e e, r gis'
+    a a, r e' e e, r gis'
+    a a, r d cis cis, r h' %20
+    cis cis, r a'' a a, r d
+    cis cis, r d' cis cis, r h'
+    cis cis, r fis' e e, r fis'
+    e e, r gis' a a, r a'
+    fis fis, r fis' gis gis, r gis' %25
+    a a, r a' h h, r h'
+    a e r e e e, r e'
+    cis16 e-!\f e-! e-! d32[ cis h a] gis fis e d cis16 e' e e d'32[ cis h a] gis fis e d
+    cis[ e fis gis] a fis e d cis16 a' h, gis' a,8 e\p r d'
+    e e, r d' cis h r cis %30
+    d cis r e d d, r e'
+    fis fis, r e' d cis r d
+    e d r fis fis fis, r fis'
+    e h r e e e, r e'
+    fis fis, r g' fis fis, r fis' %35
+    e e, r e' fis fis, r fis'
+    g g, r g' fis fis, r g'
+    fis fis, r fis' e e, r e'
+    fis e r e fis fis, r g'
+    fis fis, r g' a a, r g' %40
+    fis e r fis g fis r a
+    a c, r c c h r h'
+    h d, r d d cis r e
+    e e, r e' e e, r e'
+    fis fis, r fis' e e, r e' %45
+    fis fis, r g' fis fis, r e'
+    fis fis, r g' fis fis, r e'
+    d fis, r cis' d d, r d'
+    d d, r g' fis fis, r e'
+    fis fis, r g' fis fis, r e' %50
+    fis fis, r h' a a, r h'
+    a a, r e' d d, r fis'
+    fis fis, r a' h h, r h'
+    a a, r a' g g, r g'
+    fis fis, r g' fis fis, r g' %55
+    fis d r e fis fis, r g'
+    fis fis, r e' fis16 a-!\f a-! a-! g32[-! fis-! e-! d-!] cis-! h-! a-! g-! \noBreak
+    fis16 a' a a g32[ fis e d] cis h a g fis[ a h cis] d h a g fis16 d' e, cis'
+    \tempoOsanna d,4 fis8\p g a d h cis \noBreak
+    d16 a\f d fis a g a, g' fis8 a,\p r a %60
+    a a fis gis a16 cis\f e a h d, e, d'
+    cis4 r8 e,\p fis4. fis8
+    gis4. gis8 a4. h8
+    gis a4 gis8 a16 cis\f e a d, h' e,, d'
+    cis e a e d h' e,, d' h^\critnote d e a h,8 gis' %65
+    a,16 a h cis d e fis gis a e d cis h8 gis'
+    a,4 a4.\p cis8 \appoggiatura cis d4
+    cis16 a\f e' g! fis d a' fis e4 a,\p
+    a8 cis, d e fis16 a\f d fis a g a, g'
+    fis4 fis,8\p g a4 fis8 a %70
+    h4 g8 h cis4 a8 d
+    d4 cis d16 a\f d fis a g a, g'
+    fis d fis a g e h e cis e fis d' e,8 cis'
+    d,16 d, e fis g a h cis d8 a' \appoggiatura a g4
+    fis8 a,16 a' \appoggiatura a8 g4 fis8 d' \appoggiatura a g4 %75
+    fis16 g a g fis e d c h4 d
+    h2 a\fermata \bar "|." %77 finis
   }
 }

@@ -1421,9 +1421,132 @@ SanctusSopranoLyrics = \lyricmode {
   cel -- sis. %56 finis
 }
 
+BenedictusSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoBenedictus
+    R1*10 %10
+    \mvTr fis'4~\pE^\markup \remark "S 1 Solo" fis16[ g] g([ a)] a4~ a16[ g] fis e
+    fis8 e r fis g fis r e
+    fis([ e16 d)] cis([ h)] a([ h)] a4( g8.)\trill fis16
+    fis4 r r2
+    r8 fis' fis g16 e fis8 g16 a a([ g)] g([ fis)] %15
+    \appoggiatura fis8 e4 r8 e fis4 a16([ g) g( fis)]
+    \appoggiatura fis8 e4 r8 e d4( fis16[ e)] e([ d)]
+    \appoggiatura d8 cis4 r8 h cis4 e16[ d d\trill cis]
+    cis4 r8 h cis4 e16([ d)] d([ cis)]
+    cis8([ a')] fis d cis4( h8.)\trill a16 %20
+    a4 r8 a a'16[ gis gis\trill fis] fis[\trill e e\trill d]
+    \tuplet 3/2 8 { cis[ e d] cis[ d e] } fis8 e16 d cis4( h8.)\trill a16
+    a4 r r2
+    R1*5 %28
+    r2 cis4~ cis16[ d] d([ e)]
+    e4~ e16[ d] cis h cis8 h r cis %30
+    d cis r4 d4~ d16[ e] e([ fis)]
+    fis4~ fis16[ e] d cis d8 cis r d
+    e d r fis fis fis16 fis fis8 e16 fis
+    \appoggiatura fis8 g8. g16 g8 e e e16 e e8 d16 e
+    fis4 \tuplet 3/2 8 { a16([ g fis)] g([ fis e)] } fis8.[(\trill e32 fis] g8) fis %35
+    \appoggiatura fis e4 r r r8 a,
+    g'4 g8 g fis4 a16[ g g\trill fis]
+    fis4 g16[ fis fis\trill e] e4 fis16[ e e\trill d]
+    d([ g)] fis e \appoggiatura d8 cis8. d16 d4 r
+    fis~ fis16[ g] g([ a)] a4~ a16[ g] fis e %40
+    fis8 e r fis g fis r a
+    c, c16 c c8 c16 c c8.\trill h16 h8 h
+    h d16 d d8 d16 d d8.\trill cis16 cis8 a
+    a16([ cis)] cis cis cis([ e)] e e e([ g!] g4) fis16 e
+    \appoggiatura e fis4.\trill fis8 e4 r8 e %45
+    fis4 a16[ g g\trill fis] fis4 r8 e
+    fis4 a16([ g)] g([ fis)] fis4 g8 fis16([ e)]
+    d4( cis8.)\trill d16 d4 r8 d,
+    d'16[ cis cis\trill h] h[\trill a a\trill g] fis8[ g16 a] h[ cis d e]
+    fis4~ \tuplet 3/2 8 { fis16[ g a] } g fis fis4( e8.)\trill d16 %50
+    d4 r r2
+    R1*7 %58
+    \tempoOsanna r8 \mvTr d,\pE^\markup \remark "S Solo" fis a d a' \appoggiatura a g4
+    fis8 \mvTr fis\fE^\tutti \appoggiatura fis g4 fis8 \mvTr a,\pE^\solo fis' e16([ d)] %60
+    e8 fis \appoggiatura e d4 cis8 \mvTr cis\fE^\tutti \appoggiatura cis d4
+    cis8 \mvTr e,\pE^\solo a4. ais8 h4~
+    h8 his cis4. d8 d4~
+    d8 cis \appoggiatura cis h4\trill a8 \mvTr cis\fE^\tutti \appoggiatura cis d4
+    cis d4. cis8 h4 %65
+    a r r2
+    r8 \mvTr a\pE^\solo cis d e d16([ e)] \appoggiatura e8 fis4
+    e8 \mvTr e\fE^\tutti \appoggiatura e fis4 e8 \mvTr a,\pE^\solo cis d
+    e fis \appoggiatura fis g4 fis8 \mvTr fis\fE^\tutti \appoggiatura fis g4
+    fis8 \mvTr a\pE^\solo c,4. h16([ c)] d8 c %70
+    h16[ d cis h] g'[ fis e d] cis8 h16([ a)] d8 g
+    fis4( e)\trill d8 \mvTr fis\fE^\tutti \appoggiatura fis g4
+    fis g4. fis8 e4
+    d r r2
+    R1 %75
+    r2 h4 d
+    h2 a\fermata \bar "|." %77 finis
+  }
+}
 
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
+BenedictusSopranoLyrics = \lyricmode {
+  Be -- ne -- di -- ctus, qui %11
+  ve -- nit, qui ve -- nit in
+  no -- mi -- ne Do -- mi --
+  ni,
+  qui ve -- nit in no -- mi -- ne Do -- mi -- %15
+  ni, qui ve -- _
+  nit in no -- mi --
+  ne, qui ve -- _
+  nit, qui ve -- nit in
+  no -- mi -- ne Do -- mi -- %20
+  ni, in no -- _
+  _ _ _ mi -- ne Do -- mi --
+  ni.
+
+  Be -- ne -- %29
+  di -- ctus, qui ve -- nit, qui %30
+  ve -- nit, be -- ne --
+  di -- ctus, qui ve -- nit, qui
+  ve -- nit, qui ve -- nit in no -- mi -- ne
+  Do -- mi -- ni, qui ve -- nit in no -- mi -- ne,
+  no -- mi -- ne Do -- mi -- %35
+  ni, qui
+  ve -- nit in no -- _
+  _ _ _ _
+  _ mi -- ne Do -- mi -- ni,
+  be -- ne -- di -- ctus, qui %40
+  ve -- nit, qui ve -- nit, qui
+  ve -- nit in no -- mi -- ne Do -- mi -- ni, qui
+  ve -- nit in no -- mi -- ne Do -- mi -- ni, qui
+  ve -- nit in no -- mi -- ne, no -- mi -- ne
+  Do -- mi -- ni, qui %45
+  ve -- _ nit, qui
+  ve -- nit in no -- mi -- ne
+  Do -- mi -- ni, in
+  no -- _ _ _
+  _ mi -- ne Do -- mi -- %50
+  ni.
+
+  O -- san -- na in ex -- cel -- %59
+  sis, o -- san -- na, o -- san -- na %60
+  in ex -- cel -- sis, o -- san --
+  na, o -- san -- na in __
+  ex -- cel -- sis, in __
+  ex -- cel -- sis, o -- san --
+  na in ex -- cel -- %65
+  sis,
+  o -- san -- na in ex -- cel --
+  sis, o -- san -- na, o -- san -- na
+  in ex -- cel -- sis, o -- san --
+  na, o -- san -- na in ex -- %70
+  cel -- _ _ sis, in ex --
+  cel -- sis, o -- san --
+  na in ex -- cel --
+  sis,
+  %75
+  in ex --
+  cel -- sis. %77 finis
+}
+
+
 
 
 % ## Agnus Dei

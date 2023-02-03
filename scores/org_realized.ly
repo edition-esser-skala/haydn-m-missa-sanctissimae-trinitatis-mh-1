@@ -149,20 +149,37 @@
   %     \midi { \tempo 4 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \section "4" "Sanctus"
+  %   \addTocEntry
+  %   \score {
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff { \SanctusChords }
+  %         \new Staff { \SanctusOrgano }
+  %       >>
+  %       \new FiguredBass { \SanctusBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 50 }
+  %   }
+  % }
   \bookpart {
-    \section "4" "Sanctus"
+    \section "5" "Benedictus"
     \addTocEntry
+    \paper { page-count = #4 }
     \score {
       <<
         \new PianoStaff <<
-          \set PianoStaff.instrumentName = "org"
-          \new Staff { \SanctusChords }
-          \new Staff { \SanctusOrgano }
+          \set PianoStaff.instrumentName = \markup \center-column { "org" "solo" }
+          \new Staff { \BenedictusChords }
+          \new Staff { \BenedictusOrganoL }
         >>
-        \new FiguredBass { \SanctusBassFigures }
+        \new FiguredBass { \BenedictusBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4 = 50 }
+      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
+      \midi { \tempo 4 = 60 }
     }
   }
 }

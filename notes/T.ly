@@ -897,3 +897,51 @@ SanctusTenoreLyrics = \lyricmode {
   in ex -- %55
   cel -- sis. %56 finis
 }
+
+BenedictusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 4/4 \autoBeamOff \tempoBenedictus
+    R1*58 %58
+    \tempoOsanna R1
+    r8 \mvTr d\fE^\tutti d([ cis)] d r r4 %60
+    r2 r8 \mvTr a\fE^\tuttiE a([ gis)]
+    a r r4 r2
+    R1
+    r2 r8 \mvTr a\fE^\tutti a([ gis)]
+    a a a h gis a a([ gis)] %65
+    a4 r r2
+    R1
+    r8 \mvTr cis\fE^\tutti \appoggiatura cis d4 cis8 r r4
+    r2 r8 \mvTr d\fE^\tuttiE d([ cis)]
+    d r r4 r2 %70
+    R1
+    r2 r8 \mvTr d\fE^\tutti d([ cis)]
+    d d d e cis d d([ cis)]
+    d4 r r2
+    R1 %75
+    r2 d4 d
+    d2 d\fermata \bar "|." %77 finis
+  }
+}
+
+BenedictusTenoreLyrics = \lyricmode {
+  O -- san -- na, %60
+  o -- san --
+  na,
+
+  o -- san --
+  na, o -- san -- na in ex -- cel -- %65
+  sis,
+
+  o -- san -- na,
+  o -- san --
+  na, %70
+
+  o -- san --
+  na, o -- san -- na in ex -- cel --
+  sis,
+  %75
+  in ex --
+  cel -- sis. %77 finis
+}

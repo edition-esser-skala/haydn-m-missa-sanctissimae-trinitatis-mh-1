@@ -1245,148 +1245,148 @@ CredoChords = {
   \key d \major \time 4/4 \tempoCredo
   << \relative c' {
     a'2 a
-		<fis a> <g h>
-		<fis a> <d a'>
-		a' <fis a>
-		<e a>4 <e cis'>2 \tieNeutral <d h'>4~ %5
-		q2 \tieUp <cis a'>
-		<fis cis'>4 <gis h> <e a> <a e'>~
-		<a e'> <h d~> <gis d'> <a cis~>
-		<fis cis'> <gis h~> <e~ h'> <e a>
-		<fis a> <e gis> <cis a'>4 <h gis'>8 <d h'> %10
-		<cis a'>4 <h gis'>8 <d h'> <cis a'> r <e a> r
-		<fis a> r <e gis> r <e a> r e'8 fis
-		<h, e>4. <g cis>8 <d d'>4 <d h'>8 <e cis'>
-		d'2 <a cis>8 <a d~> d[ cis]
-		<fis, d'>4 <e cis'>8 <g e'> <fis d'>4 <e cis'>8 <g e'> %15
-		<fis d'>4 <e cis'>8 <g e'~> e' d4 cis8
-		d4 r <g, h>2
-		q <g c>
-		d'4 h <c, a'>4. <a g'>8
-		<a fis'>4 <d a'> <g h>8 <a cis> <a d> <a e'> %20
-		<a d>4 q <g h>8 <a d> <h d>[ <a cis>]
-		<a d>4 <gis h>8 <a d> <h d>4 d8 c
-		<a c>4 c8 h <e, c'>2
-		<fis a>2 <d g>4 \tieNeutral <g, g'>~
-		q q~ q q \tieUp %25
-		<e' a> <d a'> <d g> <e a>8 <d fis>
-		<d g>4 r h' d8 h
-		a4 a8 fis g4 <e g>8 <d fis>
-		<d g>2 <g h>
-		c2 <g h>4 <a c> %30
-		<g h> r8 q <a d>2
-		<d, h'>4. <a' cis>8 <a d>2
-		<a e'> <a d>
-		<a e'> <fis d'>8 <g cis> <fis d'>4
-		q <e cis'> <a d>2 %35
-		q <g h>
-		<a d> <h e>4 r8 q
-		<a cis>4 <d, d'>2 \tieNeutral <e e'>4~
-		q4 <a, a'>4~ q8 \tieUp <a' d> <h e>[ <a cis>]
-		<a d>4 r <fis a>2 %40
-		<e a> <d a'>4 r8 a'
-		<g h>4 a <e a> <cis g'>
-		<d fis>2 q4 a'~
-		a4 r8 <a d> <a cis>2
-		q4 r8 q <fis h>2 %45
-		<gis h> <e a>
-		<e h'> <e a>8 <gis h> a4~
-		<cis, a'> <h gis'> <e a>2
-		<a cis> <a d>
-		<a e'> <a d>4 r8 <a h> %50
-		<gis h> <e a> <fis a>[ <e gis>] <e a>4 r
-		<e a>2 <e h'>
-		<e a>4 <e gis>8 <e a> <e gis> <e a> <e fis>[ <d gis>]
-		<e a>2 <a cis>4. <gis h>8
-		<a cis>2 <a d> %55
-		<h d>4. <a cis>8 d2~
-		d8 <d g> <cis fis> <h e> <fis d'>4 <h d>8 <a cis>
-		<a d>2 q
-		<g h> <d a'>
-		<e g> fis8 a g[ h] %60
-		a4 r8 <a e'>8 <a d>4 <h d>8 <a cis>
-		<a d>2 <a cis>
-		<a d> <a cis>4 \tieNeutral <a, a'>~
-		q4. \tieUp <cis fis>8 <d g>4 <g a>
-		<fis a> <a d>8 <a cis> <a d>4 r8 <fis a> %65
-		<a d>4 r8 q <g h>4 r8 q
-		q4 r8 q <h e>4 r8 q
-		<a cis>8 <a e'> <a d>4 <h d> <a cis>
-		<a d> <d, d'>2 \tieNeutral <e e'>4~
-		q4 \tieUp e'4~ e8 d <h d>[ <a cis>] %70
-		<a d>4 r r2\fermata \bar "||" %71 finis
+    <fis a> <g h>
+    <fis a> <d a'>
+    a' <fis a>
+    <e a>4 <e cis'>2 \tieNeutral <d h'>4~ %5
+    q2 \tieUp <cis a'>
+    <fis cis'>4 <gis h> <e a> <a e'>~
+    <a e'> <h d~> <gis d'> <a cis~>
+    <fis cis'> <gis h~> <e~ h'> <e a>
+    <fis a> <e gis> <cis a'>4 <h gis'>8 <d h'> %10
+    <cis a'>4 <h gis'>8 <d h'> <cis a'> r <e a> r
+    <fis a> r <e gis> r <e a> r e'8 fis
+    <h, e>4. <g cis>8 <d d'>4 <d h'>8 <e cis'>
+    d'2 <a cis>8 <a d~> d[ cis]
+    <fis, d'>4 <e cis'>8 <g e'> <fis d'>4 <e cis'>8 <g e'> %15
+    <fis d'>4 <e cis'>8 <g e'~> e' d4 cis8
+    d4 r <g, h>2
+    q <g c>
+    d'4 h <c, a'>4. <a g'>8
+    <a fis'>4 <d a'> <g h>8 <a cis> <a d> <a e'> %20
+    <a d>4 q <g h>8 <a d> <h d>[ <a cis>]
+    <a d>4 <gis h>8 <a d> <h d>4 d8 c
+    <a c>4 c8 h <e, c'>2
+    <fis a>2 <d g>4 \tieNeutral <g, g'>~
+    q q~ q q \tieUp %25
+    <e' a> <d a'> <d g> <e a>8 <d fis>
+    <d g>4 r h' d8 h
+    a4 a8 fis g4 <e g>8 <d fis>
+    <d g>2 <g h>
+    c2 <g h>4 <a c> %30
+    <g h> r8 q <a d>2
+    <d, h'>4. <a' cis>8 <a d>2
+    <a e'> <a d>
+    <a e'> <fis d'>8 <g cis> <fis d'>4
+    q <e cis'> <a d>2 %35
+    q <g h>
+    <a d> <h e>4 r8 q
+    <a cis>4 <d, d'>2 \tieNeutral <e e'>4~
+    q4 <a, a'>4~ q8 \tieUp <a' d> <h e>[ <a cis>]
+    <a d>4 r <fis a>2 %40
+    <e a> <d a'>4 r8 a'
+    <g h>4 a <e a> <cis g'>
+    <d fis>2 q4 a'~
+    a4 r8 <a d> <a cis>2
+    q4 r8 q <fis h>2 %45
+    <gis h> <e a>
+    <e h'> <e a>8 <gis h> a4~
+    <cis, a'> <h gis'> <e a>2
+    <a cis> <a d>
+    <a e'> <a d>4 r8 <a h> %50
+    <gis h> <e a> <fis a>[ <e gis>] <e a>4 r
+    <e a>2 <e h'>
+    <e a>4 <e gis>8 <e a> <e gis> <e a> <e fis>[ <d gis>]
+    <e a>2 <a cis>4. <gis h>8
+    <a cis>2 <a d> %55
+    <h d>4. <a cis>8 d2~
+    d8 <d g> <cis fis> <h e> <fis d'>4 <h d>8 <a cis>
+    <a d>2 q
+    <g h> <d a'>
+    <e g> fis8 a g[ h] %60
+    a4 r8 <a e'>8 <a d>4 <h d>8 <a cis>
+    <a d>2 <a cis>
+    <a d> <a cis>4 \tieNeutral <a, a'>~
+    q4. \tieUp <cis fis>8 <d g>4 <g a>
+    <fis a> <a d>8 <a cis> <a d>4 r8 <fis a> %65
+    <a d>4 r8 q <g h>4 r8 q
+    q4 r8 q <h e>4 r8 q
+    <a cis>8 <a e'> <a d>4 <h d> <a cis>
+    <a d> <d, d'>2 \tieNeutral <e e'>4~
+    q4 \tieUp e'4~ e8 d <h d>[ <a cis>] %70
+    <a d>4 r r2\fermata \bar "||" %71 finis
   } \\ \relative c' {
     <d fis>4. <e g>8 <d fis>4. <e g>8
-		d2 d
-		d a
-		<d fis>4. <e g>8 d2
-		cis4 a' fis2 %5
-		e1
-		e4 d cis e
-		fis2 e
-		d cis
-		h e %10
-		e e8 r a, r
-		d r h r cis r r4
-		e2 fis
-		<d a'>4. <fis h>8 e8 fis <e a>4
-		a2 a %15
-		a <fis a>4 <e a>
-		<fis a> r d2
-		d e
-		<d g> e
-		d4 a d8 g fis e %20
-		fis4 fis d8 fis e4
-		fis4 d8 f e4 <e a>
-		d <d g> a' g
-		d2 h4 r16 h c d
-		e4 r16 c d e d4 r16 h c d %25
-		c4 c h a
-		h4 r <d g>2
-		<c fis>4 <a d> <h d> c
-		h2 d
-		<e g>4. <d a'>8 d2 %30
-		d4 r8 d d4. fis8
-		a g4 g8 d4. fis8
-		e2 fis
-		e a4 a
-		a2 fis %35
-		fis d
-		fis e4 r8 g
-		e4 a16 a h c h4 r16 h cis d
-		cis4 r16 e, fis g fis8 fis e4
-		fis r d2 %40
-		a g'8 fis r d
-		d2 h4 a
-		a2 a4 <a d>8 <cis e>
-		<d fis>4 r8 fis e2
-		e4 r8 e d2 %45
-		<d e> cis
-		d cis8 e <cis e>[ <a d>]
-		e'2 cis
-		e fis
-		e fis4 r8 fis %50
-		e cis h4 cis r
-		cis2 d
-		d8[ cis] d cis h cis h4
-		cis2 e
-		e fis %55
-		a8 g4 g8 <fis a>2
-		<g h>8 g a e a h e,4
-		fis2 fis
-		d a
-		h4 a <a d> <h e> %60
-		<cis e> r8 g' fis4 e
-		fis2 e
-		fis e4 cis8 d
-		e4. a,8 g4 e'
-		d fis8 e fis4 r8 d %65
-		fis4 r8 fis d4 r8 d
-		d4 r8 e g4 r8 e
-		e g fis4 e2
-		fis4 r16 a h c h4 r16 h cis d
-		cis4 <g a~> <fis a> e %70
-		fis r r2\fermata %71 finis
+    d2 d
+    d a
+    <d fis>4. <e g>8 d2
+    cis4 a' fis2 %5
+    e1
+    e4 d cis e
+    fis2 e
+    d cis
+    h e %10
+    e e8 r a, r
+    d r h r cis r r4
+    e2 fis
+    <d a'>4. <fis h>8 e8 fis <e a>4
+    a2 a %15
+    a <fis a>4 <e a>
+    <fis a> r d2
+    d e
+    <d g> e
+    d4 a d8 g fis e %20
+    fis4 fis d8 fis e4
+    fis4 d8 f e4 <e a>
+    d <d g> a' g
+    d2 h4 r16 h c d
+    e4 r16 c d e d4 r16 h c d %25
+    c4 c h a
+    h4 r <d g>2
+    <c fis>4 <a d> <h d> c
+    h2 d
+    <e g>4. <d a'>8 d2 %30
+    d4 r8 d d4. fis8
+    a g4 g8 d4. fis8
+    e2 fis
+    e a4 a
+    a2 fis %35
+    fis d
+    fis e4 r8 g
+    e4 a16 a h c h4 r16 h cis d
+    cis4 r16 e, fis g fis8 fis e4
+    fis r d2 %40
+    a g'8 fis r d
+    d2 h4 a
+    a2 a4 <a d>8 <cis e>
+    <d fis>4 r8 fis e2
+    e4 r8 e d2 %45
+    <d e> cis
+    d cis8 e <cis e>[ <a d>]
+    e'2 cis
+    e fis
+    e fis4 r8 fis %50
+    e cis h4 cis r
+    cis2 d
+    d8[ cis] d cis h cis h4
+    cis2 e
+    e fis %55
+    a8 g4 g8 <fis a>2
+    <g h>8 g a e a h e,4
+    fis2 fis
+    d a
+    h4 a <a d> <h e> %60
+    <cis e> r8 g' fis4 e
+    fis2 e
+    fis e4 cis8 d
+    e4. a,8 g4 e'
+    d fis8 e fis4 r8 d %65
+    fis4 r8 fis d4 r8 d
+    d4 r8 e g4 r8 e
+    e g fis4 e2
+    fis4 r16 a h c h4 r16 h cis d
+    cis4 <g a~> <fis a> e %70
+    fis r r2\fermata %71 finis
   } >>
 }
 
@@ -1396,112 +1396,112 @@ EtIncarnatusChords = {
     \set Score.currentBarNumber = #72
   << \relative c' {
     <d f>8 r <d a'> r <e a> r
-		<f a> r <d a'>r <e a> r
-		<f gis> r q r q r
-		<e a> r q r <e g> r %75
-		<d f> r <d g> r <cis e> r
-		<a d> r <d a'> r <e a> r
-		<f a> r <d a'> r <e a> r
-		<f a> r <f b> r <f a> r
-		<e gis> r <e g> r q r %80
-		q r <e a> r <e g> r
-		<e f> r <d f> r q r
-		<cis e> r <e a> r <e gis> r
-		<e a> r <e a> r <cis e> r
-		<e f> r <d f> r <cis e> r %85
-		<d f> r <d fis> r q r
-		<d a'> r <d g> r <g b> r
-		<e g b> r <f a> r <e g> r
-		<f a> r q r q r
-		<a c> r <g b> r <fis a> r %90
-		<g b> r q r q r
-		<b d> r <a c> r <g b> r
-		<f a> r q r q r
-		q[ <g b>] <f a> r <e g> r
-		<c f> r q r <e g> r %95
-		<f a> r <c f> r <e g> r
-		<f g> r q r q r
-		<e g> r q r q r
-		<c f> r <d g> r <b e> r
-		<c f> r q r <f a> r %100
-		q r <e g> r q r
-		<g b> r q r q r
-		q r <f a> r <f c'> r
-		q r <g b> r q r
-		<e b'> r <f a> r q r %105
-		<d a'> r <e g> r <c f> r
-		q r <c e> r q r
-		<c g'> r <c f> r q r
-		<e g b> r <f a> r q r
-		<d f> r q r q r %110
-		q r q r <f g> r
-		q r <e g> r q r
-		<e f> r <d f> r q r
-		q r <cis e> r q r
-		<e g> r <d f> r q r %115
-		<g a> r <f a> r q r
-		q r <e g> r q r
-		<d f> r q r q r
-		q r q r <cis e> r
-		<a d> r <d a'> r <e a> r %120
-		<f a> r <d f> r <cis e> r
-		<a d> \oneVoice r r4 r
-		R2.
-		R\fermata \bar "||" %124 finis
+    <f a> r <d a'>r <e a> r
+    <f gis> r q r q r
+    <e a> r q r <e g> r %75
+    <d f> r <d g> r <cis e> r
+    <a d> r <d a'> r <e a> r
+    <f a> r <d a'> r <e a> r
+    <f a> r <f b> r <f a> r
+    <e gis> r <e g> r q r %80
+    q r <e a> r <e g> r
+    <e f> r <d f> r q r
+    <cis e> r <e a> r <e gis> r
+    <e a> r <e a> r <cis e> r
+    <e f> r <d f> r <cis e> r %85
+    <d f> r <d fis> r q r
+    <d a'> r <d g> r <g b> r
+    <e g b> r <f a> r <e g> r
+    <f a> r q r q r
+    <a c> r <g b> r <fis a> r %90
+    <g b> r q r q r
+    <b d> r <a c> r <g b> r
+    <f a> r q r q r
+    q[ <g b>] <f a> r <e g> r
+    <c f> r q r <e g> r %95
+    <f a> r <c f> r <e g> r
+    <f g> r q r q r
+    <e g> r q r q r
+    <c f> r <d g> r <b e> r
+    <c f> r q r <f a> r %100
+    q r <e g> r q r
+    <g b> r q r q r
+    q r <f a> r <f c'> r
+    q r <g b> r q r
+    <e b'> r <f a> r q r %105
+    <d a'> r <e g> r <c f> r
+    q r <c e> r q r
+    <c g'> r <c f> r q r
+    <e g b> r <f a> r q r
+    <d f> r q r q r %110
+    q r q r <f g> r
+    q r <e g> r q r
+    <e f> r <d f> r q r
+    q r <cis e> r q r
+    <e g> r <d f> r q r %115
+    <g a> r <f a> r q r
+    q r <e g> r q r
+    <d f> r q r q r
+    q r q r <cis e> r
+    <a d> r <d a'> r <e a> r %120
+    <f a> r <d f> r <cis e> r
+    <a d> \oneVoice r r4 r
+    R2.
+    R\fermata \bar "||" %124 finis
   } \\ \relative c' {
     a8 r a r cis r %72
-		d r a r cis r
-		d r d r d r
-		cis r cis r cis r %75
-		a r b r a r
-		f r a r cis r
-		d r a r cis r
-		d r d r d r
-		h r b r b r %80
-		a r a r a r
-		a r b r h r
-		a r a r h r
-		cis r cis r a r
-		a r a r a r %85
-		a r a r a r
-		b r b r d r
-		c r c r c r
-		c r c r c r
-		c r c r c r %90
-		c r c r c r
-		c r c r c r
-		c r d r c r
-		d4 c8 r c r
-		a r f r c' r %95
-		c r f, r c' r
-		h r h r h r
-		c r b r b r
-		a r b r g r
-		a r a r c r %100
-		c r c r c r
-		<c e> r q r q r
-		q r c r c r
-		d r d r d r
-		c r c r c r %105
-		b r b r a r
-		a r g r g r
-		b r a r a r
-		c r c r c r
-		a r a r a r %110
-		g r g r d' r
-		c r c r a r
-		a r b r h r
-		a r a r a r
-		<a cis> r a r a r %115
-		<cis e> r d r d r
-		a r a r a r
-		gis r gis r gis r
-		gis r a r a r
-		f r a r cis r %120
-		d r a r a r
-		f s s4 s
-		s2.
-		s %124 finis
+    d r a r cis r
+    d r d r d r
+    cis r cis r cis r %75
+    a r b r a r
+    f r a r cis r
+    d r a r cis r
+    d r d r d r
+    h r b r b r %80
+    a r a r a r
+    a r b r h r
+    a r a r h r
+    cis r cis r a r
+    a r a r a r %85
+    a r a r a r
+    b r b r d r
+    c r c r c r
+    c r c r c r
+    c r c r c r %90
+    c r c r c r
+    c r c r c r
+    c r d r c r
+    d4 c8 r c r
+    a r f r c' r %95
+    c r f, r c' r
+    h r h r h r
+    c r b r b r
+    a r b r g r
+    a r a r c r %100
+    c r c r c r
+    <c e> r q r q r
+    q r c r c r
+    d r d r d r
+    c r c r c r %105
+    b r b r a r
+    a r g r g r
+    b r a r a r
+    c r c r c r
+    a r a r a r %110
+    g r g r d' r
+    c r c r a r
+    a r b r h r
+    a r a r a r
+    <a cis> r a r a r %115
+    <cis e> r d r d r
+    a r a r a r
+    gis r gis r gis r
+    gis r a r a r
+    f r a r cis r %120
+    d r a r a r
+    f s s4 s
+    s2.
+    s %124 finis
   } >>
 }
 
@@ -1511,106 +1511,106 @@ EtResurrexitChords = {
     \set Score.currentBarNumber = #125
   << \relative c' {
     \key d \major <a' d>4 r r %125
-		q r8 q <g h>[ <a cis>]
-		<a d>4 r8 q <g h>[ <a cis>]
-		<a d>4 q8 <g cis>4 <fis h>8~
-		q <e a>4 <a d>8 <h d>[ <a cis>]
-		<a d>4 r r %130
-		q r8 q <h e>[ <a cis>]
-		<a d>4 r8 q <h e>[ <a cis>]
-		<a d>4 \tieNeutral <e cis'>2~
-		q4 <d h'>2~ \tieUp
-		q4 <cis a'> <fis a>8[ <e gis>] %135
-		<e a>4 r r
-		q r8 q <d fis>[ <e gis>]
-		<e a>4 r8 a <e a>[ <d gis>~]
-		q <cis fis>4 <h e>4 <e a>8
-		<e gis>4 <cis a'> <fis a>8 <e gis> %140
-		<e a>4 r r
-		q r r
-		q r r
-		<g! a> r <g a>
-		<fis a> r r %145
-		<a d> r r
-		q r r
-		<a c> r q
-		<g h> r q
-		<a cis!>2.~ %150
-		<a cis>~
-		q2 <a d>4~
-		q <h d> <a cis>
-		<a d> r r
-		q r8 q <g h>[ <a cis>] %155
-		<a d>4 r8 q <g h>[ <a cis>]
-		<a d>4 q8 <g cis>4 <fis h>8~
+    q r8 q <g h>[ <a cis>]
+    <a d>4 r8 q <g h>[ <a cis>]
+    <a d>4 q8 <g cis>4 <fis h>8~
+    q <e a>4 <a d>8 <h d>[ <a cis>]
+    <a d>4 r r %130
+    q r8 q <h e>[ <a cis>]
+    <a d>4 r8 q <h e>[ <a cis>]
+    <a d>4 \tieNeutral <e cis'>2~
+    q4 <d h'>2~ \tieUp
+    q4 <cis a'> <fis a>8[ <e gis>] %135
+    <e a>4 r r
+    q r8 q <d fis>[ <e gis>]
+    <e a>4 r8 a <e a>[ <d gis>~]
+    q <cis fis>4 <h e>4 <e a>8
+    <e gis>4 <cis a'> <fis a>8 <e gis> %140
+    <e a>4 r r
+    q r r
+    q r r
+    <g! a> r <g a>
+    <fis a> r r %145
+    <a d> r r
+    q r r
+    <a c> r q
+    <g h> r q
+    <a cis!>2.~ %150
+    <a cis>~
+    q2 <a d>4~
+    q <h d> <a cis>
+    <a d> r r
+    q r8 q <g h>[ <a cis>] %155
+    <a d>4 r8 q <g h>[ <a cis>]
+    <a d>4 q8 <g cis>4 <fis h>8~
     q <e a>4 <d g> <cis fis>8~
     <d fis>4 <fis h> <g h>8 <fis ais>
-		<fis h>4 r r %160
-		q r8 q <g cis>[ <fis ais>]
-		<fis h>4 r8 q <g cis>[ <fis ais>]
-		<fis h>4 ais cis
-		<ais cis>2.
-		<h d> %165
-		<ais cis>4 <fis h> r
-		<fis ais>4 <fis h> r
-		\tieNeutral <d h'>2.~
-		q \tieUp
-		<fis ais>~ %170
-		q2 <fis h>4
-		<ais cis> r <fis h>
-		<g cis> r <fis d'>8 <e cis'>
-		<d h'>4 q <cis ais'>
-		<d h'> r r %175
-		<fis h> r8 q <g h>[ <fis ais>]
-		<fis h>2 cis'8 ais
-		<fis h>2.
-		<e g>2 <d fis>4
+    <fis h>4 r r %160
+    q r8 q <g cis>[ <fis ais>]
+    <fis h>4 r8 q <g cis>[ <fis ais>]
+    <fis h>4 ais cis
+    <ais cis>2.
+    <h d> %165
+    <ais cis>4 <fis h> r
+    <fis ais>4 <fis h> r
+    \tieNeutral <d h'>2.~
+    q \tieUp
+    <fis ais>~ %170
+    q2 <fis h>4
+    <ais cis> r <fis h>
+    <g cis> r <fis d'>8 <e cis'>
+    <d h'>4 q <cis ais'>
+    <d h'> r r %175
+    <fis h> r8 q <g h>[ <fis ais>]
+    <fis h>2 cis'8 ais
+    <fis h>2.
+    <e g>2 <d fis>4
     <a e'>2. %180
-		<d fis>2 <cis g'>8 <d fis>
-		q4 <cis e>2
-		d'2 cis4
+    <d fis>2 <cis g'>8 <d fis>
+    q4 <cis e>2
+    d'2 cis4
     cis8 h h4 e
     d4 cis d~ %185
     d8 e d4 cis
-		d r r
-		<a d> r8 <h d> <h e>[ <a cis>]
-		<a d>2.
-		<h d>4 <a d> <a e'>8 <g cis> %190
-		<a d>4 r r
-		<a d> r8 q <g h>[ <a cis>]
-		<a d>4 r8 q <g h>[ <a cis>]
-		<a d>4 r8 q <g h>[ <a cis>]
-		<a d>4 <a cis>2~ %195
-		q2.~
-		q4 <e h'> <cis a'>8 <h gis'>
-		a'2.~
-		a4 <cis, a'> <h gis'>
-		<cis a'> r r %200
-		<e a> r8 q <fis a>[ <e gis>]
-		<e a>4 r8 <a e'> <gis d'> <a cis>
-		<gis d'>4 r8 q <a cis> h
-		<a cis>4 r8 <a e'> <gis d'> <a cis>
-		<gis d'>4 r8 q <a cis> h %205
-		<a cis>4 r8 <a e'> <gis d'> <a cis>
-		<a d>4 r8 <a d> <a e'>[ <gis d'>]
-		<a cis>4 <e a> <fis a>8 <e gis>
-		<e a>4 r <a d>
-		cis8 h h4 r %210
-		<h e>4 r8 h <a cis>[ <gis d'>]
-		d'4 cis r
-		<a cis>2.
-		<a d>2 d4~
-		d d cis %215
-		d4 r r
-		<a d> r8 <a d> <h e>[ <a cis>]
-		<a d>4 r8 <a d> <h e>[ <a cis>]
-		<a d>4 r8 <a d> <h e>[ <a cis>]
-		<a d>4 <a cis> r \noBreak %220
-		<e a>2.\fermata \bar "||"
-		\key d \dorian \time 4/4 \tempoMortuorum \newSpacingSection
+    d r r
+    <a d> r8 <h d> <h e>[ <a cis>]
+    <a d>2.
+    <h d>4 <a d> <a e'>8 <g cis> %190
+    <a d>4 r r
+    <a d> r8 q <g h>[ <a cis>]
+    <a d>4 r8 q <g h>[ <a cis>]
+    <a d>4 r8 q <g h>[ <a cis>]
+    <a d>4 <a cis>2~ %195
+    q2.~
+    q4 <e h'> <cis a'>8 <h gis'>
+    a'2.~
+    a4 <cis, a'> <h gis'>
+    <cis a'> r r %200
+    <e a> r8 q <fis a>[ <e gis>]
+    <e a>4 r8 <a e'> <gis d'> <a cis>
+    <gis d'>4 r8 q <a cis> h
+    <a cis>4 r8 <a e'> <gis d'> <a cis>
+    <gis d'>4 r8 q <a cis> h %205
+    <a cis>4 r8 <a e'> <gis d'> <a cis>
+    <a d>4 r8 <a d> <a e'>[ <gis d'>]
+    <a cis>4 <e a> <fis a>8 <e gis>
+    <e a>4 r <a d>
+    cis8 h h4 r %210
+    <h e>4 r8 h <a cis>[ <gis d'>]
+    d'4 cis r
+    <a cis>2.
+    <a d>2 d4~
+    d d cis %215
+    d4 r r
+    <a d> r8 <a d> <h e>[ <a cis>]
+    <a d>4 r8 <a d> <h e>[ <a cis>]
+    <a d>4 r8 <a d> <h e>[ <a cis>]
+    <a d>4 <a cis> r \noBreak %220
+    <e a>2.\fermata \bar "||"
+    \key d \dorian \time 4/4 \tempoMortuorum \newSpacingSection
       a2 b~ \noBreak
-		b gis \noBreak
-		a4. gis8 a2\fermata \bar "||"
+    b gis \noBreak
+    a4. gis8 a2\fermata \bar "||"
     \key d \major \tempoEtVitam <a d>2 <h d> \noBreak %225
     <a d> e'
     fis <h, d>4 <a cis>
@@ -1681,105 +1681,105 @@ EtResurrexitChords = {
     e' d4 r\fermata \bar "|." %292 finis
   } \\ \relative c' {
     fis4 r r %125
-		fis r8 fis e4
-		fis4 r8 fis e4
-		fis4 h a
-		g fis8 fis e4
-		fis4 r r %130
-		fis r8 fis e4
-		fis r8 fis e4
-		fis a2
-		fis e4~
-		e e8 fis h,4 %135
-		cis4 r r
-		cis r8 cis h4
-		cis r8 e fis4
-		e d cis8 cis
-		h4 e8 fis h,4 %140
-		cis r r
-		cis r r
-		cis r r
-		<cis e> r q
-		d r r %145
-		fis r r
-		fis r r
-		<d fis> r q
-		d r e
-		<e g>2.~ %150
-		q~
-		q2 fis4~
-		fis e2
-		fis4 r r
-		fis r8 fis e4 %155
-		fis r8 fis e4
-		fis h a
-		g fis e
-		h d cis
-		d r r %160
-		d r8 d cis4
-		d r8 d cis4
-		d <cis fis>2
-		fis2.
-		fis %165
-		g4 d r
-		e d r
-		fis2.
-		eis
-		cis2.~ %170
-		cis2 d4
-		e r d
-		e r ais
-		fis4 fis2
-		fis4 r r %175
-		d4 r8 d cis4
-		d2 <cis fis>4
-		e8 d~ d2
-		h a4
+    fis r8 fis e4
+    fis4 r8 fis e4
+    fis4 h a
+    g fis8 fis e4
+    fis4 r r %130
+    fis r8 fis e4
+    fis r8 fis e4
+    fis a2
+    fis e4~
+    e e8 fis h,4 %135
+    cis4 r r
+    cis r8 cis h4
+    cis r8 e fis4
+    e d cis8 cis
+    h4 e8 fis h,4 %140
+    cis r r
+    cis r r
+    cis r r
+    <cis e> r q
+    d r r %145
+    fis r r
+    fis r r
+    <d fis> r q
+    d r e
+    <e g>2.~ %150
+    q~
+    q2 fis4~
+    fis e2
+    fis4 r r
+    fis r8 fis e4 %155
+    fis r8 fis e4
+    fis h a
+    g fis e
+    h d cis
+    d r r %160
+    d r8 d cis4
+    d r8 d cis4
+    d <cis fis>2
+    fis2.
+    fis %165
+    g4 d r
+    e d r
+    fis2.
+    eis
+    cis2.~ %170
+    cis2 d4
+    e r d
+    e r ais
+    fis4 fis2
+    fis4 r r %175
+    d4 r8 d cis4
+    d2 <cis fis>4
+    e8 d~ d2
+    h a4
     d8 cis~ cis2 %180
-		a2 a4
-		a2.
-		<fis' a>2.
-		<d g>2 <g h>4
-		<e a>2 <fis a>4~ %185
-		q8 <e h'> <e a>2
-		<fis a>4 r r
-		fis r8 fis e4
-		fis2.
-		g4 d8 fis e4 %190
-		g8 fis r4 r
-		fis r8 fis e4
-		fis4 r8 fis e4
-		fis4 r8 fis e4
-		fis e2~ %195
-		e2.
-		d2 e4
-		<cis e>2.~
-		<cis e>8 <a d> e'2
-		e4 r r %200
-		cis r8 cis d h
-		cis4 e2~
-		e2.~
-		e~
-		e~ %205
-		e
-		fis4 r8 fis e4
-		e cis d
-		cis r fis
-		<g d>2 r4 %210
-		e4 r8 e e4
-		<e a>2 r4
-		<e g!>2.
-		fis2 <fis a>4
-		<e h'> <e a>2 %215
-		<fis a>4 r r
-		fis r8 fis e4
-		fis r8 fis e4
-		fis r8 fis e4
-		fis e r %220
-		cis2.\fermata
-		<d f>1~
-		q~
-		<d f>4 <cis e>8 <h! d> <cis e>2\fermata
+    a2 a4
+    a2.
+    <fis' a>2.
+    <d g>2 <g h>4
+    <e a>2 <fis a>4~ %185
+    q8 <e h'> <e a>2
+    <fis a>4 r r
+    fis r8 fis e4
+    fis2.
+    g4 d8 fis e4 %190
+    g8 fis r4 r
+    fis r8 fis e4
+    fis4 r8 fis e4
+    fis4 r8 fis e4
+    fis e2~ %195
+    e2.
+    d2 e4
+    <cis e>2.~
+    <cis e>8 <a d> e'2
+    e4 r r %200
+    cis r8 cis d h
+    cis4 e2~
+    e2.~
+    e~
+    e~ %205
+    e
+    fis4 r8 fis e4
+    e cis d
+    cis r fis
+    <g d>2 r4 %210
+    e4 r8 e e4
+    <e a>2 r4
+    <e g!>2.
+    fis2 <fis a>4
+    <e h'> <e a>2 %215
+    <fis a>4 r r
+    fis r8 fis e4
+    fis r8 fis e4
+    fis r8 fis e4
+    fis e r %220
+    cis2.\fermata
+    <d f>1~
+    q~
+    <d f>4 <cis e>8 <h! d> <cis e>2\fermata
     fis2 fis %225
     d <h' d>4 <a cis>
     <a d>2 g
@@ -1856,117 +1856,265 @@ SanctusChords = {
   \key d \major \time 4/4 \tempoSanctus
   << \relative c' {
     <d fis>4 <d a'> <g h>8 <a cis> <a d>4
-		h4 a <fis a>8 <g h> a[ g]
-		fis <e gis> <e a>4 <e gis>2
-		<e a>4 r r2
-		<g h>2 <fis a>4 <d fis>8 <cis e> %5
-		<d fis>4 <d a'> <g h>8 <a cis> <a d>4
-		h4 a8 g <d fis>2~
-		q8 <e gis> <e a>4 <fis a> <e gis>
-		a2 <g h>8 <a cis> <a d>4
-		h4 a8 g <d fis>2~ %10
-		q8 <e gis> <e a>4 <fis a> <e gis>
-		a1~
-		a
-		<d, fis>4 <d a'> <g h>8 <a cis> <a d>4
-		<a cis>4 r8 q <a d>4 r8 <fis a> \noBreak %15
-		<g h>2 <fis a>4 <d fis>8 <cis e>
-		\tempoPleni <a d>8 fis'[ g a] h cis d e \noBreak
-		<d fis>2 <cis e>
-		<h d> <a c>
-		<d, h'>8 <e cis'> <fis d'>4 <e cis'> e'~ %20
-		e8 d16 cis d4 cis e~
-		e d <a cis> q8 <gis h>
-		<e a>4 <d fis>8 <d gis> <e a>2
-		<d fis>4 <e gis>8 <e ais> <fis h>2
-		gis8[ h] <a cis> <a dis> <h e>2 %25
-		<a cis>8 <e a> <fis a>[ <e gis>] <e a> a[ h cis]
-		d e fis gis <e a>2
-		<d gis> <cis fis>
-		<g! e'> d'4 cis
-		h e~ e8 d16 cis d4 %30
-		cis <e, cis'> <d d'>4. <a' e'>8
-		<a d>4 <d, d'> <d h'>4. <h' e>8
-		<a cis>4 e'~ e8 d4 cis8
-		d4 <g, h>8 <g cis> <a d>2
-		<g h>4 <a cis>8 <a dis> <h e>2 %35
-		cis8[ e] <d fis> <d gis> <e a>2
-		<d fis>8 <a d> <h d>[ <a cis>] <fis d'>4 <h d>8 <a cis>
-		<a d>4 r r2
-		r8 <a d> <h d>[ <a cis>] <a d> r r4
-		r2 r8 <e a> <fis a>[ <e gis>] %40
-		<e a> r r4 r2
-		R1
-		r2 r8 <e a> <fis a>[ <e gis>]
-		<e a>4 a8 h~ h a a[ gis]
-		a4 <e gis> <e a> <fis a>8 <e gis> %45
-		<e a> r r4 r2
-		r8 a a4 a8 r r4
-		r2 r8 <a d> <h d>[ <a cis>]
-		<a d> r r4 r2
-		R1 %50
-		r2 r8 <a d> <h d>[ <a cis>]
-		<a d>4 d8 e~ e d d[ cis]
-		d4 <a cis> <a d> <a h>8 <g cis>
-		<a d>4 <a h>8 <g cis> <a d>4 <a h>8 <g cis>
-		<a d>4. q8 <g h>4 <a d> %55
+    h4 a <fis a>8 <g h> a[ g]
+    fis <e gis> <e a>4 <e gis>2
+    <e a>4 r r2
+    <g h>2 <fis a>4 <d fis>8 <cis e> %5
+    <d fis>4 <d a'> <g h>8 <a cis> <a d>4
+    h4 a8 g <d fis>2~
+    q8 <e gis> <e a>4 <fis a> <e gis>
+    a2 <g h>8 <a cis> <a d>4
+    h4 a8 g <d fis>2~ %10
+    q8 <e gis> <e a>4 <fis a> <e gis>
+    a1~
+    a
+    <d, fis>4 <d a'> <g h>8 <a cis> <a d>4
+    <a cis>4 r8 q <a d>4 r8 <fis a> \noBreak %15
+    <g h>2 <fis a>4 <d fis>8 <cis e>
+    \tempoPleni <a d>8 fis'[ g a] h cis d e \noBreak
+    <d fis>2 <cis e>
+    <h d> <a c>
+    <d, h'>8 <e cis'> <fis d'>4 <e cis'> e'~ %20
+    e8 d16 cis d4 cis e~
+    e d <a cis> q8 <gis h>
+    <e a>4 <d fis>8 <d gis> <e a>2
+    <d fis>4 <e gis>8 <e ais> <fis h>2
+    gis8[ h] <a cis> <a dis> <h e>2 %25
+    <a cis>8 <e a> <fis a>[ <e gis>] <e a> a[ h cis]
+    d e fis gis <e a>2
+    <d gis> <cis fis>
+    <g! e'> d'4 cis
+    h e~ e8 d16 cis d4 %30
+    cis <e, cis'> <d d'>4. <a' e'>8
+    <a d>4 <d, d'> <d h'>4. <h' e>8
+    <a cis>4 e'~ e8 d4 cis8
+    d4 <g, h>8 <g cis> <a d>2
+    <g h>4 <a cis>8 <a dis> <h e>2 %35
+    cis8[ e] <d fis> <d gis> <e a>2
+    <d fis>8 <a d> <h d>[ <a cis>] <fis d'>4 <h d>8 <a cis>
+    <a d>4 r r2
+    r8 <a d> <h d>[ <a cis>] <a d> r r4
+    r2 r8 <e a> <fis a>[ <e gis>] %40
+    <e a> r r4 r2
+    R1
+    r2 r8 <e a> <fis a>[ <e gis>]
+    <e a>4 a8 h~ h a a[ gis]
+    a4 <e gis> <e a> <fis a>8 <e gis> %45
+    <e a> r r4 r2
+    r8 a a4 a8 r r4
+    r2 r8 <a d> <h d>[ <a cis>]
+    <a d> r r4 r2
+    R1 %50
+    r2 r8 <a d> <h d>[ <a cis>]
+    <a d>4 d8 e~ e d d[ cis]
+    d4 <a cis> <a d> <a h>8 <g cis>
+    <a d>4 <a h>8 <g cis> <a d>4 <a h>8 <g cis>
+    <a d>4. q8 <g h>4 <a d> %55
     <h d>2 <a d>\fermata \bar "|." %56 finis
   } \\ \relative c' {
     a4 a8 fis' d g fis4
-		<e g>2 d4 <a d>~
-		q8 h cis4 d2
-		cis4 r r2
-		d4. e8 d4 a %5
-		a a8 fis' d e fis4
-		<e g>8[ <h fis'>] <cis e>4 a2~
-		a8 h cis4 h4. d8
-		<cis e>4 <d fis> d8 e fis4
-		<e g>8[ <h fis'>] <cis e>4 a2~ %10
-		a8 h cis4 h4. d8
-		<cis e>2 <d fis>4 <a e'>8~ <cis e>
-		<d fis>4 <e g> <d fis> <d e>8~ <cis e>
-		a4 a8 fis' d e fis4
-		e4 r8 <e g> fis4 r8 d %15
-		d4. e8 d4 a4
-		fis8 d'[ e fis] g a h cis
-		a2 g
-		fis e8 fis d4
-		g a a <e a~> %20
-		<fis a>4. <e h'>8 <e a~>2
-		<fis a>4. <fis h>8 e4 e
-		cis a8 h cis2
-		a4 h8 cis dis2
-		<h e>4 e8 fis gis2 %25
-		e8 cis h4 cis8 cis[ d e]
-		fis gis a h cis2
-		h a
-		h4 a <fis a>8 <e gis> <e a>4
-		<e gis> <gis h> <fis a>4. <e h'>8 %30
-		<e a>4 a~ a8 g16 fis g4
-		fis a~ a8 g16 fis g8 g
-		e4 <e a~>4 <fis a~> <e a>
-		<fis a> d8 e fis2
-		d4 e8 fis gis2 %35
-		<e a>4 a8 h cis2
-		a8 fis e4 a8 h e,4
-		fis r r2
-		r8 fis fis[ g] fis r r4
-		r2 r8 cis cis[ d] %40
-		cis r r4 r2
-		R1
-		r2 r8 cis cis[ d]
-		cis4 <d~ fis> <d gis>8 <cis e> <h e>4
-		<cis e> d cis h %45
-		cis8 r r4 r2
-		r8 <cis e> q[ <d fis>] <cis e> r r4
-		r2 r8 fis fis[ g]
-		fis r r4 r2
-		R1 %50
-		r2 r8 fis fis[ g]
-		fis4 <g~ h> <g cis>8 <fis a> <e a>4
-		<fis a> g fis e
-		fis e fis e
-		fis4. d8 d2 %55
-		g fis\fermata %56 finis
+    <e g>2 d4 <a d>~
+    q8 h cis4 d2
+    cis4 r r2
+    d4. e8 d4 a %5
+    a a8 fis' d e fis4
+    <e g>8[ <h fis'>] <cis e>4 a2~
+    a8 h cis4 h4. d8
+    <cis e>4 <d fis> d8 e fis4
+    <e g>8[ <h fis'>] <cis e>4 a2~ %10
+    a8 h cis4 h4. d8
+    <cis e>2 <d fis>4 <a e'>8~ <cis e>
+    <d fis>4 <e g> <d fis> <d e>8~ <cis e>
+    a4 a8 fis' d e fis4
+    e4 r8 <e g> fis4 r8 d %15
+    d4. e8 d4 a4
+    fis8 d'[ e fis] g a h cis
+    a2 g
+    fis e8 fis d4
+    g a a <e a~> %20
+    <fis a>4. <e h'>8 <e a~>2
+    <fis a>4. <fis h>8 e4 e
+    cis a8 h cis2
+    a4 h8 cis dis2
+    <h e>4 e8 fis gis2 %25
+    e8 cis h4 cis8 cis[ d e]
+    fis gis a h cis2
+    h a
+    h4 a <fis a>8 <e gis> <e a>4
+    <e gis> <gis h> <fis a>4. <e h'>8 %30
+    <e a>4 a~ a8 g16 fis g4
+    fis a~ a8 g16 fis g8 g
+    e4 <e a~>4 <fis a~> <e a>
+    <fis a> d8 e fis2
+    d4 e8 fis gis2 %35
+    <e a>4 a8 h cis2
+    a8 fis e4 a8 h e,4
+    fis r r2
+    r8 fis fis[ g] fis r r4
+    r2 r8 cis cis[ d] %40
+    cis r r4 r2
+    R1
+    r2 r8 cis cis[ d]
+    cis4 <d~ fis> <d gis>8 <cis e> <h e>4
+    <cis e> d cis h %45
+    cis8 r r4 r2
+    r8 <cis e> q[ <d fis>] <cis e> r r4
+    r2 r8 fis fis[ g]
+    fis r r4 r2
+    R1 %50
+    r2 r8 fis fis[ g]
+    fis4 <g~ h> <g cis>8 <fis a> <e a>4
+    <fis a> g fis e
+    fis e fis e
+    fis4. d8 d2 %55
+    g fis\fermata %56 finis
+  } >>
+}
+
+BenedictusChords = {
+  \clef treble
+  \key d \major \time 4/4 \tempoBenedictus
+  << \relative c' {
+    a''4~ \oneVoice \tuplet 3/2 8 { a16[ g a] h g e } \voiceOne a4~ \oneVoice \tuplet 3/2 8 { a16[ g a] h g e
+    a[ fis cis] d fis a, } \voiceOne a8[ g]\trill fis4 \oneVoice r
+    r2 \voiceOne e'4~ \oneVoice \tuplet 3/2 8 { e16[ d e] fis d h }
+    \voiceOne e4~ \oneVoice \tuplet 3/2 8 { e16[ d e] fis d h e16[ fis g!] fis g a } \appoggiatura a8 g4\trill
+    \tuplet 3/2 8 { fis16[ e fis] g fis g a[ fis e] d fis a } h32[ g fis g] d g fis g h,[ d cis d] h' g fis g %5
+    a[ fis e fis] d fis e fis a,[ d cis d] a' fis e fis g[ e d e] cis e d e g,[ cis h cis] g' e d e
+    fis[ d cis d] a' d, cis d g[ e d e] a, e' d e fis[ d cis d] a' d, cis d g[ e d e] a, e' d e
+    fis[ d a' fis] h g fis e e4\trill fis32[ d cis d] fis d cis d g[ e dis e] g e dis e
+    fis[ d g e] a fis e d e4\trill d16 a'-! a-! a-! a4~\startTrillSpan
+    a2~ a16.\stopTrillSpan fis32 d8 \voiceOne <a d> <g cis> %10
+    <a d>4 \tiny r a2~
+    a4 \normalsize \oneVoice a32[ e' cis e] a, fis' d fis \voiceOne <cis e g>8[ <d fis>] \oneVoice a32[ fis' d fis] a, e' cis e
+    \voiceOne <d fis>4 \tiny r8 <a d> h4. cis8 \normalsize
+    a'4~ \oneVoice \tuplet 3/2 8 { a16[ g a] h g e a[ fis cis] d fis a, } \voiceOne a8 g
+    fis4 \tiny r8 <a cis> <a d>4 h %15
+    \normalsize \oneVoice a32[ cis h cis] e cis h cis a'[ e d e] a, e' d e a,[ d cis d] fis d cis d a'[ fis e fis] d fis e fis
+    a,32[ cis h cis] e cis h cis a'[ e d e] a, e' d e a,[ d cis d] gis d cis d h'[ gis fis gis] e gis fis gis
+    \voiceOne <e a>4 \tiny r8 <gis, h> <a cis>4 <e cis'>8 <d h'>
+    \normalsize \oneVoice a'32[ cis h cis] e cis h cis a'8^\critnote \noBeam \voiceOne \tiny <gis, h>8 <a cis>4 <e cis'>8 <d h'>
+    <a' cis>4 <a d>8 h <a cis>4 <gis h> %20
+    <e a> r q r
+    <a cis> <a d>8 h <a cis>4 <gis h>
+    \normalsize e'4~ \oneVoice \tuplet 3/2 8 { e16[ d e] fis d h } \voiceOne e4~ \oneVoice \tuplet 3/2 8 { e16[ d e] fis d h
+    e[ fis gis] a cis, e d[ gis a] h h, d cis[ h cis] d cis d e[ cis h] a cis e }
+    fis32[ d cis d] a d cis d fis,[ d' cis d] fis d cis d gis[ e dis e] h e dis e gis,[ e' dis e] gis e dis e %25
+    a[ e dis e] cis e dis e a,[ e' dis e] a e dis e h'[ e, dis e] h e dis e gis,[ e' dis e] h' d, cis h
+    cis[ a e' cis] a' e cis a h4\trill cis32[ a' gis fis] e d cis h h4\trill
+    a16 e' e e e4~\startTrillSpan e2~
+    e32\stopTrillSpan[ cis d e] fis d cis h a8 h\trill a4 r
+    \voiceOne \tiny <a cis>4. <gis h>8 <a cis>[ <gis h>] \oneVoice \normalsize e32[ h' gis h] e, cis' a cis %30
+    <gis h d>8 <e a cis> a32[ e' cis e] fis, e' cis e \voiceOne <d h>4 \oneVoice r
+    \voiceOne \tiny <h d>4. <ais cis>8 <h d>[ < ais cis>] \oneVoice \normalsize fis32[ cis' ais cis] fis, d' h d
+    <ais cis e>8 <fis h d> fis32[ fis' d fis] ais,! e' cis e \voiceOne <d h>4 \tiny <fis, h>4
+    <g h> r8 q <a cis>4 r8 q
+    <a d>4 cis d h %35
+    \oneVoice \normalsize a32[ cis h cis] e cis h cis a[ e' d e] a e d e fis[ d cis d] a d cis d d,[ a' g a] d, fis e fis
+    a,4\trill \voiceOne \tiny <a e'>4 <d fis> r8 <g a>
+    <fis a>4 r8 <a d> <a cis>4 <a e'>
+    <a d>8 <h e> <fis d'>[ <e cis'>] \normalsize a'4~ \oneVoice \tuplet 3/2 8 { a16[ g a] h g e }
+    \voiceOne a4 \oneVoice r \voiceOne \tiny <a, d>4. <a cis>8 %40
+    <a d> <a cis> \oneVoice \normalsize a32[ e' cis e] a, fis' d fis <a, cis e g>8 <a d fis> a32[ fis' d fis] d a' fis a
+    \voiceOne <fis a>4 \tiny <a, c> q4 <g h>
+    <h d>2 q4 <a cis>8 r
+    <a cis> r q r <cis e>4. <fis, d'>16 <e cis'>
+    <a d>2 \oneVoice \normalsize a32[ cis h cis] e cis h cis a'8 r %45
+    \tiny \voiceOne <fis, d'>4 cis' \normalsize \oneVoice d,32[ fis e fis] a fis e fis d'8 r
+    \tiny \voiceOne <a d>4 cis <a d> <g h>8 <fis a>16 <e g>
+    <d fis>4 <cis e> <d fis> r
+    <g h> r <fis a> r
+    <a d>4. <h e>8 <fis d'>4 <e cis'> %50
+    \normalsize a'4~ \tuplet 3/2 8 { a16[ g a] h g e } a4~ \tuplet 3/2 8 { a16[ g a] h g e
+    a[ fis cis] d fis a, } \voiceOne a8 g\trillE \oneVoice \tuplet 3/2 8 { fis16[ d fis] a fis a d[ a d] fis d
+    fis a[ g fis] fis e d a'[ fis d] fis a c } h32[ g fis g] d g fis g h,[ d cis d] h' g fis g
+    a[ fis e fis] d fis e fis a,[ d cis d] a' fis e fis g[ e d e] cis e d e g,[ cis h cis] g' e d e
+    fis[ d cis d] a' d, cis d g[ e d e] a, e' d e fis[ d cis d] a' d, cis d g[ e d e] a, e' d e %55
+    fis[ d a' fis] h g fis e e4\trill fis32[ d cis d] fis d cis d g[ e dis e] g e dis e
+    fis[ d g e] a fis e d e4\trill d16 a'-! a-! a-! a4~\startTrillSpan
+    a2~ a16.\stopTrillSpan fis32 d8 \voiceOne <a d> <g cis>
+    \tempoOsanna <a d>4 \tiny r r2
+    r8 <a d> <h d>[ <a cis>] <a d> r r4 %60
+    r2 r8 <e a> <fis a>[ <e gis>]
+    <e a> r r4 r2
+    R1
+    r2 r8 <e a> <fis a>[ <e gis>]
+    <e a>4 a8 h~ h a a[ gis] %65
+    a4 <e gis> <e a> <fis a>8 <e gis>
+    <e a> r r4 r2
+    r8 a a4 a8 r r4
+    r2 r8 <a d> <h d>[ <a cis>]
+    <a d> r r4 r2 %70
+    R1
+    r2 r8 <a d> <h d>[ <a cis>]
+    <a d>4 d8 e~ e d d[ cis]
+    d4 <a cis> <a d> <a h>8 <g cis>
+    <a d>4 <a h>8 <g cis> <a d>4 <a h>8 <g cis> %75
+    <a d>4. q8 <g h>4 <a d>
+    <h d>2 <a d>\fermata \bar "|." %77 finis
+  } \\ \relative c' {
+    fis'4 s fis s
+    s fis,8 e d4 s
+    s2 cis'4 s
+    cis s2.
+    s1*5 %9
+    s2. fis,8 e %10
+    <d fis>4 \tiny r <d fis>4. <cis e>8
+    <d fis>[ <cis e>] s4 \normalsize a'8 a s4
+    a4 \tiny r8 fis <fis a>4 <e g>
+    \normalsize fis' s2 fis,8 e
+    d4 \tiny r8 e fis4 <e g>8 <d fis> %15
+    s1*2
+    \normalsize cis'4 \tiny r8 e, e4 gis
+    s4. \tiny e8 e4 gis
+    e fis e2 %20
+    cis4 r a r
+    e' fis e2
+    \normalsize cis'4 s cis s
+    s1*6 %20
+    \tiny e,2. s4 %30
+    s2 \normalsize fis4 s
+    \tiny fis2. s4
+    s2 \normalsize fis4 \tiny d
+    e4 r8 e e4 r8 e
+    fis4 <fis a>8 <e g> <fis a>4 <e g>8 <d fis> %35
+    s1
+    s4 g, a r8 <cis e>
+    d4 r8 fis <e g>4 e
+    fis8 g a4 \normalsize fis' s
+    fis s \tiny fis,4. e8 %40
+    fis e s2.
+    \normalsize d'4 \tiny e,8 d d2
+    gis4 fis8 e e4. r8
+    e r e r g4. a8
+    fis2 s %45
+    a4 <fis a>8 <e g> s2
+    fis4 <fis a>8 <e g> fis4 d8 h
+    a2 a4 r
+    d r d r
+    fis4. g8 a2 %50
+    \normalsize fis'4 s fis s
+    s fis,8 e s2
+    s1*5 %57
+    s2. fis8 e
+    <d fis>4 \tiny r r2
+    r8 fis fis[ g] fis r r4 %60
+    r2 r8 cis cis[ d]
+    cis r r4 r2
+    R1
+    r2 r8 cis cis[ d]
+    cis4 <d~ fis> <d gis>8 <cis e> <h e>4 %65
+    <cis e> d cis h
+    cis8 r r4 r2
+    r8 <cis e> q[ <d fis>] <cis e> r r4
+    r2 r8 fis fis[ g]
+    fis r r4 r2 %70
+    R1
+    r2 r8 fis fis[ g]
+    fis4 <g~ h> <g cis>8 <fis a> <e a>4
+    <fis a> g fis e
+    fis e fis e %75
+    fis4. d8 d2
+    g fis\fermata %77 finis
   } >>
 }

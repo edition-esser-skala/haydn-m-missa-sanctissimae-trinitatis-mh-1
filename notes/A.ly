@@ -1124,3 +1124,127 @@ SanctusAltoLyrics = \lyricmode {
   in ex -- %55
   cel -- sis. %56 finis
 }
+
+BenedictusAlto = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoBenedictus
+    R1*10 %10
+    \mvTr d'4~\pE^\markup \remark "S 2 Solo" d16[ e] e([ fis)] fis4~ fis16[ e] d cis
+    d8 cis r d e d r cis
+    d([ cis16 h)] a([ g)] fis([ g)] fis4( e8.)\trill d16
+    d4 r r2
+    r8 d' d e16 cis d8 e16 fis fis([ e)] e([ d)] %15
+    \appoggiatura d8 cis4 r8 cis d4 fis16([ e) e( d)]
+    \appoggiatura d8 cis4 r8 cis h4( d16[ cis)] cis([ h)]
+    \appoggiatura h8 a4 r8 gis a4 cis16[ h h\trill a]
+    a4 r8 gis a4 cis16([ h)] h([ a)]
+    a8([ cis)] d h a4( gis8.)\trill a16 %20
+    a8 a a'16[ gis gis\trill fis] fis[\trill e e\trill d] d[\trill cis cis\trill h]
+    \tuplet 3/2 8 { a[ cis h] a[ h cis] } d8 cis16 h a4( gis8.)\trill a16
+    a4 r r2
+    R1*5 %28
+    r2 a4~ a16[ h] h([ cis)]
+    cis4~ cis16[ h] a gis a8 gis r a %30
+    h a r4 h~ h16[ cis] cis([ d)]
+    d4~ d16[ cis] h ais h8 ais r h
+    cis h r4 r r8 h
+    h h16 h h8 a16 h \appoggiatura h8 cis8. cis16 cis8 cis
+    d4 \tuplet 3/2 8 { fis16([ e d)] e([ d cis)] } d8.[(\trill cis32 d] e8) d %35
+    \appoggiatura d cis4 r8 a d4 d8 d
+    d8. cis16 cis8 e d4 fis16[ e e\trill d]
+    d4 h16[ a a\trill g] g4 a16[ g g\trill fis]
+    fis[ h] a g \appoggiatura fis8 e8. d16 d4 r
+    d'~ d16[ e] e[( fis)] fis4~ fis16[ e] d cis %40
+    d8 cis r d e d r c
+    a a16 a a8 a16 a a8.\trill g16 g8 g
+    gis h16 h h8 h16 h h8.\trillE a16 a8 r
+    r a a16([ cis)] cis cis cis([ e] e4) d16 cis
+    \appoggiatura cis d4.\trill d8 cis4 r8 cis %45
+    d4 fis16[ e e\trill d] d4 r8 cis
+    d4 fis16([ e)] e([ d)] d4 h8 a16([ g)]
+    fis4( e8.) d16 d8 d d'16[ cis cis\trill h]
+    h[\trill a a\trill g] g[\trill fis fis\trill e] d8[ e16 fis] g[ a h cis]
+    d4~ \tuplet 3/2 8 { d16[ e fis] } e d d4( cis8.)\trill d16 %50
+    d4 r r2
+    R1*7 %58
+    \tempoOsanna R1
+    r8 \mvTr a\fE^\markup \remark "A Tutti" g([ a)] a r r4 %60
+    r2 r8 \mvTr e\fE^\tuttiE d([ e)]
+    e r r4 r2
+    R1
+    r2 r8 \mvTr e\fE^\tutti d([ e)]
+    e e fis fis e e e4 %65
+    cis r r2
+    R1
+    r8 \mvTr a'\fE^\tutti a4 a8 r r4
+    r2 r8 \mvTr a\fE^\tuttiE g([ a)]
+    a8^\critnote r r4 r2 %70
+    R1
+    r2 r8 \mvTr a\fE^\tutti g([ a)]
+    a a h h a a a4
+    fis r r2
+    R1 %75
+    r2 g4 a
+    g2 fis\fermata \bar "|." %77 finis
+  }
+}
+
+BenedictusAltoLyrics = \lyricmode {
+  Be -- ne -- di -- ctus, qui %11
+  ve -- nit, qui ve -- nit in
+  no -- mi -- ne Do -- mi --
+  ni,
+  qui ve -- nit in no -- mi -- ne Do -- mi -- %15
+  ni, qui ve -- _
+  nit in no -- mi --
+  ne, qui ve -- _
+  nit, qui ve -- nit in
+  no -- mi -- ne Do -- mi -- %20
+  ni, in no -- _ _
+  _ _ _ mi -- ne Do -- mi --
+  ni.
+
+  Be -- ne -- %29
+  di -- ctus, qui ve -- nit, qui %30
+  ve -- nit, be -- ne --
+  di -- ctus, qui ve -- nit, qui
+  ve -- nit, qui
+  ve -- nit in no -- mi -- ne Do -- mi -- ni, in
+  no -- mi -- ne Do -- mi -- %35
+  ni, qui ve -- nit in
+  no -- mi -- ne, in no -- _
+  _ _ _ _
+  _ mi -- ne Do -- mi -- ni,
+  be -- ne -- di -- ctus, qui %40
+  ve -- nit, qui ve -- nit, qui
+  ve -- nit in no -- mi -- ne Do -- mi -- ni, qui
+  ve -- nit in no -- mi -- ne Do -- mi -- ni,
+  qui ve -- nit in no -- mi -- ne
+  Do -- mi -- ni, qui %45
+  ve -- _ nit, qui
+  ve -- nit in no -- mi -- ne
+  Do -- mi -- ni, in no --
+  _ _ _ _
+  _ mi -- ne Do -- mi -- %50
+  ni.
+
+  O -- san -- na, %60
+  o -- san --
+  na,
+
+  o -- san --
+  na, o -- san -- na in ex -- cel -- %65
+  sis,
+
+  o -- san -- na,
+  o -- san --
+  na, %70
+
+  o -- san --
+  na, o -- san -- na in ex -- cel --
+  sis,
+  %75
+  in ex --
+  cel -- sis. %77 finis
+}
