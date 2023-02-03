@@ -792,3 +792,108 @@ EtResurrexitTenoreLyrics = \lyricmode {
 
   a -- men. %292 finis
 }
+
+SanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 4/4 \autoBeamOff \tempoSanctus
+    R1*5 %5
+    \mvTr a4.\fE^\tutti a8 h cis d fis,16 fis
+    g8 h a g fis4 a~
+    a8[ h] cis4 h4. h8
+    a4 d2 d4
+    h a a r %10
+    R1
+    r4 a8 cis a8. a16 e'4
+    d e d8 d d cis
+    d4 r r2
+    R1*2 %16
+    \tempoPleni R1 \noBreak
+    r8 d d d e4 e8 e
+    h4 h8 h c4 c8 c
+    d([ cis] a4) a cis~ %20
+    cis8 h16 a h4 a e'~
+    e8 d16([ cis)] d4 cis8 h16 a a8([ gis)]
+    a4 r r2
+    R1*3 %26
+    r2 r8 e' e e
+    h4 h8 h cis4 cis8 cis
+    h4^\critnote a8 a a([ h cis a])
+    h4 r a fis'8^\critnote e %30
+    e e r4 d h8^\critnote a
+    a a r4 d h8 e
+    cis8. d16 e4 e8 d16 d d8([ cis)]
+    d4 r r2
+    d8. d16 d4 r2 %35
+    e8. e16 e4 r2
+    d8 d16 d d8([ cis)] d4 r
+    R1
+    r8 \mvTr d\fE^\tutti d([ cis)] d r r4
+    r2 r8 \mvTr a\fE^\tutti a([ gis)] %40
+    a r r4 r2
+    R1
+    r2 r8 \mvTr a\fE^\tutti a([ gis)]
+    a a a h gis a a([ gis)]
+    a4 r r2 %45
+    R1
+    r8 \mvTr cis\fE^\tutti \appoggiatura cis d4 cis8 r r4
+    r2 r8 \mvTr d\fE^\tutti d([ cis)]
+    d r r4 r2
+    R1 %50
+    r2 r8 \mvTr d\fE^\tutti d([ cis)]
+    d d d e cis d d([ cis)]
+    d4 r r2
+    R1
+    r2 d4 d %55
+    d2 d\fermata \bar "|." %56 finis
+  }
+}
+
+SanctusTenoreLyrics = \lyricmode {
+  San -- ctus, san -- ctus Do -- mi -- nus %6
+  De -- us Sa -- ba -- oth, De --
+  us Sa -- ba --
+  oth, De -- us
+  Sa -- ba -- oth, %10
+  san -- ctus Do -- mi -- nus
+  De -- us, De -- us Sa -- ba --
+  oth.
+
+  Ple -- ni sunt coe -- li et %18
+  ter -- ra, sunt coe -- li et
+  ter -- ra glo -- %20
+  ri -- a tu -- a, glo --
+  ri -- a, glo -- ri -- a tu --
+  a.
+
+  Ple -- ni sunt %27
+  coe -- li et ter -- ra, sunt
+  coe -- li et ter --
+  ra glo -- ri -- a tu -- %30
+  a, glo -- ri -- a
+  tu -- a, glo -- ri -- a,
+  glo -- ri -- a, glo -- ri -- a tu --
+  a,
+  glo -- ri -- a, %35
+  glo -- ri -- a,
+  glo -- ri -- a tu -- a.
+
+  O -- san -- na,
+  o -- san -- %40
+  na,
+
+  o -- san --
+  na, o -- san -- na in ex -- cel --
+  sis, %45
+
+  o -- san -- na,
+  o -- san --
+  na,
+  %50
+  o -- san --
+  na, o -- san -- na in ex -- cel --
+  sis,
+
+  in ex -- %55
+  cel -- sis. %56 finis
+}

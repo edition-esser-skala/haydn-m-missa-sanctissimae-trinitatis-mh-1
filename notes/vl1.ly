@@ -939,3 +939,66 @@ EtResurrexitViolinoI = {
     h h e e a, a cis cis <fis a, d,>4 r\fermata \bar "|." %292 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoSanctus
+    R1
+    r2 d'4.\pp d8
+    fis16( gis) gis( a) a( e) cis( a) d( gis) gis( a) h( d,) cis( h)
+    cis( e) d( fis) e( g) fis( a) g( fis) fis( g) \tuplet 3/2 8 { g fis g a[ g a] }
+    h2\cresc a16\f a, a g fis8 e %5
+    d16( a')\ff fis( d) d'( a) fis( d) g'( d) cis( a) a'( fis) d( a)
+    g'( e) h( g) a'( e) cis( a) fis'( d) a( fis) d'( a) fis( d)
+    a''( fis e h) a'( e cis a) h'( fis d h) h'( gis e h)
+    a'( e cis a) a'( fis d a) h'( d, cis a) a'( fis d a)
+    g'( e h g) a'( e cis a) fis'( d a fis) d'( a fis d) %10
+    a''( fis e h) a'( e cis a) h'( fis d h) h'( gis e h)
+    a'( e cis a) a'( e cis a) a'( fis d a) a'( e cis a)
+    \once \slurDashed a'( fis d a) a'( e cis a) a'( fis d a) e d' e, cis'
+    d,8 a''4\pp a8 h16( cis) cis( d) d( a) fis( d)
+    g( a) a( h) h( g) fis( e) fis-! fis-! fis( g) \tuplet 3/2 8 { g[ fis g] a g a } \noBreak %15
+    h2\cresc a16\f a, a g fis8 e
+    \tempoPleni d8 \tuplet 3/2 8 { fis16 e fis } \tuplet 6/4 4 { g fis g a g a h a h cis h cis d cis d e d e \noBreak
+    fis e fis a g a} d-! fis,-! e-! d-! \tuplet 6/4 4 { e d e a gis a } cis e, d cis
+    \tuplet 6/4 4 { d cis d fis e fis } h d, cis h \tuplet 6/4 4 { c h c fis e fis } a c, h a
+    \tuplet 6/4 4 { h a h cis h cis } d a' g fis \tuplet 6/4 4 { e d e cis h cis } a cis e a %20
+    \tuplet 6/4 4 { e d e cis h cis } d fis e h' \tuplet 6/4 4 { e, d e cis h cis } a cis e a
+    \tuplet 6/4 4 { fis e fis cis h cis } d fis e h' \tuplet 6/4 4 { a gis a e d e } cis a' h, gis'
+    a,8 \tuplet 3/2 8 { e'16 d e } \tuplet 6/4 4 { fis e fis gis fis gis } a cis,-! cis-! cis-! d-! d-! e-! e-!
+    fis8 \tuplet 3/2 8 { fis16 e fis } \tuplet 6/4 4 { gis fis gis ais? gis ais? } h dis, dis dis e e fis fis
+    gis8 \tuplet 6/4 4 { h,16 a! h } \tuplet 6/4 4 { cis h cis dis? cis dis? } e gis, gis gis a a h h %25
+    \tuplet 6/4 4 { cis h cis a' gis a h, a h gis' fis gis } a,8 \tuplet 3/2 8 { a16 gis a } \tuplet 6/4 4 { h a h cis h cis
+    d cis d e d e fis e fis gis fis gis a gis a e d e } a cis, h a
+    \tuplet 6/4 4 { h a h e dis e } gis h, a gis \tuplet 6/4 4 { a gis a cis h cis } fis a, gis fis
+    \tuplet 6/4 4 { g fis g cis h cis } e g, fis e \tuplet 6/4 4 { fis e fis gis fis gis } a cis e a
+    \tuplet 6/4 4 { e dis e a, gis a } h e, e' h \tuplet 6/4 4 { a gis a e' d e } d a' d, h' %30
+    \tuplet 6/4 4 { cis, h cis e d e } a e d cis \tuplet 6/4 4 { d cis d a' g a } d, g! a, a'
+    \tuplet 6/4 4 { a g a fis e fis } d fis a d, \tuplet 6/4 4 { h' a h d, cis d } g h a e
+    \tuplet 6/4 4 { e d e cis h cis } a cis e g \tuplet 6/4 4 { fis e fis d cis d } fis, d' e, cis'
+    d8 \tuplet 3/2 8 { a16 g a } \tuplet 6/4 4 { h a h cis h cis } d fis, fis fis g g a a
+    h8 \tuplet 3/2 8 { h16 a h } \tuplet 6/4 4 { cis h cis dis? cis dis? } e gis, gis gis a a h h %35
+    cis8 \tuplet 3/2 8 { e16 d e } \tuplet 6/4 4 { fis e fis gis? fis gis? } a cis, cis cis d d e e
+    \tuplet 6/4 4 { fis e fis d cis d e, d e cis' h cis d cis d fis, e fis e d e cis' h cis }
+    d,4 fis8\p fis a d h cis
+    d16 a\f d fis a g a, g' fis8 a,\p r a
+    a a fis gis a16 cis\f e a h d, e, d' %40
+    cis4 r8 e,\p fis4. fis8
+    gis4. gis8 a4. h8
+    gis a4 gis8 a16 cis\f e a d, h' e,, d'
+    cis e a e d h' e,, d' cis d e a h,8 gis'
+    a,16 a h cis d e fis gis a e d cis h8 gis' %45
+    a,4 a4.\p cis8 \appoggiatura cis d4
+    cis16 a\f e' g! fis d a' fis e4 a,\p
+    a8 cis, d e fis16 a\f d fis a g a, g'
+    fis4 fis,8\pE g a4 fis8 a
+    h4 g8 h cis4 a8 d %50
+    d4 cis d16 a\f d fis a g a, g'
+    fis d fis a g e h e cis e fis d' e,8 cis'
+    d,16 d, e fis g a h cis d8 a' \appoggiatura a g4
+    fis8 a,16 a' \appoggiatura a8 g4 fis8 d' \appoggiatura a g4
+    fis16 g a g fis e d c h4 d %55
+    h2 a\fermata \bar "|." %56 finis
+  }
+}

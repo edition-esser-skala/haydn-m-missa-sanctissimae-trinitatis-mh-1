@@ -1320,12 +1320,107 @@ EtResurrexitSopranoLyrics = \lyricmode {
   a -- men. %292 finis
 }
 
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
+SanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoSanctus
+    R1*9
+    r2 \mvTr d'4.\fE^\tutti d8 %10
+    fis gis a cis,16 cis d8 fis e d
+    cis4 e8 e fis8. fis16 e4
+    fis g fis8 fis e8. e16
+    d4 r r2
+    R1*2 %16
+    \tempoPleni r8 fis, g a h([ cis)] d e
+    fis2 e
+    d c
+    h8[ cis d fis] e4 e~ %20
+    e8 d16 cis d4 cis r
+    fis4. fis16 fis e8 d16 cis cis8([ h)]\trill
+    a4 r r2
+    R1*2 %25
+    r2 r8 a h cis
+    d([ e)] fis gis a2
+    gis fis
+    e d4 cis
+    h e4. d16 cis d4 %30
+    cis cis d8 d d([ e)]
+    d4 r h4. e16 e
+    e8. fis16 g4 fis8 fis16 fis e4
+    fis r r2
+    h,8. h16 h4 r2 %35
+    cis8. cis16 cis4 r2
+    fis8 fis16 fis e4 d r
+    r8 \mvTr d,\pE^\solo fis a d a' \appoggiatura a g4
+    fis8 \mvTr fis\fE^\tutti \appoggiatura fis g4 fis8 \mvTr a,\pE^\solo fis' e16([ d)]
+    e8 fis \appoggiatura e d4 cis8 \mvTr cis\fE^\tutti \appoggiatura cis d4 %40
+    cis8 \mvTr e,\pE^\solo a4. ais8 h4~
+    h8 his cis4. d8 d4~
+    d8 cis \appoggiatura cis h4\trill a8 \mvTr cis\fE^\tutti \appoggiatura cis d4
+    cis d4. cis8 h4
+    a r r2 %45
+    r8 \mvTr a\pE^\solo cis d e d16([ e)] \appoggiatura e8 fis4
+    e8 \mvTr e\fE^\tutti \appoggiatura e fis4 e8 \mvTr a,\pE^\solo cis d
+    e fis \appoggiatura fis g4 fis8 \mvTr fis\fE^\tutti \appoggiatura fis g4
+    fis8 \mvTr a\pE^\solo c,4. h16([ c)] d8 c
+    h16[ d cis h] g'[ fis e d] cis8 h16([ a)] d8 g %50
+    fis4( e)\trill d8 \mvTr fis\fE^\tutti \appoggiatura fis g4
+    fis g4. fis8 e4
+    d r r2
+    R1
+    r2 h4 d %55
+    h2 a\fermata \bar "|." %56 finis
+  }
+}
 
+SanctusSopranoLyrics = \lyricmode {
+  San -- ctus, %10
+  san -- ctus Do -- mi -- nus De -- us Sa -- ba --
+  oth, san -- ctus Do -- mi -- nus
+  De -- us, De -- us Sa -- ba --
+  oth.
 
-% ## Benedictus
+  Ple -- ni sunt coe -- li et %17
+  ter -- _
+  _ _
+  _ ra glo -- %20
+  ri -- a tu -- a,
+  glo -- ri -- a, glo -- ri -- a tu --
+  a.
+
+  Ple -- ni sunt %26
+  coe -- li et ter --
+  _ _
+  _ _ _
+  ra glo -- ri -- a tu -- %30
+  a, glo -- ri -- a tu --
+  a, glo -- ri -- a,
+  glo -- ri -- a, glo -- ri -- a tu --
+  a,
+  glo -- ri -- a, %35
+  glo -- ri -- a,
+  glo -- ri -- a tu -- a.
+  O -- san -- na in ex -- cel --
+  sis, o -- san -- na, o -- san -- na
+  in ex -- cel -- sis, o -- san -- %40
+  na, o -- san -- na in __
+  ex -- cel -- sis, in __
+  ex -- cel -- sis, o -- san --
+  na in ex -- cel --
+  sis, %45
+  o -- san -- na in ex -- cel --
+  sis, o -- san -- na, o -- san -- na
+  in ex -- cel -- sis, o -- san --
+  na, o -- san -- na in ex --
+  cel -- _ _ sis, in ex -- %50
+  cel -- sis, o -- san --
+  na in ex -- cel --
+  sis,
+
+  in ex -- %55
+  cel -- sis. %56 finis
+}
+
 
 % Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
 % O -- san -- na in ex -- cel -- sis.

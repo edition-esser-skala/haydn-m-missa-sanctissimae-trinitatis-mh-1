@@ -133,20 +133,36 @@
   %     \midi { \tempo 4 = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \subsection "Et resurrexit · Et vitam"
+  %   \addTocEntry
+  %   \score {
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff { \EtResurrexitChords }
+  %         \new Staff { \EtResurrexitOrgano }
+  %       >>
+  %       \new FiguredBass { \EtResurrexitBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 120 }
+  %   }
+  % }
   \bookpart {
-    \subsection "Et resurrexit · Et vitam"
+    \section "4" "Sanctus"
     \addTocEntry
     \score {
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff { \EtResurrexitChords }
-          \new Staff { \EtResurrexitOrgano }
+          \new Staff { \SanctusChords }
+          \new Staff { \SanctusOrgano }
         >>
-        \new FiguredBass { \EtResurrexitBassFigures }
+        \new FiguredBass { \SanctusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 120 }
+      \midi { \tempo 4 = 50 }
     }
   }
 }

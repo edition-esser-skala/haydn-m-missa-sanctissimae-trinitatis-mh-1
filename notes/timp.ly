@@ -255,3 +255,54 @@ EtResurrexitTimpani = {
     r g c r\fermata \bar "|." %292 finis
   }
 }
+
+SanctusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoSanctus
+    R1*8 %8
+    g4\fE c r c
+    r g c c8 c %10
+    c4 g r2
+    g4 r c g
+    c g c8 c g8. g16
+    c4 r r2
+    R1*2 %16
+    \tempoPleni c4\fE r r2 \noBreak
+    c4 r8 c g4 r
+    R1
+    r4 r8 c g4 r %20
+    r2 g4 r
+    R1
+    g4 r r2
+    R1*2 %25
+    r2 g4 r
+    R1*4 %30
+    g4 r r g
+    c r r2
+    r4 g c8 c g4
+    c r r2
+    R1 %35
+    g4 r r2
+    c4 g c8 c g4
+    c r r2
+    r4 r8 g c r r4
+    R1 %40
+    g4 r r2
+    R1
+    r2 g4 r
+    g r r2
+    g4 r r2 %45
+    g4 r r2
+    r4 c g r
+    r2 r4 g
+    c r r2
+    R1 %50
+    r2 r4 g
+    c r g8 c g4
+    c r r2
+    R1
+    c4 r c c %55
+    c2 c\fermata \bar "|." %56 finis
+  }
+}

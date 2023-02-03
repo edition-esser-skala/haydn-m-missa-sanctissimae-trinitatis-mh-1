@@ -871,3 +871,66 @@ EtResurrexitViola = {
     g, e a a, d4 r\fermata \bar "|." %292 finis
   }
 }
+
+SanctusViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 4/4 \tempoSanctus
+    d8\pp e fis d g e fis d
+    e d cis a d g fis e
+    d4 cis h e
+    a,2 a4 r
+    h16(\cresc cis) cis( d) \tuplet 3/2 8 { d[ cis d] e d e } a,8\f a a g %5
+    fis4 a8\ff a h cis d fis,
+    g h a g fis4 a~
+    a8 h cis4 h4. h8
+    cis8 a'4 a8 h cis d fis,
+    g h a g fis4 a~ %10
+    a8 h cis4 h4. h8
+    a4 a8 a a8. a16 a4
+    a a a8 a a8. a16
+    fis4 r g,8\pp g' fis d
+    a' a, r a a4 r8 d \noBreak  %15
+    h16(\cresc cis) cis( d) \tuplet 3/2 8 { d[ cis d] e d e } fis8\f d a a
+    \tempoPleni a d e fis g a h cis \noBreak
+    d2 cis
+    h a
+    g8 a4 h8 cis4 a~ %20
+    a d,8 e e4 r
+    a a8 h e, e e4
+    cis r cis8 a'4 a8~
+    a a h cis dis h4 h8~
+    h e,4 e e' e8~ %25
+    e e, fis e e cis d e
+    fis gis a h cis2
+    h a
+    g! fis8 gis a4
+    gis gis a8 a a h %30
+    a4 a4. g16 fis g4
+    fis a4. g16 fis g4
+    e8. a16 a4 a8 a a4
+    a8 d,4 g8 fis d4 d8~
+    d d e fis gis e4 e8~ %35
+    e a4 a a, a8~
+    a a' h a fis d h' e,
+    d4 d8\p d fis d e a,
+    d a'\f g a a d,\p r d
+    cis a h e a, e'\f d e %40
+    e4 r8 cis\p d4. dis8
+    e4. eis8 fis4. d8
+    e a, e' e, a e'\f d e
+    e e fis fis e e e4
+    cis h a8 e' fis h, %45
+    cis4 a8\p h cis a d fis
+    a4 a\f a a,8\p h
+    cis a h cis d a'\f g a
+    a4 d,8\p e fis4 d8 fis
+    g4 e8 g a g fis h %50
+    a g a a, d a'\f g a
+    a a h h a a a4
+    fis e d8 fis h cis
+    d a h cis d a h cis
+    d4. a8 g4 d %55
+    d2 d\fermata \bar "|." %56 finis
+  }
+}

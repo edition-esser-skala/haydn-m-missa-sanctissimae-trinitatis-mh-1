@@ -815,3 +815,66 @@ EtResurrexitViolinoII = {
     h h e e a, a cis cis <fis a, d,>4 r\fermata \bar "|." %292 finis
   }
 }
+
+SanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoSanctus
+    a'4.\pp a8 h16( cis) cis( d) d( a) fis( d)
+    g( cis) cis( d) e( g,) fis( e) fis8 \once \slurDashed h16( a) a( g) g( fis)
+    fis8 a4 a8 gis16( h) h( cis) \slurDashed d( h) a( gis) \slurSolid
+    a( cis) h( d) cis( e) d( fis) e( d) d( e) \tuplet 3/2 8 { e[ d e] fis e fis }
+    g!2\cresc fis16\f fis, fis e d8 cis %5
+    d16(\ff fis a d) d,( fis a d) g,( h cis e) a,( d fis a)
+    g,( h e g) a,( cis e a) fis,( a d fis) d,( fis a d)
+    fis,( a h e) a,( cis e a) h,( d fis h) h,( e gis h)
+    a,( cis e a) a,( d fis a) g,!( h e g) a,( d fis a)
+    g,( h e g) a,( cis e a) fis,( a d fis) d,( fis a d) %10
+    fis,( a h e) a,( cis e a) h,( d fis h) h,( e gis h)
+    a,( cis e a) a,( cis e a) a,( d fis a) a,( cis e a)
+    a,( d fis a) a,( cis e a) fis,( a d fis) e, d' e, cis'
+    d,4 r d'4.\pp d8
+    e16( fis) fis( g) g( e) d( cis) d-! d-! d( e) \tuplet 3/2 8 { e[ d e] fis e fis } \noBreak %15
+    g2\cresc fis16\f fis, fis e d8 cis
+    \tempoPleni d8 \tuplet 3/2 8 { d16 cis d } \tuplet 6/4 4 { e d e fis e fis g fis g a g a h a h cis h cis }
+    d a fis d \tuplet 6/4 4 { d' cis d fis e fis } e cis h a \tuplet 6/4 4 { a' gis a e d e }
+    d fis, e d \tuplet 6/4 4 { h' a h d cis d } c e, d c \tuplet 6/4 4 { a' g a fis' e fis }
+    g e cis a \tuplet 6/4 4 { d cis d fis e fis } e cis h a \tuplet 6/4 4 { e' d e a gis a } %20
+    a cis, h a \tuplet 6/4 4 { d cis d e d e } e cis h a \tuplet 6/4 4 { e' h e a gis a }
+    fis d cis a \tuplet 6/4 4 { d cis d fis e fis } e cis h a \tuplet 6/4 4 { e d e h' a h }
+    a8 \tuplet 3/2 8 { e'16 d e } \tuplet 6/4 4 { fis e fis gis fis gis } a \parOn cis,-\parenthesize-! cis-! cis-! d-! d-! e-! \parOff e-\parenthesize-!
+    fis8 \tuplet 3/2 8 { fis16 e fis } \tuplet 6/4 4 { gis fis gis ais? gis ais? } h dis, dis dis e e fis fis
+    gis8 \tuplet 3/2 8 { h,16 a! h } \tuplet 6/4 4 { cis h cis dis? cis dis? } e gis, gis gis a a h h %25
+    \tuplet 6/4 4 { cis h cis a' gis a h, a h gis' fis gis } a,8 \tuplet 3/2 8 { cis,16 h cis } \tuplet 6/4 4 { d cis d e d e
+    fis e fis gis fis gis a gis a h a h } cis e cis a \tuplet 6/4 4 { a gis a cis h cis }
+    h gis fis e \tuplet 6/4 4 { e' dis e h a h } a cis, h a \tuplet 6/4 4 { fis' eis fis a gis a }
+    g h, a g \tuplet 6/4 4 { e' d e cis' h cis } d fis d h \tuplet 6/4 4 { cis h cis a gis a }
+    gis h e h \tuplet 6/4 4 { e dis e gis, fis gis } a e' d cis \tuplet 6/4 4 { d cis d h a h } %30
+    cis e a e \tuplet 6/4 4 { a gis a cis, h cis } d a' g fis \tuplet 6/4 4 { g fis g e d e }
+    fis d a fis \tuplet 6/4 4 { d cis d fis e fis } h h d h \tuplet 6/4 4 { g' fis g h a h }
+    a e cis e \tuplet 6/4 4 { a, gis a e' d e } fis d a d \tuplet 6/4 4 { e, d e cis' h cis }
+    d8 \tuplet 3/2 8 { a16 g a } \tuplet 6/4 4 { h a h cis h cis } d fis, fis fis g g a a
+    h8 \tuplet 3/2 8 { h16 a h } \tuplet 6/4 4 { cis h cis dis? cis dis? } e gis, gis gis a a h h %35
+    cis8 \tuplet 3/2 8 { e16 d e } \tuplet 6/4 4 { fis e fis gis? fis gis? } a cis, cis cis d d e e
+    \tuplet 6/4 4 { fis e fis d cis d e, d e cis' h cis d cis d fis, e fis e d e cis' h cis }
+    d,4 d8\p d fis d e a,
+    d16 a'\f d fis a g a, g' fis8 a,\p r d,
+    cis a h e a16 cis\f e a h d, e, d' %40
+    cis4 r8 cis,\pE d4. dis8
+    e4. eis8 fis4. d8
+    e a, e' e a, cis'\f d16 h' e,, d'
+    cis e a e d h' e,, d' cis d e a h,8 gis'
+    a,16 a h cis d e fis gis a e d cis h8 gis' %45
+    a,4 a,8\p h cis a d fis
+    a16 cis\f e g! fis d a' fis e4 a,,8\p h
+    cis a h cis d16 a'\fE d fis a g a, g'
+    fis4 d,8 e fis4 d8 fis
+    g4 e8 g a g fis h %50
+    a g a a, d16 a'\fE d fis a g a, g'
+    fis d fis a g e h e cis e fis d' e,8 cis'
+    d,16 d, e fis g a h cis d8 a' \appoggiatura a g4
+    fis8 a,16 a' \appoggiatura a8 g4 fis8 d' \appoggiatura a g4
+    fis16 g a g fis e d c h4 a %55
+    g2 fis\fermata \bar "|." %56 finis
+  }
+}

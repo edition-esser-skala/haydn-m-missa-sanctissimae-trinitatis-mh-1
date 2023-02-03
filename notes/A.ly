@@ -1021,3 +1021,106 @@ EtResurrexitAltoLyrics = \lyricmode {
 
   a -- men. %292 finis
 }
+
+SanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoSanctus
+    R1*8 %8
+    \mvTr a'4.\fE^\tutti a8 h cis d fis,16 fis
+    g8 h a g fis4 a~ %10
+    a8[ h] cis4 h4. h8
+    a4 a8 a a8. a16 a4
+    a a a8 a a8. a16
+    fis4 r r2
+    R1*2 %16
+    \tempoPleni r8 d e fis g([ a)] h cis \noBreak
+    d2 cis
+    h a
+    g8 a4 d8 cis4 a~ %20
+    a d,8 e e e r4
+    a a8 h e, e16 e e4
+    e r r2
+    R1*2 %25
+    r2 r8 cis d e
+    fis([ gis)] a h cis2
+    h a
+    g! fis8[ gis] a4
+    gis gis a8 a a([ h)] %30
+    a4 a4. g16 fis g4
+    fis a4. g16([ fis)] g4
+    e8. a16 a4 a8 a16 a a4
+    a r r2
+    g8. g16 g4 r2 %35
+    a8. a16 a4 r2
+    a8 a16 a h8([ a)] fis4 r
+    R1
+    r8 \mvTr a\fE^\tutti g([ a)] a r r4
+    r2 r8 \mvTr e\fE^\tutti d([ e)] %40
+    e r r4 r2
+    R1
+    r2 r8 \mvTr e\fE^\tutti d([ e)]
+    e e fis fis e e e4
+    cis r r2 %45
+    R1
+    r8 \mvTr a'\fE^\tutti a4 a8 r r4
+    r2 r8 \mvTr a\fE^\tuttiE g([ a)]
+    a8^\critnote r r4 r2
+    R1 %50
+    r2 r8 \mvTr a\fE^\tutti g([ a)]
+    a a h h a a a4
+    fis r r2
+    R1
+    r2 g4 a %55
+    g2 fis\fermata \bar "|." %56 finis
+  }
+}
+
+SanctusAltoLyrics = \lyricmode {
+  San -- ctus, san -- ctus Do -- mi -- nus %9
+  De -- us Sa -- ba -- oth, De -- %10
+  us Sa -- ba --
+  oth, san -- ctus Do -- mi -- nus
+  De -- us, De -- us Sa -- ba --
+  oth.
+
+  Ple -- ni sunt coe -- li et %17
+  ter -- _
+  _ _
+  _ _ _ ra glo -- %20
+  ri -- a tu -- a,
+  glo -- ri -- a, glo -- ri -- a tu --
+  a.
+
+  Ple -- ni sunt %26
+  coe -- li et ter --
+  _ _
+  _ _ _
+  ra glo -- ri -- a tu -- %30
+  a, glo -- ri -- a tu --
+  a, glo -- ri -- a,
+  glo -- ri -- a, glo -- ri -- a tu --
+  a,
+  glo -- ri -- a, %35
+  glo -- ri -- a,
+  glo -- ri -- a tu -- a.
+
+  O -- san -- na,
+  o -- san -- %40
+  na,
+
+  o -- san --
+  na, o -- san -- na in ex -- cel --
+  sis, %45
+
+  o -- san -- na,
+  o -- san --
+  na,
+  %50
+  o -- san --
+  na, o -- san -- na in ex -- cel --
+  sis,
+
+  in ex -- %55
+  cel -- sis. %56 finis
+}

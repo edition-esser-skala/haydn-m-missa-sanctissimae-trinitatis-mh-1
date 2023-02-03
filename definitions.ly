@@ -35,6 +35,9 @@ tempoEtResurrexit = \tempoMarkup "Allegro"
   tempoMortuorum = \tempoMarkup "Grave"
   tempoEtVitam = \tempoMarkup "Allegro"
 
+tempoSanctus = \tempoMarkup "Adagio"
+  tempoPleni = \tempoMarkup "Allegro"
+
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"
