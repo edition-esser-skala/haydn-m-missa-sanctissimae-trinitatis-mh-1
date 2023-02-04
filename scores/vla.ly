@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "vla")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,8 +12,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \KyrieOrgano
+          \set Staff.instrumentName = "Viola"
+          \KyrieViola
         }
       >>
     }
@@ -23,7 +23,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \ChristeOrgano }
+        \new Staff { \ChristeViola }
       >>
     }
   }
@@ -32,7 +32,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \GloriaOrgano }
+        \new Staff { \GloriaViola }
       >>
     }
   }
@@ -41,7 +41,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \QuiTollisOrgano }
+        \new Staff { \QuiTollisViola }
       >>
     }
   }
@@ -50,7 +50,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \QuoniamOrgano }
+        \new Staff { \QuoniamViola }
       >>
     }
   }
@@ -59,7 +59,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CumSanctoOrgano }
+        \new Staff { \CumSanctoViola }
       >>
     }
   }
@@ -68,16 +68,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CredoOrgano }
+        \new Staff { \CredoViola }
       >>
     }
   }
   \bookpart {
     \subsection "Et incarnatus est · Crucifixus"
     \addTocEntry
+    \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \EtIncarnatusOrgano }
+        \new Staff { \EtIncarnatusViola }
       >>
     }
   }
@@ -86,7 +87,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \EtResurrexitOrgano }
+        \new Staff { \EtResurrexitViola }
       >>
     }
   }
@@ -95,7 +96,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \SanctusOrgano }
+        \new Staff { \SanctusViola }
       >>
     }
   }
@@ -104,7 +105,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \BenedictusBassi }
+        \new Staff { \BenedictusViola }
       >>
       \layout { }
       \midi { \tempo 4 = 60 }
@@ -115,7 +116,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \AgnusOrgano }
+        \new Staff { \AgnusViola }
       >>
     }
   }
