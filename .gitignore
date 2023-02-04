@@ -10,7 +10,6 @@ main.pdf
 *.fls
 *.log
 *.macros
-*.midi
 *.out
 *.ps
 *.ref
