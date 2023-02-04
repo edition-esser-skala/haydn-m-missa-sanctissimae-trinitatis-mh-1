@@ -991,3 +991,163 @@ BenedictusViola = {
     d2 d\fermata \bar "|." %77 finis
   }
 }
+
+AgnusViola = {
+  \relative c' {
+    \clef alto
+    \key d \minor \time 4/4 \tempoAgnus
+    f4\pocoPE f8 g a a b h
+    e,4 e16( g) f( e) d8 a b a
+    a4 r r2
+    R1*2 %5
+    g'8\ppE g g g g g f f
+    b b b b b b a a
+    a a g g f4 a,8\pocoF b
+    c c d d g,4 g'16( b) a( g)
+    f8 c d b a4 r %10
+    R1*2
+    r2 b'8\ppE b b b
+    b b a a a a a a
+    g g g g c b a g %15
+    g g fis fis g4 b,8\pocoF c
+    d b es a,! a8. es'16 d( c' b a)
+    g8 d es d d8. b'16 a( g f es)
+    d4 r r2
+    R1*3 %22
+    r2 a'8.\pocoF b16 a( g f e)
+    f8 a b h e,8. b'16 a( g f e)
+    d8. g16 f( e d cis) d8 a' b e, %25
+    d f\f f f g g f e
+    f f d a' b b a a
+    a a a a a4 g16( a g f)
+    e8 gis a e a, a a' d,
+    g g g g g g f f %30
+    b b b b a b c e,
+    f a a a f f f f
+    h h h h g g g g
+    e e e e a b b a
+    a a gis gis a a a a %35
+    cis, cis cis d g g g f
+    e e e d g g h h \noBreak
+    a a a a a2\fermata \bar "||"
+    \key d \major \tempoDona
+      d,4\fE d'4. cis16 h cis8 a \noBreak
+    h h, r h'4 a16 g a8 fis %40
+    g g, r g'4 fis16 e fis8 d
+    a'4 cis, d e8 gis
+    a4. cis8 h4 e
+    a,8. gis16 a8 fis gis4 cis
+    fis,8. e16 fis8 d e4 a~ %45
+    a8 gis16 fis e8 d cis h' a g
+    fis d d'4. cis16 h cis8 a
+    h h, h'4. a16 g a8 fis
+    g g, g'4. fis16 e fis8 d
+    h'4 e,8 cis d4 e %50
+    e r e8. e16 e8 e'
+    cis a r4 cis,8. cis16 cis8 cis'
+    a fis r4 a8. a16 a8 a
+    h2 a4 a8 h16 cis
+    d4 r r8 e, e'4~ %55
+    e8 d16 cis d8 h cis cis, cis'4~
+    cis8 h16 a h8 g a a, a'4
+    g e fis r
+    r2 r8 d a'4~
+    a8 gis16 a h8 d cis r r4 %60
+    r8 a h cis d4. cis8
+    h a gis a16 h cis4. h8
+    a gis fis gis16 a h4. a8
+    gis fis e fis16 gis a4. gis8
+    fis8. e16 d8 cis h4 cis8 d %65
+    e4 e r r8 e
+    fis4. fis8 gis4. gis8
+    a4. a8 h2
+    a4 r8 e a4 fis8 e
+    d4 d'8 cis h4. a8 %70
+    gis4 e4. e8 e4
+    cis e8. e16 e8 e e4
+    e a8 e e fis^\critnote fis e
+    e4 r8 e d fis fis d
+    e d e cis gis' a h gis %75
+    cis h a cis a gis a fis
+    h, a' h gis e e fis e
+    e e e e e e fis d
+    cis a'4 cis8 h4 e
+    a,8. gis16 a8 fis gis4 cis %80
+    fis,8. e16 fis8 d e4 a~
+    a8 gis16 a h8 d, cis fis h4~
+    h8 ais16 h cis8 e, d4 d8 h
+    e4 fis d2
+    cis4 d h2 %85
+    cis'4 h2 ais8 cis
+    h4 h8 gis cis4 h
+    h a!2 gis8 h
+    a4 a8 fis h4 a
+    a g!8 g g4 a %90
+    g8 e a4. gis16 a h8 d
+    cis cis r h cis2
+    h4 r a!4 g!
+    fis r g fis
+    e r fis e %95
+    fis r8 cis' d d, d' cis
+    h h, h' a! g! g, g' g
+    e e, e' d cis cis cis' h
+    ais ais, ais' h16 cis fis,8 fis fis4
+    fis fis8. fis16 fis8 fis fis4 %100
+    fis h8 fis fis fis g^\critnote fis
+    d8 d h d g g h h
+    cis, cis a cis fis fis fis a
+    h, h g h e e e g
+    cis, ais' cis ais fis d' h d %105
+    ais ais cis ais fis fis g fis
+    fis h4 d8 cis4 fis,
+    h8. a16 h8 g a4 d
+    g,8. fis16 g8 e fis4 h~
+    h8 ais16 gis fis8 e d h' a g %110
+    fis4 r a8. a16 a8 a
+    fis d r4 fis8. fis16 fis8 fis
+    d h r4 d8. d16 d8 d
+    g4 e fis r8 d~
+    d g r e4 a8 r fis~ %115
+    fis d d e e4 e
+    a h8 h a4 a
+    r2 r8 e a4~
+    a8 g16 fis g8 e fis fis h4~
+    h8 a16 g a8 fis g4. fis16 e %120
+    fis4. e16 d e4. d16 cis
+    a'2 a4 r
+    r2 r8 d, a'4~
+    a8 gis16 a h8 d cis r r4
+    r8 a h cis d4. cis8 %125
+    h a g a16 h cis4. h8
+    a g fis g16 a h4. a8
+    g4 a2 a4
+    a a r r8 fis
+    h4. g8 cis4. a8 %130
+    d,4. h8 e4. cis8
+    fis4. e8 d4 d'8 cis
+    h4. a8 g4. fis8
+    e4. d8 cis4. d16 e
+    a8 a h a a4 r %135
+    a2 a4 r
+    a2 a4 r
+    a2 a4 r
+    a8. a16 a8 a fis d r4
+    fis8. fis16 fis8 fis d h r4 %140
+    d8. d16 d8 d g4 e
+    fis r8 a h8. a16 g8 fis
+    e cis d e fis a h cis
+    d4. cis8 h g a h
+    cis4. h8 a fis g a %145
+    h4. a8 g e fis g
+    a g a4 a8 cis, d e
+    fis4. e8 d e16 fis g8 fis
+    e fis16 g a8 g fis g16 a h8 a
+    g a16 h cis8 h a a a4 %150
+    a8 fis d fis a4. a8
+    a a a4 a8 fis d fis
+    a4. a8 a a a4
+    fis a8. a16 a8 a a4
+    a d8 a a a h^\critnote a %155
+    a4 a fis r\fermata \bar "|." %156 finis
+  }
+}

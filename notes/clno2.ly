@@ -352,3 +352,70 @@ BenedictusClarinoII = {
     c2 c'\fermata \bar "|." %77 finis
   }
 }
+
+AgnusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    R1*37 \noBreak %37
+    R1\fermata \bar "||"
+    \tempoDona R1*16 %54
+    c'4\fE r d r %55
+    c, r c r
+    c r c r
+    r d' c r
+    r d c r
+    r2 d4 r %60
+    R1*11 %71
+    d4 r d r
+    d r r2
+    d4 r g, r
+    g r r2 %75
+    d'4 r r2
+    R1*2
+    d4 r r2
+    R1*19 %98
+    r2 e,8 e16 e e8 e
+    e4 r e r %100
+    r2 e8 e16 e e8 e
+    e4 r r2
+    R1*2
+    e4 r e r %105
+    e r e8 e16 e e8 e
+    c4 r r2
+    R1*3 %110
+    c'8 c16 c c8 c d4 r
+    R1*2
+    r4 d c r
+    R1*2 %116
+    r2 c4 g
+    e r g r
+    R1*3 %121
+    r4 e g r
+    r g c r
+    r2 d4 r
+    R1*3 %127
+    r2 d4 c
+    c d c r
+    R1*4 %133
+    r2 d4 r
+    e r8 d c4 r %135
+    d2 c4 r
+    d2 c4 r
+    d2 c4 r
+    R1*2 %140
+    r2 r4 g
+    e r r2
+    d'4 r r2
+    R1*3 %146
+    r4 e, g r
+    R1*2
+    r2 c8 c d4 %150
+    c r d4. d8
+    c e, g4 e r
+    d'4. d8 c e, g4
+    e d'8. d16 c8 c d4
+    c d8. d16 c8 c d4 %155
+    c16 g e c g'4 e r\fermata \bar "|." %156 finis
+  }
+}

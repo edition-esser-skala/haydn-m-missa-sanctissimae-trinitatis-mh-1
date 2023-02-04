@@ -27,7 +27,6 @@
   %   \score {
   %     <<
   %       \new PianoStaff <<
-  %         \set PianoStaff.instrumentName = "org"
   %         \new Staff { \ChristeChords }
   %         \new Staff { \ChristeOrgano }
   %       >>
@@ -43,7 +42,6 @@
   %   \score {
   %     <<
   %       \new PianoStaff <<
-  %         \set PianoStaff.instrumentName = "org"
   %         \new Staff { \GloriaChords }
   %         \new Staff { \GloriaOrgano }
   %       >>
@@ -59,7 +57,6 @@
   %   \score {
   %     <<
   %       \new PianoStaff <<
-  %         \set PianoStaff.instrumentName = "org"
   %         \new Staff { \QuiTollisChords }
   %         \new Staff { \QuiTollisOrgano }
   %       >>
@@ -75,7 +72,6 @@
   %   \score {
   %     <<
   %       \new PianoStaff <<
-  %         \set PianoStaff.instrumentName = "org"
   %         \new Staff { \QuoniamChords }
   %         \new Staff { \QuoniamOrgano }
   %       >>
@@ -91,7 +87,6 @@
   %   \score {
   %     <<
   %       \new PianoStaff <<
-  %         \set PianoStaff.instrumentName = "org"
   %         \new Staff { \CumSanctoChords }
   %         \new Staff { \CumSanctoOrgano }
   %       >>
@@ -107,7 +102,6 @@
   %   \score {
   %     <<
   %       \new PianoStaff <<
-  %         \set PianoStaff.instrumentName = "org"
   %         \new Staff { \CredoChords }
   %         \new Staff { \CredoOrgano }
   %       >>
@@ -123,7 +117,6 @@
   %   \score {
   %     <<
   %       \new PianoStaff <<
-  %         \set PianoStaff.instrumentName = "org"
   %         \new Staff { \EtIncarnatusChords }
   %         \new Staff { \EtIncarnatusOrgano }
   %       >>
@@ -139,7 +132,6 @@
   %   \score {
   %     <<
   %       \new PianoStaff <<
-  %         \set PianoStaff.instrumentName = "org"
   %         \new Staff { \EtResurrexitChords }
   %         \new Staff { \EtResurrexitOrgano }
   %       >>
@@ -155,7 +147,6 @@
   %   \score {
   %     <<
   %       \new PianoStaff <<
-  %         \set PianoStaff.instrumentName = "org"
   %         \new Staff { \SanctusChords }
   %         \new Staff { \SanctusOrgano }
   %       >>
@@ -165,21 +156,36 @@
   %     \midi { \tempo 4 = 50 }
   %   }
   % }
+  % \bookpart {
+  %   \section "5" "Benedictus"
+  %   \addTocEntry
+  %   \paper { page-count = #4 }
+  %   \score {
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = \markup \center-column { "org" "solo" }
+  %         \new Staff { \BenedictusChords }
+  %         \new Staff { \BenedictusOrganoL }
+  %       >>
+  %       \new FiguredBass { \BenedictusBassFigures }
+  %     >>
+  %     \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
-    \section "5" "Benedictus"
+    \section "6" "Agnus Dei"
     \addTocEntry
-    \paper { page-count = #4 }
     \score {
       <<
         \new PianoStaff <<
-          \set PianoStaff.instrumentName = \markup \center-column { "org" "solo" }
-          \new Staff { \BenedictusChords }
-          \new Staff { \BenedictusOrganoL }
+          \new Staff { \AgnusChords }
+          \new Staff { \AgnusOrgano }
         >>
-        \new FiguredBass { \BenedictusBassFigures }
+        \new FiguredBass { \AgnusBassFigures }
       >>
-      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
-      \midi { \tempo 4 = 60 }
+      \layout { }
+      \midi { \tempo 4 = 50 }
     }
   }
 }

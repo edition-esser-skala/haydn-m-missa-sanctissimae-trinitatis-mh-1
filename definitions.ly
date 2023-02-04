@@ -39,8 +39,10 @@ tempoSanctus = \tempoMarkup "Adagio"
   tempoPleni = \tempoMarkup "Allegro"
 
 tempoBenedictus = \tempoMarkup "Andante"
-  tempoOsanna = \tempo 4 = 100
-  % tempoOsanna = \tempoMarkup "Allegro"
+  tempoOsanna = \tempoMarkup "Allegro"
+
+tempoAgnus = \tempoMarkup "Andante molto"
+  tempoDona = \tempoMarkup "Allegro"
 
 
 \include "notes/clno1.ly"
